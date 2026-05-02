@@ -16,12 +16,25 @@ public class PlanStateService
 
     public void AddCourse(string courseCode, int planYear, string semester)
     {
-        if (Plan.Courses.Any(c => c.CourseCode == courseCode && c.PlanYear == planYear && c.Semester == semester))
-            return;
+        var code = courseCode.ToUpperInvariant();
+
+        if (code == "ELECTIVE6")
+        {
+            // Elective placeholders are always allowed; generate a unique suffix so multiple
+            // instances can coexist in the same plan without triggering duplicate-course errors.
+            int n = Plan.Courses.Count(c => c.CourseCode.StartsWith("ELECTIVE6", StringComparison.OrdinalIgnoreCase)) + 1;
+            code = $"ELECTIVE6_{n}";
+        }
+        else
+        {
+            // Real courses: prevent placing the same course twice in the same slot
+            if (Plan.Courses.Any(c => c.CourseCode == code && c.PlanYear == planYear && c.Semester == semester))
+                return;
+        }
 
         Plan.Courses.Add(new PlannedCourse
         {
-            CourseCode = courseCode.ToUpperInvariant(),
+            CourseCode = code,
             PlanYear = planYear,
             Semester = semester,
         });

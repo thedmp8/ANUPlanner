@@ -27,7 +27,7 @@
                 <option value="@t">@OfferingParserService.DisplayLabel(t)</option>
             }
         </select>
-        @if (ShowCoreFilter)
+        @if (ShowCoreFilter && Degree != null)
         {
             <label class="form-check-label ms-1 d-flex align-items-center gap-1">
                 <input type="checkbox" class="form-check-input" @bind="_filterCoreOnly" />
@@ -40,7 +40,31 @@
         @{
             var results = FilteredCourses();
             var planned = PlanState.Plan.Courses.Select(c => c.CourseCode).ToHashSet();
+            bool hasFilter = !string.IsNullOrWhiteSpace(_filterCode)
+                          || !string.IsNullOrWhiteSpace(_filterTitle)
+                          || !string.IsNullOrWhiteSpace(_filterSubject)
+                          || !string.IsNullOrWhiteSpace(_filterTerm)
+                          || _filterCoreOnly;
         }
+
+        @* Always-visible elective placeholder at the very top (hidden when filtering for real codes) *@
+        @if (!_filterCoreOnly && string.IsNullOrWhiteSpace(_filterCode))
+        {
+            <div class="course-card elective-card"
+                 draggable="true"
+                 @ondragstart="@(() => OnCardDrag("ELECTIVE6"))"
+                 title="Drag into any semester to add a 6-unit elective slot">
+                <div class="card-header-row">
+                    <span class="course-code" style="color: #6b7280;">ELECTIVE6</span>
+                    <span class="course-units">6u</span>
+                </div>
+                <div class="course-title">6 Unit Elective</div>
+                <div class="card-tags">
+                    <span class="tag tag-elective">Elective</span>
+                </div>
+            </div>
+        }
+
         @if (results.Count == 0)
         {
             <p class="text-muted p-2">No courses match your search.</p>
@@ -48,7 +72,7 @@
         else
         {
             <div class="results-count">@results.Count course@(results.Count == 1 ? "" : "s")</div>
-            @foreach (var c in results.Take(100))
+            @foreach (var c in results.Take(150))
             {
                 <CourseCard Code="@c.CourseCode"
                             Offering="@c"
@@ -56,9 +80,9 @@
                             IsPlanned="@planned.Contains(c.CourseCode)"
                             OnDragStarted="@OnCardDrag" />
             }
-            @if (results.Count > 100)
+            @if (results.Count > 150)
             {
-                <p class="text-muted p-2">Showing first 100 — refine your search.</p>
+                <p class="text-muted p-2">Showing first 150 — refine your search.</p>
             }
         }
     </div>
@@ -66,6 +90,7 @@
 
 @code {
     [Parameter] public HashSet<string> CoreCodes { get; set; } = new();
+    [Parameter] public DegreeRequirement? Degree { get; set; }
     [Parameter] public bool ShowCoreFilter { get; set; } = true;
     [Parameter] public EventCallback<string> OnCourseDragStart { get; set; }
 
@@ -76,11 +101,17 @@
     private bool _filterCoreOnly;
 
     private List<string> _subjects = new();
-    private List<string> _allTerms = new() { "S1", "S2", "SUMMER", "WINTER", "AUTUMN", "SPRING" };
+    private HashSet<string> _coreSubjectAreas = new();
+    private static readonly List<string> _allTerms = new() { "S1", "S2", "SUMMER", "WINTER", "AUTUMN", "SPRING" };
 
     protected override void OnParametersSet()
     {
         _subjects = CourseData.AllSubjectAreas();
+
+        // Pre-compute subject areas that appear in the degree's core courses
+        _coreSubjectAreas = CoreCodes
+            .Select(code => code.Length >= 4 ? code[..4] : code)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
     }
 
     private List<CourseOffering> FilteredCourses()
@@ -93,13 +124,32 @@
             string.IsNullOrWhiteSpace(_filterTerm) ? null : _filterTerm,
             null
         );
+
         if (_filterCoreOnly)
             results = results.Where(c => CoreCodes.Contains(c.CourseCode)).ToList();
+
+        // Sort by relevance to the selected degree, then by code within each group
+        results = results
+            .OrderBy(c => GetRelevanceScore(c))
+            .ThenBy(c => c.CourseCode)
+            .ToList();
+
         return results;
     }
 
-    private async Task OnCardDrag(string code)
+    /// <summary>
+    /// 0 = exact core course for this degree
+    /// 1 = same subject area as a core course (e.g. COMP when COMP1100 is core)
+    /// 2 = everything else
+    /// </summary>
+    private int GetRelevanceScore(CourseOffering course)
     {
-        await OnCourseDragStart.InvokeAsync(code);
+        if (Degree == null) return 2;
+        if (CoreCodes.Contains(course.CourseCode)) return 0;
+        if (_coreSubjectAreas.Contains(course.SubjectArea)) return 1;
+        return 2;
     }
+
+    private async Task OnCardDrag(string code) =>
+        await OnCourseDragStart.InvokeAsync(code);
 }

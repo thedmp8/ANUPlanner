@@ -117,6 +117,8 @@ public class CourseDataService
             && _all.Any(c => c.CourseCode == code);
     }
 
+    public int LatestDataYear => _all.Count > 0 ? _all.Max(c => c.Year) : 2027;
+
     public List<string> AllSubjectAreas() =>
         _all.Select(c => c.SubjectArea).Distinct().OrderBy(s => s).ToList();
 
