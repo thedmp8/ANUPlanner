@@ -51,16 +51,42 @@ public class PlannerValidationService
         if (degree != null)
         {
             var plannedCodes = plan.Courses.Select(c => c.CourseCode).ToHashSet();
-            summary.CoreCoursesCompleted = degree.CoreCourses.Where(c => plannedCodes.Contains(c)).ToList();
-            summary.CoreCoursesMissing = degree.CoreCourses.Where(c => !plannedCodes.Contains(c)).ToList();
+            summary.CoreCoursesCompleted = new List<string>();
+            summary.CoreCoursesMissing = new List<string>();
 
-            foreach (var missing in summary.CoreCoursesMissing)
-                summary.Issues.Add(new ValidationIssue
+            foreach (var req in degree.CoreCourses)
+            {
+                var options = req.Split('|').Select(c => c.Trim()).ToList();
+                int matchCount = options.Count(c => plannedCodes.Contains(c));
+
+                if (matchCount == 1)
                 {
-                    Severity = IssueSeverity.Error,
-                    CourseCode = missing,
-                    Message = $"Core course {missing} is missing from your plan.",
-                });
+                    summary.CoreCoursesCompleted.Add(req);
+                }
+                else if (matchCount == 0)
+                {
+                    summary.CoreCoursesMissing.Add(req);
+                    var displayMissing = req.Contains('|') ? req.Replace("|", " or ") : req;
+                    summary.Issues.Add(new ValidationIssue
+                    {
+                        Severity = IssueSeverity.Error,
+                        CourseCode = req,
+                        Message = $"Core course {displayMissing} is missing from your plan.",
+                    });
+                }
+                else
+                {
+                    // XOR violation (more than one taken)
+                    summary.CoreCoursesCompleted.Add(req);
+                    var displayTooMany = req.Replace("|", " and ");
+                    summary.Issues.Add(new ValidationIssue
+                    {
+                        Severity = IssueSeverity.Error,
+                        CourseCode = req,
+                        Message = $"Mutually exclusive courses planned: {displayTooMany}. Please choose exactly one.",
+                    });
+                }
+            }
         }
 
         // ── Per-course validation ─────────────────────────────────────────
