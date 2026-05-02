@@ -27,9 +27,20 @@
     </div>
 
     <div class="issue-counts">
-        <span class="badge-count error">@Summary.Errors.Count() errors</span>
-        <span class="badge-count warning">@Summary.Warnings.Count() warnings</span>
-        <span class="badge-count manual">@Summary.ManualReviews.Count() manual</span>
+        @{
+            int coreMissing = Summary.CoreCoursesMissing.Count;
+            int trueErrors  = Summary.Errors.Count();
+        }
+        @if (coreMissing > 0)
+        {
+            <span class="badge-count error">@coreMissing core missing</span>
+        }
+        <span class="badge-count @(trueErrors > 0 ? "error" : "ok")">@trueErrors error@(trueErrors == 1 ? "" : "s")</span>
+        <span class="badge-count @(Summary.Warnings.Count() > 0 ? "warning" : "ok")">@Summary.Warnings.Count() warning@(Summary.Warnings.Count() == 1 ? "" : "s")</span>
+        @if (Summary.ManualReviews.Any())
+        {
+            <span class="badge-count manual">@Summary.ManualReviews.Count() manual</span>
+        }
     </div>
 
     @if (Summary.CoreCoursesMissing.Count > 0)

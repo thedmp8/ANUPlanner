@@ -16,31 +16,54 @@
         @foreach (var pc in Courses)
         {
             var offering = CourseData.GetOffering(pc.CourseCode, CalendarYear);
-            var hasIssue = IssuesByCourse.ContainsKey(pc.CourseCode);
-            <div class="planned-course @(hasIssue ? "has-issue" : "") @(pc.IsFallbackYear ? "fallback" : "") @(pc.IsUnavailable ? "unavailable" : "")"
+            var isElective = pc.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase);
+
+            // Separate error vs non-error issues so styling is accurate
+            var courseIssues = IssuesByCourse.TryGetValue(pc.CourseCode, out var issueList) ? issueList : null;
+            var hasError   = courseIssues?.Any(i => i.Severity == IssueSeverity.Error) ?? false;
+            var hasWarning = courseIssues?.Any(i => i.Severity == IssueSeverity.Warning || i.Severity == IssueSeverity.ManualReview) ?? false;
+            // Fallback-year is a warning, not an error — ensure the card is never red solely due to fallback
+            var cardClass = isElective ? "elective-course"
+                          : pc.IsUnavailable ? "unavailable"
+                          : hasError ? "has-issue"
+                          : pc.IsFallbackYear ? "fallback"
+                          : hasWarning ? "has-warning"
+                          : "";
+
+            <div class="planned-course @cardClass"
                  draggable="true"
                  @ondragstart="@(() => OnDragStartPlanned(pc))"
-                 title="@(pc.IsUnavailable ? "No course data" : offering?.Title ?? "")">
+                 title="@BuildTitle(pc, offering, isElective)">
                 <div class="pc-row">
-                    <span class="pc-code">@pc.CourseCode</span>
-                    <span class="pc-units">@(offering?.Units ?? 6)u</span>
+                    <span class="pc-code">@(isElective ? "Elective" : pc.CourseCode)</span>
+                    <span class="pc-units">@(isElective ? 6 : offering?.Units ?? 6)u</span>
                     <button class="btn-remove" @onclick="@(() => RemoveCourse(pc.Id))" title="Remove">✕</button>
                 </div>
-                @if (offering != null)
+                @if (isElective)
+                {
+                    <div class="pc-title">6-unit Elective</div>
+                }
+                else if (offering != null)
                 {
                     <div class="pc-title">@offering.Title</div>
                 }
-                @if (pc.IsUnavailable)
+                @if (pc.IsUnavailable && !isElective)
                 {
-                    <div class="pc-warning">⚠ No data</div>
+                    <div class="pc-badge badge-unavailable">No data</div>
                 }
-                @if (pc.IsFallbackYear)
+                @if (pc.IsFallbackYear && !isElective)
                 {
-                    <div class="pc-warning">⚠ @offering?.Year data</div>
+                    <div class="pc-badge badge-fallback">@offering?.Year data</div>
                 }
-                @if (hasIssue)
+                @if (hasError)
                 {
-                    <div class="pc-issue-dot" title="@string.Join("\n", IssuesByCourse[pc.CourseCode].Select(i => i.Message))">!</div>
+                    <div class="pc-issue-dot dot-error"
+                         title="@string.Join("\n", courseIssues!.Where(i => i.Severity == IssueSeverity.Error).Select(i => i.Message))">!</div>
+                }
+                else if (hasWarning || pc.IsFallbackYear)
+                {
+                    <div class="pc-issue-dot dot-warning"
+                         title="@string.Join("\n", (courseIssues ?? new()).Where(i => i.Severity != IssueSeverity.Error).Select(i => i.Message))">⚠</div>
                 }
             </div>
         }
@@ -54,12 +77,14 @@
     [Parameter] public List<PlannedCourse> Courses { get; set; } = new();
     [Parameter] public Dictionary<string, List<ValidationIssue>> IssuesByCourse { get; set; } = new();
     [Parameter] public EventCallback<string> OnDragStartedCode { get; set; }
+    [Parameter] public EventCallback<(int, string)> OnDropped { get; set; }
 
     private bool _isDragOver;
 
-    private int SlotUnits => Courses
-        .Where(c => !c.IsUnavailable)
-        .Sum(c => c.Offering?.Units ?? 6);
+    private int SlotUnits => Courses.Sum(c =>
+        c.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase) ? 6
+        : c.IsUnavailable ? 0
+        : c.Offering?.Units ?? 6);
 
     private void OnDragOver() => _isDragOver = true;
     private void OnDragLeave() => _isDragOver = false;
@@ -70,15 +95,15 @@
         await OnDropped.InvokeAsync((PlanYear, Semester));
     }
 
-    [Parameter] public EventCallback<(int, string)> OnDropped { get; set; }
+    private void RemoveCourse(Guid id) => PlanState.RemoveCourse(id);
 
-    private void RemoveCourse(Guid id)
-    {
-        PlanState.RemoveCourse(id);
-    }
-
-    private async Task OnDragStartPlanned(PlannedCourse pc)
-    {
+    private async Task OnDragStartPlanned(PlannedCourse pc) =>
         await OnDragStartedCode.InvokeAsync($"__MOVE__{pc.Id}");
+
+    private static string BuildTitle(PlannedCourse pc, CourseOffering? offering, bool isElective)
+    {
+        if (isElective) return "6-unit Elective placeholder";
+        if (pc.IsUnavailable) return $"{pc.CourseCode}: No course data found";
+        return offering?.Title ?? pc.CourseCode;
     }
 }

@@ -2,12 +2,16 @@ namespace ANUPlanner.Models;
 
 public class DegreeRequirement
 {
-    private const int UnitsPerAcademicYear = 48;
-
     public string DegreeId { get; set; } = "";
     public string DegreeName { get; set; } = "";
     public int RequiredUnits { get; set; }
-    public List<string> CoreCourses { get; set; } = new();
 
-    public int EstimatedYears => Math.Max(1, (int)Math.Ceiling(RequiredUnits / (double)UnitsPerAcademicYear));
+    /// <summary>
+    /// Each inner list is an OR group: any one course in the group satisfies that requirement.
+    /// Single-item groups are mandatory individual courses.
+    /// </summary>
+    public List<List<string>> CoreCourseGroups { get; set; } = new();
+
+    /// <summary>Flattened list of all individual course codes across all groups (for filtering/display).</summary>
+    public List<string> CoreCourses { get; set; } = new();
 }

@@ -54,19 +54,33 @@ public class DegreeDataService
                 int.TryParse(unitsNum, out int reqUnits);
 
                 var coreRaw = Safe(f, iCore);
-                var core = string.IsNullOrWhiteSpace(coreRaw)
-                    ? new List<string>()
-                    : coreRaw.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
-                             .Select(s => s.ToUpperInvariant())
-                             .Distinct()
-                             .ToList();
+                List<List<string>> groups;
+                if (string.IsNullOrWhiteSpace(coreRaw))
+                {
+                    groups = new List<List<string>>();
+                }
+                else
+                {
+                    groups = coreRaw
+                        .Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                        .Select(segment => segment
+                            .Split('|', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                            .Select(s => s.ToUpperInvariant())
+                            .Distinct()
+                            .ToList())
+                        .Where(g => g.Count > 0)
+                        .ToList();
+                }
+
+                var flatCodes = groups.SelectMany(g => g).Distinct().ToList();
 
                 results.Add(new DegreeRequirement
                 {
                     DegreeId = id.ToUpperInvariant(),
                     DegreeName = Safe(f, iName),
                     RequiredUnits = reqUnits,
-                    CoreCourses = core,
+                    CoreCourseGroups = groups,
+                    CoreCourses = flatCodes,
                 });
             }
             catch { }
