@@ -1,0 +1,53 @@
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+
+<div class="course-card @(IsCore ? "core-course" : "") @(IsPlanned ? "already-planned" : "")"
+     draggable="true"
+     @ondragstart="OnDragStart"
+     @onclick="ShowDetail"
+     title="@(Offering?.Title ?? Code)">
+    <div class="card-header-row">
+        <span class="course-code">@Code</span>
+        <span class="course-units">@(Offering?.Units ?? 6)u</span>
+    </div>
+    @if (Offering != null)
+    {
+        <div class="course-title">@Offering.Title</div>
+        <div class="card-tags">
+            @foreach (var t in Offering.ParsedTerms.Take(3))
+            {
+                <span class="tag tag-term">@OfferingParserService.DisplayLabel(t)</span>
+            }
+            @if (IsCore)
+            {
+                <span class="tag tag-core">Core</span>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="course-title text-muted">No data available</div>
+    }
+</div>
+
+@if (_showModal && Offering != null)
+{
+    <CourseDetailModal Course="@Offering" Visible="true" OnClose="@(() => _showModal = false)" />
+}
+
+@code {
+    [Parameter] public string Code { get; set; } = "";
+    [Parameter] public CourseOffering? Offering { get; set; }
+    [Parameter] public bool IsCore { get; set; }
+    [Parameter] public bool IsPlanned { get; set; }
+    [Parameter] public EventCallback<string> OnDragStarted { get; set; }
+
+    private bool _showModal;
+
+    private async Task OnDragStart()
+    {
+        await OnDragStarted.InvokeAsync(Code);
+    }
+
+    private void ShowDetail() => _showModal = true;
+}

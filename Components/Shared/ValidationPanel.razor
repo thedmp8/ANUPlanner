@@ -1,0 +1,130 @@
+@using ANUPlanner.Models
+
+@if (Summary == null) return;
+
+<div class="validation-panel">
+    <h3 class="panel-title">Degree Validation</h3>
+
+    <div class="progress-section">
+        <div class="progress-row">
+            <span>Units</span>
+            <div class="progress-bar-wrap">
+                <div class="progress-bar-fill"
+                     style="width: @Math.Min(100, Summary.TotalUnitsRequired == 0 ? 0 : Summary.TotalUnitsPlanned * 100 / Summary.TotalUnitsRequired)%">
+                </div>
+            </div>
+            <span class="progress-label">@Summary.TotalUnitsPlanned / @Summary.TotalUnitsRequired</span>
+        </div>
+        <div class="progress-row">
+            <span>Core</span>
+            <div class="progress-bar-wrap">
+                <div class="progress-bar-fill progress-core"
+                     style="width: @CorePct()%">
+                </div>
+            </div>
+            <span class="progress-label">@Summary.CoreCoursesCompleted.Count / @(Summary.CoreCoursesCompleted.Count + Summary.CoreCoursesMissing.Count)</span>
+        </div>
+    </div>
+
+    <div class="issue-counts">
+        <span class="badge-count error">@Summary.Errors.Count() errors</span>
+        <span class="badge-count warning">@Summary.Warnings.Count() warnings</span>
+        <span class="badge-count manual">@Summary.ManualReviews.Count() manual</span>
+    </div>
+
+    @if (Summary.CoreCoursesMissing.Count > 0)
+    {
+        <details class="issue-group" open>
+            <summary class="issue-group-header error-header">
+                Missing Core Courses (@Summary.CoreCoursesMissing.Count)
+            </summary>
+            <ul class="issue-list">
+                @foreach (var c in Summary.CoreCoursesMissing)
+                {
+                    <li class="issue-item error-item">@c</li>
+                }
+            </ul>
+        </details>
+    }
+
+    @if (Summary.Errors.Any())
+    {
+        <details class="issue-group" open>
+            <summary class="issue-group-header error-header">Errors (@Summary.Errors.Count())</summary>
+            <ul class="issue-list">
+                @foreach (var issue in Summary.Errors)
+                {
+                    <li class="issue-item error-item">
+                        @if (!string.IsNullOrEmpty(issue.CourseCode))
+                        {
+                            <strong>@issue.CourseCode:</strong>
+                        }
+                        @issue.Message
+                        @if (!string.IsNullOrEmpty(issue.Detail))
+                        {
+                            <div class="issue-detail">@issue.Detail</div>
+                        }
+                    </li>
+                }
+            </ul>
+        </details>
+    }
+
+    @if (Summary.Warnings.Any())
+    {
+        <details class="issue-group">
+            <summary class="issue-group-header warning-header">Warnings (@Summary.Warnings.Count())</summary>
+            <ul class="issue-list">
+                @foreach (var issue in Summary.Warnings)
+                {
+                    <li class="issue-item warning-item">
+                        @if (!string.IsNullOrEmpty(issue.CourseCode))
+                        {
+                            <strong>@issue.CourseCode:</strong>
+                        }
+                        @issue.Message
+                    </li>
+                }
+            </ul>
+        </details>
+    }
+
+    @if (Summary.ManualReviews.Any())
+    {
+        <details class="issue-group">
+            <summary class="issue-group-header manual-header">Manual Review (@Summary.ManualReviews.Count())</summary>
+            <ul class="issue-list">
+                @foreach (var issue in Summary.ManualReviews)
+                {
+                    <li class="issue-item manual-item">
+                        @if (!string.IsNullOrEmpty(issue.CourseCode))
+                        {
+                            <strong>@issue.CourseCode:</strong>
+                        }
+                        @issue.Message
+                        @if (!string.IsNullOrEmpty(issue.Detail))
+                        {
+                            <div class="issue-detail">@issue.Detail</div>
+                        }
+                    </li>
+                }
+            </ul>
+        </details>
+    }
+
+    @if (Summary.IsValid)
+    {
+        <div class="valid-banner">✓ Plan looks valid!</div>
+    }
+</div>
+
+@code {
+    [Parameter] public PlanValidationSummary? Summary { get; set; }
+
+    private int CorePct()
+    {
+        int total = Summary!.CoreCoursesCompleted.Count + Summary.CoreCoursesMissing.Count;
+        if (total == 0) return 0;
+        return Summary.CoreCoursesCompleted.Count * 100 / total;
+    }
+}

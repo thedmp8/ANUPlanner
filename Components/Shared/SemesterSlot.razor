@@ -1,0 +1,84 @@
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+@inject PlanStateService PlanState
+@inject CourseDataService CourseData
+
+<div class="semester-slot @(_isDragOver ? "drag-over" : "")"
+     @ondragover:preventDefault="true"
+     @ondragover="OnDragOver"
+     @ondragleave="OnDragLeave"
+     @ondrop="OnDrop">
+    <div class="slot-header">
+        <span class="slot-label">@OfferingParserService.DisplayLabel(Semester)</span>
+        <span class="slot-units">@SlotUnits u</span>
+    </div>
+    <div class="slot-courses">
+        @foreach (var pc in Courses)
+        {
+            var offering = CourseData.GetOffering(pc.CourseCode, CalendarYear);
+            var hasIssue = IssuesByCourse.ContainsKey(pc.CourseCode);
+            <div class="planned-course @(hasIssue ? "has-issue" : "") @(pc.IsFallbackYear ? "fallback" : "") @(pc.IsUnavailable ? "unavailable" : "")"
+                 draggable="true"
+                 @ondragstart="@(() => OnDragStartPlanned(pc))"
+                 title="@(pc.IsUnavailable ? "No course data" : offering?.Title ?? "")">
+                <div class="pc-row">
+                    <span class="pc-code">@pc.CourseCode</span>
+                    <span class="pc-units">@(offering?.Units ?? 6)u</span>
+                    <button class="btn-remove" @onclick="@(() => RemoveCourse(pc.Id))" title="Remove">✕</button>
+                </div>
+                @if (offering != null)
+                {
+                    <div class="pc-title">@offering.Title</div>
+                }
+                @if (pc.IsUnavailable)
+                {
+                    <div class="pc-warning">⚠ No data</div>
+                }
+                @if (pc.IsFallbackYear)
+                {
+                    <div class="pc-warning">⚠ @offering?.Year data</div>
+                }
+                @if (hasIssue)
+                {
+                    <div class="pc-issue-dot" title="@string.Join("\n", IssuesByCourse[pc.CourseCode].Select(i => i.Message))">!</div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public int PlanYear { get; set; }
+    [Parameter] public int CalendarYear { get; set; }
+    [Parameter] public string Semester { get; set; } = "";
+    [Parameter] public List<PlannedCourse> Courses { get; set; } = new();
+    [Parameter] public Dictionary<string, List<ValidationIssue>> IssuesByCourse { get; set; } = new();
+    [Parameter] public EventCallback<string> OnDragStartedCode { get; set; }
+
+    private bool _isDragOver;
+
+    private int SlotUnits => Courses
+        .Where(c => !c.IsUnavailable)
+        .Sum(c => c.Offering?.Units ?? 6);
+
+    private void OnDragOver() => _isDragOver = true;
+    private void OnDragLeave() => _isDragOver = false;
+
+    private async Task OnDrop()
+    {
+        _isDragOver = false;
+        await OnDropped.InvokeAsync((PlanYear, Semester));
+    }
+
+    [Parameter] public EventCallback<(int, string)> OnDropped { get; set; }
+
+    private void RemoveCourse(Guid id)
+    {
+        PlanState.RemoveCourse(id);
+    }
+
+    private async Task OnDragStartPlanned(PlannedCourse pc)
+    {
+        await OnDragStartedCode.InvokeAsync($"__MOVE__{pc.Id}");
+    }
+}

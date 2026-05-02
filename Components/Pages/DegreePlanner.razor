@@ -1,0 +1,260 @@
+@page "/planner"
+@rendermode InteractiveServer
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+@inject CourseDataService CourseData
+@inject DegreeDataService DegreeData
+@inject PlanStateService PlanState
+@inject PlannerValidationService Validator
+@inject IJSRuntime JS
+@implements IDisposable
+
+<PageTitle>ANU Degree Planner</PageTitle>
+
+@if (!_loaded)
+{
+    <div class="loading-screen">
+        <div class="spinner"></div>
+        <p>Loading course data…</p>
+    </div>
+    return;
+}
+
+@if (!_planConfigured)
+{
+    <!-- ── Setup Panel ──────────────────────────────────────────────────── -->
+    <div class="setup-screen">
+        <div class="setup-card">
+            <h1 class="setup-title">ANU Degree Planner</h1>
+            <p class="setup-subtitle">Plan your degree with year-accurate course data from 2014–2027.</p>
+
+            <div class="setup-form">
+                <div class="form-group">
+                    <label>Degree</label>
+                    <select class="form-select" @bind="_setupDegreeId">
+                        <option value="">— Select degree —</option>
+                        @foreach (var d in DegreeData.All)
+                        {
+                            <option value="@d.DegreeId">@d.DegreeName (@d.DegreeId)</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Start Year</label>
+                    <input type="number" class="form-control" min="2014" max="2035"
+                           @bind="_setupStartYear" />
+                </div>
+                <div class="form-group">
+                    <label>Number of Years</label>
+                    <select class="form-select" @bind="_setupYears">
+                        <option value="3">3 years</option>
+                        <option value="4" selected>4 years</option>
+                        <option value="5">5 years</option>
+                        <option value="6">6 years</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Semesters to include</label>
+                    <div class="checkbox-row">
+                        @foreach (var t in _allTerms)
+                        {
+                            var term = t;
+                            <label class="form-check-label">
+                                <input type="checkbox"
+                                       checked="@_setupSemesters.Contains(term)"
+                                       @onchange="@(e => ToggleSemester(term, (bool)e.Value!))" />
+                                @OfferingParserService.DisplayLabel(term)
+                            </label>
+                        }
+                    </div>
+                </div>
+
+                @if (!string.IsNullOrEmpty(_setupError))
+                {
+                    <div class="alert alert-error">@_setupError</div>
+                }
+
+                <button class="btn btn-primary btn-setup" @onclick="StartPlanner">
+                    Create Degree Plan →
+                </button>
+            </div>
+        </div>
+    </div>
+    return;
+}
+
+<!-- ── Main Planner Layout ─────────────────────────────────────────────── -->
+<div class="planner-layout">
+    <!-- Left: Course Browser -->
+    <div class="panel-browser">
+        <CourseBrowser CoreCodes="@_coreCodes"
+                       ShowCoreFilter="true"
+                       OnCourseDragStart="@OnBrowserDragStart" />
+    </div>
+
+    <!-- Centre: Degree Grid -->
+    <div class="panel-grid">
+        <div class="grid-toolbar">
+            <div class="plan-title">
+                <strong>@_degree?.DegreeName</strong>
+                <span class="plan-meta">@PlanState.Plan.StartYear – @(PlanState.Plan.StartYear + PlanState.Plan.NumberOfYears - 1)</span>
+            </div>
+            <div class="toolbar-actions">
+                <button class="btn btn-sm btn-secondary" @onclick="ResetPlan">Reset</button>
+                <button class="btn btn-sm btn-secondary" @onclick="ExportJson">Export JSON</button>
+                <button class="btn btn-sm btn-secondary" @onclick="ExportCsv">Export CSV</button>
+                <button class="btn btn-sm btn-outline" @onclick="BackToSetup">← Change Degree</button>
+            </div>
+        </div>
+
+        <DegreeGrid Plan="@PlanState.Plan"
+                    IssuesByCourse="@_issuesByCourse"
+                    DraggingCode="@_draggingCode"
+                    OnDragStarted="@OnGridDragStart"
+                    OnDrop="@OnGridDrop" />
+    </div>
+
+    <!-- Right: Validation -->
+    <div class="panel-validation">
+        <ValidationPanel Summary="@_summary" />
+    </div>
+</div>
+
+@code {
+    // ── State ───────────────────────────────────────────────────────────────
+    private bool _loaded;
+    private bool _planConfigured;
+
+    // Setup form
+    private string _setupDegreeId = "";
+    private int _setupStartYear = DateTime.Now.Year;
+    private int _setupYears = 4;
+    private List<string> _setupSemesters = new() { "S1", "S2" };
+    private string _setupError = "";
+
+    private static readonly List<string> _allTerms = new() { "S1", "S2", "SUMMER", "WINTER", "AUTUMN", "SPRING" };
+
+    // Plan state
+    private DegreeRequirement? _degree;
+    private HashSet<string> _coreCodes = new();
+    private string? _draggingCode;
+    private PlanValidationSummary? _summary;
+    private Dictionary<string, List<ValidationIssue>> _issuesByCourse = new();
+
+    // ── Lifecycle ───────────────────────────────────────────────────────────
+    protected override async Task OnInitializedAsync()
+    {
+        await CourseData.EnsureLoadedAsync();
+        await DegreeData.EnsureLoadedAsync();
+        _loaded = true;
+        PlanState.OnChange += OnPlanChanged;
+    }
+
+    public void Dispose() => PlanState.OnChange -= OnPlanChanged;
+
+    private void OnPlanChanged()
+    {
+        RunValidation();
+        InvokeAsync(StateHasChanged);
+    }
+
+    // ── Setup ───────────────────────────────────────────────────────────────
+    private void ToggleSemester(string term, bool value)
+    {
+        if (value) { if (!_setupSemesters.Contains(term)) _setupSemesters.Add(term); }
+        else _setupSemesters.Remove(term);
+    }
+
+    private void StartPlanner()
+    {
+        _setupError = "";
+        if (string.IsNullOrWhiteSpace(_setupDegreeId))
+        {
+            _setupError = "Please select a degree.";
+            return;
+        }
+        if (_setupSemesters.Count == 0)
+        {
+            _setupError = "Select at least one semester.";
+            return;
+        }
+        _degree = DegreeData.Get(_setupDegreeId);
+        _coreCodes = _degree?.CoreCourses.ToHashSet() ?? new();
+
+        PlanState.SetPlan(new DegreePlan
+        {
+            DegreeId = _setupDegreeId,
+            StartYear = _setupStartYear,
+            NumberOfYears = _setupYears,
+            EnabledSemesters = _setupSemesters.OrderBy(s => _allTerms.IndexOf(s)).ToList(),
+        });
+
+        _planConfigured = true;
+        RunValidation();
+    }
+
+    private void BackToSetup()
+    {
+        _planConfigured = false;
+    }
+
+    private void ResetPlan()
+    {
+        PlanState.Reset();
+        RunValidation();
+    }
+
+    // ── Drag & Drop ─────────────────────────────────────────────────────────
+    private void OnBrowserDragStart(string code)
+    {
+        _draggingCode = code;
+    }
+
+    private void OnGridDragStart(string code)
+    {
+        // Code may be "__MOVE__<guid>" for planned courses
+        _draggingCode = code;
+    }
+
+    private void OnGridDrop((int PlanYear, string Semester) target)
+    {
+        if (_draggingCode == null) return;
+
+        if (_draggingCode.StartsWith("__MOVE__"))
+        {
+            // Moving an existing planned course
+            if (Guid.TryParse(_draggingCode["__MOVE__".Length..], out var id))
+                PlanState.MoveCourse(id, target.PlanYear, target.Semester);
+        }
+        else
+        {
+            PlanState.AddCourse(_draggingCode, target.PlanYear, target.Semester);
+        }
+
+        _draggingCode = null;
+    }
+
+    // ── Validation ──────────────────────────────────────────────────────────
+    private void RunValidation()
+    {
+        if (!_planConfigured) return;
+        _summary = Validator.Validate(PlanState.Plan);
+        _issuesByCourse = _summary.Issues
+            .Where(i => !string.IsNullOrEmpty(i.CourseCode))
+            .GroupBy(i => i.CourseCode)
+            .ToDictionary(g => g.Key, g => g.ToList());
+    }
+
+    // ── Export ──────────────────────────────────────────────────────────────
+    private async Task ExportJson()
+    {
+        var content = PlanState.ExportJson();
+        await JS.InvokeVoidAsync("downloadText", "degree-plan.json", content, "application/json");
+    }
+
+    private async Task ExportCsv()
+    {
+        var content = PlanState.ExportCsv();
+        await JS.InvokeVoidAsync("downloadText", "degree-plan.csv", content, "text/csv");
+    }
+}

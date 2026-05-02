@@ -1,0 +1,105 @@
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+@inject CourseDataService CourseData
+@inject PlanStateService PlanState
+
+<div class="browser-panel">
+    <h3 class="panel-title">Course Browser</h3>
+
+    <div class="search-bar">
+        <input class="form-control" placeholder="Code (e.g. COMP3310)"
+               @bind="_filterCode" @bind:event="oninput" />
+        <input class="form-control" placeholder="Title keyword"
+               @bind="_filterTitle" @bind:event="oninput" />
+    </div>
+    <div class="search-bar mt-1">
+        <select class="form-select" @bind="_filterSubject">
+            <option value="">All subjects</option>
+            @foreach (var s in _subjects)
+            {
+                <option value="@s">@s</option>
+            }
+        </select>
+        <select class="form-select" @bind="_filterTerm">
+            <option value="">Any semester</option>
+            @foreach (var t in _allTerms)
+            {
+                <option value="@t">@OfferingParserService.DisplayLabel(t)</option>
+            }
+        </select>
+        @if (ShowCoreFilter)
+        {
+            <label class="form-check-label ms-1 d-flex align-items-center gap-1">
+                <input type="checkbox" class="form-check-input" @bind="_filterCoreOnly" />
+                Core only
+            </label>
+        }
+    </div>
+
+    <div class="browser-results">
+        @{
+            var results = FilteredCourses();
+            var planned = PlanState.Plan.Courses.Select(c => c.CourseCode).ToHashSet();
+        }
+        @if (results.Count == 0)
+        {
+            <p class="text-muted p-2">No courses match your search.</p>
+        }
+        else
+        {
+            <div class="results-count">@results.Count course@(results.Count == 1 ? "" : "s")</div>
+            @foreach (var c in results.Take(100))
+            {
+                <CourseCard Code="@c.CourseCode"
+                            Offering="@c"
+                            IsCore="@(CoreCodes.Contains(c.CourseCode))"
+                            IsPlanned="@planned.Contains(c.CourseCode)"
+                            OnDragStarted="@OnCardDrag" />
+            }
+            @if (results.Count > 100)
+            {
+                <p class="text-muted p-2">Showing first 100 — refine your search.</p>
+            }
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public HashSet<string> CoreCodes { get; set; } = new();
+    [Parameter] public bool ShowCoreFilter { get; set; } = true;
+    [Parameter] public EventCallback<string> OnCourseDragStart { get; set; }
+
+    private string _filterCode = "";
+    private string _filterTitle = "";
+    private string _filterSubject = "";
+    private string _filterTerm = "";
+    private bool _filterCoreOnly;
+
+    private List<string> _subjects = new();
+    private List<string> _allTerms = new() { "S1", "S2", "SUMMER", "WINTER", "AUTUMN", "SPRING" };
+
+    protected override void OnParametersSet()
+    {
+        _subjects = CourseData.AllSubjectAreas();
+    }
+
+    private List<CourseOffering> FilteredCourses()
+    {
+        var results = CourseData.Search(
+            string.IsNullOrWhiteSpace(_filterCode) ? null : _filterCode,
+            string.IsNullOrWhiteSpace(_filterTitle) ? null : _filterTitle,
+            string.IsNullOrWhiteSpace(_filterSubject) ? null : _filterSubject,
+            null,
+            string.IsNullOrWhiteSpace(_filterTerm) ? null : _filterTerm,
+            null
+        );
+        if (_filterCoreOnly)
+            results = results.Where(c => CoreCodes.Contains(c.CourseCode)).ToList();
+        return results;
+    }
+
+    private async Task OnCardDrag(string code)
+    {
+        await OnCourseDragStart.InvokeAsync(code);
+    }
+}
