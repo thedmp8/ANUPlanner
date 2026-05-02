@@ -6,6 +6,7 @@ const statusPill = document.querySelector("#status-pill");
 const statusText = document.querySelector("#status-text");
 const assessmentNotesInput = document.querySelector("#assessment-notes");
 const generateAssessmentButton = document.querySelector("#generate-assessment-button");
+const askButton = document.querySelector("#ask-button");
 const assessmentStatus = document.querySelector("#assessment-status");
 const assessmentReport = document.querySelector("#assessment-report");
 const courseSearchInput = document.querySelector("#course-search-input");
@@ -26,10 +27,6 @@ const MAX_EXCHANGE_PREFERENCES = 5;
 const STORAGE_KEY = "anu-course-preferences";
 const EXCHANGE_STORAGE_KEY = "anu-exchange-preferences";
 const ASSESSMENT_STORAGE_KEY = "anu-last-exchange-assessment";
-const welcomeMessage = {
-  role: "assistant",
-  content: "Ask a follow-up question after generating an exchange assessment."
-};
 const messages = [];
 let preferences = loadPreferences();
 let exchangePreferences = loadExchangePreferences();
@@ -90,7 +87,9 @@ form.addEventListener("submit", async (event) => {
   } finally {
     setLoading(false);
     renderMessages();
-    input.focus();
+    if (!askButton.hidden) {
+      assessmentNotesInput.focus();
+    }
   }
 });
 
@@ -113,11 +112,26 @@ input.addEventListener("keydown", (event) => {
   }
 });
 
-function renderMessages() {
-  const visibleMessages = [welcomeMessage, ...messages];
+askButton.addEventListener("click", sendFollowUp);
 
+assessmentNotesInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" && !event.shiftKey && !askButton.hidden) {
+    event.preventDefault();
+    sendFollowUp();
+  }
+});
+
+function sendFollowUp() {
+  const content = assessmentNotesInput.value.trim();
+  if (!content || askButton.disabled) return;
+  input.value = content;
+  assessmentNotesInput.value = "";
+  form.requestSubmit();
+}
+
+function renderMessages() {
   messagesElement.replaceChildren(
-    ...visibleMessages.map((message) => {
+    ...messages.map((message) => {
       const node = document.createElement("article");
       node.className = `message ${message.role}${message.isError ? " error" : ""}`;
       node.textContent = message.content;
@@ -125,12 +139,15 @@ function renderMessages() {
     })
   );
 
-  messagesElement.scrollTop = messagesElement.scrollHeight;
+  const scrollArea = messagesElement.closest(".report-chat-area") || messagesElement;
+  scrollArea.scrollTop = scrollArea.scrollHeight;
 }
 
 function setLoading(isLoading) {
   sendButton.disabled = isLoading;
   input.disabled = isLoading;
+  askButton.disabled = isLoading;
+  assessmentNotesInput.disabled = isLoading;
 
   if (isLoading) {
     setStatus("Thinking");
@@ -753,6 +770,9 @@ async function generateExchangeAssessment() {
     saveAssessmentResult(data.assessment, data.plan || plan);
     assessmentStatus.textContent = "Assessment generated and saved in this browser.";
     setStatus("Ready");
+    assessmentNotesInput.placeholder = "Ask a follow-up question...";
+    assessmentNotesInput.value = "";
+    askButton.hidden = false;
   } catch (error) {
     renderAssessmentError(error.message);
     setStatus("Error", true);
@@ -971,6 +991,9 @@ function restoreSavedAssessment() {
 
   renderAssessmentReport(savedAssessment.assessment);
   assessmentStatus.textContent = "Showing the last generated assessment. Generate again to update it.";
+  assessmentNotesInput.placeholder = "Ask a follow-up question...";
+  assessmentNotesInput.value = "";
+  askButton.hidden = false;
 }
 
 function loadSavedAssessment() {

@@ -92,33 +92,31 @@
           </span>
         </header>
 
-        <section class="assessment-controls" aria-label="Generate exchange assessment">
-          <label class="sr-only" for="assessment-notes">Assessment notes</label>
+        <section class="assessment-controls" aria-label="Generate or ask a follow-up">
+          <label class="sr-only" for="assessment-notes">Notes or follow-up question</label>
           <textarea
             id="assessment-notes"
-            rows="3"
+            rows="2"
             placeholder="Optional notes, e.g. prefer English-speaking destinations"
           ></textarea>
-          <button type="button" id="generate-assessment-button">Generate assessment</button>
+          <div class="assessment-actions">
+            <button type="button" id="generate-assessment-button">Generate assessment</button>
+            <button type="button" id="ask-button" hidden>Ask</button>
+          </div>
           <p class="assessment-status" id="assessment-status">
             Add course/elective preferences and exchange preferences, then generate a report.
           </p>
         </section>
 
-        <section class="assessment-report" id="assessment-report" aria-live="polite"></section>
+        <div class="report-chat-area">
+          <section class="assessment-report" id="assessment-report" aria-live="polite"></section>
+          <div class="messages" id="messages" aria-live="polite"></div>
+        </div>
 
-        <div class="messages" id="messages" aria-live="polite"></div>
-
-        <form class="composer" id="chat-form">
-          <label class="sr-only" for="message-input">Message</label>
-          <textarea
-            id="message-input"
-            name="message"
-            rows="1"
-            placeholder="Ask a follow-up question"
-            autocomplete="off"
-          ></textarea>
-          <button type="submit" id="send-button">Send</button>
+        <!-- Hidden form used by existing chat submit logic -->
+        <form id="chat-form" hidden aria-hidden="true">
+          <textarea id="message-input" name="message" tabindex="-1" aria-hidden="true"></textarea>
+          <button type="submit" id="send-button" tabindex="-1" aria-hidden="true">Send</button>
         </form>
       </section>
 

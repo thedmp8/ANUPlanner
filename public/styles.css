@@ -102,10 +102,10 @@ textarea {
   grid-template-rows: auto auto 1fr auto;
 }
 
-/* Chat panel: header / controls / report (scrollable) / messages (scrollable) / composer */
+/* Chat panel: header / controls / unified scrollable area */
 .chat-panel {
   display: grid;
-  grid-template-rows: auto auto minmax(0, 1fr) minmax(0, 1fr) auto;
+  grid-template-rows: auto auto 1fr;
 }
 
 /* ─── Headers ────────────────────────────────────────── */
@@ -287,7 +287,9 @@ h2 {
   gap: 6px;
 }
 
-/* ─── Preference builder (scrollable, sits at bottom) ─── */
+/* ─── Preference builder (scrollable, sits at bottom) ───
+   max-height is critical: without it the auto grid row can
+   expand to full content height and crush the results row. ── */
 
 .preference-builder {
   padding: 12px 16px;
@@ -295,6 +297,7 @@ h2 {
   border-top: 1px solid var(--border);
   overflow-y: auto;
   min-height: 0;
+  max-height: 300px;
 }
 
 .preference-header {
@@ -452,7 +455,21 @@ h2 {
 }
 
 .assessment-controls textarea {
-  min-height: 72px;
+  min-height: 60px;
+}
+
+.assessment-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.assessment-actions #generate-assessment-button {
+  flex: 1;
+}
+
+.assessment-actions #ask-button {
+  min-width: 56px;
+  flex-shrink: 0;
 }
 
 .assessment-status {
@@ -462,16 +479,22 @@ h2 {
   line-height: 1.5;
 }
 
-/* ─── Assessment report (scrollable) ─────────────────── */
+/* ─── Unified scrollable report + chat area ──────────── */
 
-.assessment-report {
+.report-chat-area {
   min-height: 0;
   overflow-y: auto;
+  background: var(--muted-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Assessment report ──────────────────────────────── */
+
+.assessment-report {
   display: grid;
   gap: 8px;
   padding: 12px 14px;
-  border-bottom: 1px solid var(--border);
-  background: var(--muted-bg);
   align-content: start;
 }
 
@@ -657,17 +680,13 @@ h2 {
   text-transform: uppercase;
 }
 
-/* ─── Messages (scrollable) ──────────────────────────── */
+/* ─── Messages (flows inside report-chat-area) ───────── */
 
 .messages {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-height: 0;
-  padding: 14px 16px;
-  overflow-y: auto;
-  background: var(--muted-bg);
-  align-content: start;
+  padding: 0 14px 14px;
 }
 
 .message {
@@ -699,17 +718,6 @@ h2 {
   background: rgba(155, 35, 53, 0.05);
 }
 
-/* ─── Composer ───────────────────────────────────────── */
-
-.composer {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 8px;
-  padding: 12px 14px;
-  border-top: 1px solid var(--border);
-  background: var(--card);
-  flex-shrink: 0;
-}
 
 /* ─── Inputs & textareas ─────────────────────────────── */
 
@@ -930,15 +938,15 @@ button:disabled {
   }
 
   .chat-panel {
-    grid-template-rows: auto auto auto minmax(280px, auto) auto;
-  }
-
-  .composer {
-    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
   }
 
   button {
     width: 100%;
+  }
+
+  .assessment-actions {
+    flex-direction: column;
   }
 
   .small-button,
