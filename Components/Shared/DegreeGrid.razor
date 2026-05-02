@@ -1,0 +1,63 @@
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+@inject PlanStateService PlanState
+@inject CourseDataService CourseData
+
+<div class="degree-grid">
+    @for (int y = 1; y <= Plan.NumberOfYears; y++)
+    {
+        var planYear = y;
+        var calYear = Plan.CalendarYearFor(planYear);
+        <div class="year-row">
+            <div class="year-label">
+                <span class="year-number">Year @planYear</span>
+                <span class="year-calendar">@calYear</span>
+                <span class="year-units">@YearUnits(planYear) units</span>
+            </div>
+            <div class="year-semesters">
+                @foreach (var sem in Plan.EnabledSemesters)
+                {
+                    var semester = sem;
+                    var courses = Plan.CoursesIn(planYear, semester).ToList();
+                    // Resolve offerings
+                    foreach (var pc in courses)
+                    {
+                        pc.Offering ??= CourseData.GetOffering(pc.CourseCode, calYear);
+                        if (pc.Offering == null) pc.IsUnavailable = true;
+                        pc.IsFallbackYear = pc.Offering != null && CourseData.IsFallback(pc.CourseCode, calYear);
+                    }
+                    <SemesterSlot PlanYear="@planYear"
+                                  CalendarYear="@calYear"
+                                  Semester="@semester"
+                                  Courses="@courses"
+                                  IssuesByCourse="@IssuesByCourse"
+                                  OnDropped="@(args => HandleDrop(args.Item1, args.Item2))"
+                                  OnDragStartedCode="@HandleDragStartFromSlot" />
+                }
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public DegreePlan Plan { get; set; } = new();
+    [Parameter] public Dictionary<string, List<ValidationIssue>> IssuesByCourse { get; set; } = new();
+    [Parameter] public string? DraggingCode { get; set; }
+    [Parameter] public EventCallback<string> OnDragStarted { get; set; }
+    [Parameter] public EventCallback<(int PlanYear, string Semester)> OnDrop { get; set; }
+
+    private int YearUnits(int planYear) =>
+        Plan.Courses
+            .Where(c => c.PlanYear == planYear && !c.IsUnavailable)
+            .Sum(c => c.Offering?.Units ?? 6);
+
+    private async Task HandleDrop(int planYear, string semester)
+    {
+        await OnDrop.InvokeAsync((planYear, semester));
+    }
+
+    private async Task HandleDragStartFromSlot(string code)
+    {
+        await OnDragStarted.InvokeAsync(code);
+    }
+}

@@ -1,0 +1,92 @@
+@using ANUPlanner.Models
+@using ANUPlanner.Services
+
+@if (Course != null && Visible)
+{
+    <div class="modal-backdrop" @onclick="Close"></div>
+    <div class="modal-panel">
+        <div class="modal-header">
+            <div>
+                <span class="badge badge-code">@Course.CourseCode</span>
+                @if (!string.IsNullOrEmpty(Course.Url))
+                {
+                    <a href="@Course.Url" target="_blank" class="anu-link ms-2">ANU Course Page ↗</a>
+                }
+            </div>
+            <button class="btn-close" @onclick="Close">✕</button>
+        </div>
+        <h2 class="modal-title">@Course.Title</h2>
+        <div class="modal-meta">
+            <span class="badge badge-units">@Course.Units units</span>
+            <span class="badge badge-year">@Course.Year data</span>
+            @foreach (var t in Course.ParsedTerms)
+            {
+                <span class="badge badge-term">@OfferingParserService.DisplayLabel(t)</span>
+            }
+        </div>
+
+        <div class="modal-section">
+            <h4>Prerequisites</h4>
+            @if (string.IsNullOrWhiteSpace(Course.PrereqRaw))
+            {
+                <p class="text-muted">None</p>
+            }
+            else
+            {
+                <p class="raw-text">@Course.PrereqRaw</p>
+                @if (_prereqRule != null && _prereqRule.CourseCodes.Count > 0)
+                {
+                    <p>
+                        <strong>Parsed (@(_prereqRule.Logic == PrereqLogic.AnyOf ? "any of" : "all of")):</strong>
+                        @string.Join(", ", _prereqRule.CourseCodes)
+                    </p>
+                }
+                @if (_prereqRule != null && !_prereqRule.ParsedConfidently)
+                {
+                    <div class="alert alert-manual">⚠ Complex prerequisite — verify manually.</div>
+                }
+            }
+        </div>
+
+        <div class="modal-section">
+            <h4>Incompatibilities</h4>
+            @if (Course.IncompatibilityCodes.Count == 0)
+            {
+                <p class="text-muted">None</p>
+            }
+            else
+            {
+                <p>@string.Join(", ", Course.IncompatibilityCodes)</p>
+            }
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(Course.ModeOfDelivery))
+        {
+            <div class="modal-section">
+                <h4>Mode of Delivery</h4>
+                <p>@Course.ModeOfDelivery</p>
+            </div>
+        }
+
+        <div class="modal-footer">
+            <button class="btn btn-secondary" @onclick="Close">Close</button>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public CourseOffering? Course { get; set; }
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private PrerequisiteRule? _prereqRule;
+
+    protected override void OnParametersSet()
+    {
+        _prereqRule = Course != null && !string.IsNullOrWhiteSpace(Course.PrereqRaw)
+            ? PrerequisiteParserService.Parse(Course.PrereqRaw)
+            : null;
+    }
+
+    private async Task Close() => await OnClose.InvokeAsync();
+}

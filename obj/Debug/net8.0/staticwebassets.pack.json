@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/obj/Debug/net8.0/scopedcss/projectbundle/ANUPlanner.bundle.scp.css",
+      "PackagePath": "staticwebassets/ANUPlanner.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/alexadams/Desktop/AIVibathon/ANUPlanner/wwwroot/planner.js",
+      "PackagePath": "staticwebassets/planner.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ANUPlanner.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ANUPlanner.props",
+      "PackagePath": "build\\ANUPlanner.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ANUPlanner.props",
+      "PackagePath": "buildMultiTargeting\\ANUPlanner.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ANUPlanner.props",
+      "PackagePath": "buildTransitive\\ANUPlanner.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
