@@ -45,11 +45,13 @@
                            @bind="_setupStartYear" />
                 </div>
                 <div class="form-group">
-                    <label>Duration</label>
-                    <div class="setup-duration">
-                        <strong>@DurationLabel()</strong>
-                        <span>calculated automatically from the degree's required units</span>
-                    </div>
+                    <label>Number of Years</label>
+                    <select class="form-select" @bind="_setupYears">
+                        <option value="3">3 years</option>
+                        <option value="4" selected>4 years</option>
+                        <option value="5">5 years</option>
+                        <option value="6">6 years</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label>Semesters to include</label>
@@ -86,6 +88,7 @@
     <!-- Left: Course Browser -->
     <div class="panel-browser">
         <CourseBrowser CoreCodes="@_coreCodes"
+                       Degree="@_degree"
                        ShowCoreFilter="true"
                        OnCourseDragStart="@OnBrowserDragStart" />
     </div>
@@ -126,6 +129,7 @@
     // Setup form
     private string _setupDegreeId = "";
     private int _setupStartYear = DateTime.Now.Year;
+    private int _setupYears = 4;
     private List<string> _setupSemesters = new() { "S1", "S2" };
     private string _setupError = "";
 
@@ -177,13 +181,12 @@
         }
         _degree = DegreeData.Get(_setupDegreeId);
         _coreCodes = _degree?.CoreCourses.ToHashSet() ?? new();
-        var estimatedYears = _degree?.EstimatedYears ?? 4;
 
         PlanState.SetPlan(new DegreePlan
         {
             DegreeId = _setupDegreeId,
             StartYear = _setupStartYear,
-            NumberOfYears = estimatedYears,
+            NumberOfYears = _setupYears,
             EnabledSemesters = _setupSemesters.OrderBy(s => _allTerms.IndexOf(s)).ToList(),
         });
 
@@ -254,16 +257,5 @@
     {
         var content = PlanState.ExportCsv();
         await JS.InvokeVoidAsync("downloadText", "degree-plan.csv", content, "text/csv");
-    }
-
-    private string DurationLabel()
-    {
-        var degree = string.IsNullOrWhiteSpace(_setupDegreeId)
-            ? null
-            : DegreeData.Get(_setupDegreeId);
-
-        return degree == null
-            ? "Select a degree"
-            : $"{degree.EstimatedYears} years";
     }
 }

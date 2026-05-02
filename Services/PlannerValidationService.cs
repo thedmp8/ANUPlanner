@@ -30,12 +30,17 @@ public class PlannerValidationService
         }
 
         // ── Units ─────────────────────────────────────────────────────────
-        summary.TotalUnitsPlanned = plan.Courses
-            .Where(c => !c.IsUnavailable)
-            .Sum(c => c.Offering!.Units);
+        summary.TotalUnitsPlanned =
+            plan.Courses
+                .Where(c => c.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase))
+                .Sum(_ => 6)
+            + plan.Courses
+                .Where(c => !c.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase) && !c.IsUnavailable)
+                .Sum(c => c.Offering!.Units);
 
-        // ── Duplicate courses ─────────────────────────────────────────────
+        // ── Duplicate courses (real courses only — electives have unique suffixes) ──
         var duplicates = plan.Courses
+            .Where(c => !c.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase))
             .GroupBy(c => c.CourseCode)
             .Where(g => g.Count() > 1)
             .Select(g => g.Key);
@@ -47,25 +52,33 @@ public class PlannerValidationService
                 Message = $"{dup} appears more than once in your plan.",
             });
 
-        // ── Core course completion ─────────────────────────────────────────
+        // ── Core course completion (OR-group aware) ────────────────────────
         if (degree != null)
         {
             var plannedCodes = plan.Courses.Select(c => c.CourseCode).ToHashSet();
-            summary.CoreCoursesCompleted = degree.CoreCourses.Where(c => plannedCodes.Contains(c)).ToList();
-            summary.CoreCoursesMissing = degree.CoreCourses.Where(c => !plannedCodes.Contains(c)).ToList();
+            summary.CoreCoursesCompleted = new List<string>();
+            summary.CoreCoursesMissing = new List<string>();
 
-            foreach (var missing in summary.CoreCoursesMissing)
-                summary.Issues.Add(new ValidationIssue
-                {
-                    Severity = IssueSeverity.Error,
-                    CourseCode = missing,
-                    Message = $"Core course {missing} is missing from your plan.",
-                });
+            foreach (var group in degree.CoreCourseGroups)
+            {
+                var match = group.FirstOrDefault(c => plannedCodes.Contains(c));
+                if (match != null)
+                    summary.CoreCoursesCompleted.Add(match);
+                else
+                    summary.CoreCoursesMissing.Add(
+                        group.Count == 1 ? group[0] : string.Join(" or ", group));
+            }
+            // Core-missing groups are shown in the dedicated Missing Core Courses panel only —
+            // not duplicated as individual error items in the Errors section.
         }
 
         // ── Per-course validation ─────────────────────────────────────────
         foreach (var pc in plan.Courses)
         {
+            // Elective placeholders are free-form — skip all validation
+            if (pc.CourseCode.StartsWith("ELECTIVE", StringComparison.OrdinalIgnoreCase))
+                continue;
+
             var calYear = plan.CalendarYearFor(pc.PlanYear);
 
             if (pc.IsUnavailable)
@@ -81,14 +94,18 @@ public class PlannerValidationService
 
             var offering = pc.Offering!;
 
-            // Fallback warning
+            // Fallback warning — using latest available CSV year as proxy for future years
             if (pc.IsFallbackYear)
+            {
+                int latestYear = _courseData.LatestDataYear;
                 summary.Issues.Add(new ValidationIssue
                 {
                     Severity = IssueSeverity.Warning,
                     CourseCode = pc.CourseCode,
-                    Message = $"{pc.CourseCode} in {calYear}: using {offering.Year} data as fallback — check current availability.",
+                    Message = $"{pc.CourseCode}: using {offering.Year} data for {calYear} — future-year offering assumed from latest available data.",
+                    Detail = $"Latest CSV year is {latestYear}. Verify current course availability on the ANU website.",
                 });
+            }
 
             // ── Offering / semester availability ──────────────────────────
             ValidateSemesterOffering(pc, offering, summary);
