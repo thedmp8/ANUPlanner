@@ -1,0 +1,14 @@
+{
+  "name": "ai-buildathon-chatgpt-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract:programs": "python3 extract_programs.py anu_programs.xlsx -o anu_programs.json --pretty",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

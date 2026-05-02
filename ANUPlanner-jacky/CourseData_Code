@@ -1,0 +1,412 @@
+import re
+import csv
+import os
+import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import requests
+from bs4 import BeautifulSoup
+
+
+# ============================================================
+# SETTINGS
+# ============================================================
+
+YEAR = 2026
+BASE = "https://programsandcourses.anu.edu.au"
+
+COLLEGE_TARGET = "ANU College of Systems and Society"
+
+OUTPUT_CSV = f"anu_css_courses_{YEAR}.csv"
+CHECKED_FILE = f"anu_checked_courses_{YEAR}.txt"
+
+# Start narrow. These are the most relevant CSS-style prefixes.
+# Add more later only if needed.
+SUBJECT_PREFIXES = [
+    "COMP",
+    "ENGN",
+    "CECS",
+    "CYBN",
+]
+
+# Full ANU-style course-code range.
+CODE_START = 1000
+CODE_END = 9999
+
+# Optimisation setting.
+# 16 to 32 is usually a good range.
+# If your internet is slow, use 12.
+# If requests start failing, reduce this.
+MAX_WORKERS = 100
+
+REQUEST_TIMEOUT = 10
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+        "Version/17.0 Safari/605.1.15"
+    )
+}
+
+CSV_FIELDS = [
+    "year",
+    "code",
+    "title",
+    "unit_value",
+    "offered_by",
+    "college",
+    "course_subject",
+    "areas_of_interest",
+    "academic_career",
+    "mode_of_delivery",
+    "offered_in",
+    "url",
+]
+
+
+# ============================================================
+# THREAD-LOCAL REQUEST SESSION
+# ============================================================
+
+thread_local = threading.local()
+
+
+def get_session():
+    """
+    Gives each thread its own persistent requests.Session().
+    This is much faster than opening a fresh connection every request.
+    """
+    if not hasattr(thread_local, "session"):
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        thread_local.session = session
+
+    return thread_local.session
+
+
+# ============================================================
+# TEXT HELPERS
+# ============================================================
+
+def clean(text):
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
+def extract_between(text, start_label, stop_labels):
+    stop_pattern = "|".join(re.escape(label) for label in stop_labels)
+
+    pattern = (
+        re.escape(start_label)
+        + r"\s+(.+?)(?=\s+(?:"
+        + stop_pattern
+        + r")\b|$)"
+    )
+
+    match = re.search(pattern, text)
+    return clean(match.group(1)) if match else ""
+
+
+# ============================================================
+# CHECKPOINTING
+# ============================================================
+
+def load_checked_codes():
+    """
+    Loads previously checked course codes so the script can resume.
+    """
+    if not os.path.exists(CHECKED_FILE):
+        return set()
+
+    with open(CHECKED_FILE, "r", encoding="utf-8") as f:
+        return set(line.strip() for line in f if line.strip())
+
+
+def append_checked_code(code):
+    """
+    Saves each checked code immediately.
+    """
+    with open(CHECKED_FILE, "a", encoding="utf-8") as f:
+        f.write(code + "\n")
+
+
+def load_existing_found_codes():
+    """
+    Prevents duplicate rows if you restart the script.
+    """
+    if not os.path.exists(OUTPUT_CSV):
+        return set()
+
+    found = set()
+
+    with open(OUTPUT_CSV, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row.get("code"):
+                found.add(row["code"])
+
+    return found
+
+
+def ensure_csv_exists():
+    """
+    Creates CSV with headers if it does not already exist.
+    """
+    if os.path.exists(OUTPUT_CSV):
+        return
+
+    with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        writer.writeheader()
+
+
+def append_course_to_csv(course):
+    """
+    Saves a course immediately when found.
+    """
+    ensure_csv_exists()
+
+    with open(OUTPUT_CSV, "a", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        writer.writerow(course)
+        f.flush()
+
+
+# ============================================================
+# COURSE PARSING
+# ============================================================
+
+def parse_course_page(html, url, fallback_code):
+    soup = BeautifulSoup(html, "html.parser")
+    page_text = clean(soup.get_text(" "))
+
+    # Fast strict filter.
+    if COLLEGE_TARGET not in page_text:
+        return None
+
+    code_match = re.search(r"\b[A-Z]{4}\d{4}\b", page_text)
+    code = code_match.group(0) if code_match else fallback_code
+
+    title = ""
+
+    h1 = soup.find("h1")
+    if h1:
+        title = clean(h1.get_text(" "))
+
+    if not title:
+        title_match = re.search(r"Course\s+(.+?)\s+" + re.escape(code), page_text)
+        if title_match:
+            title = clean(title_match.group(1))
+
+    title = re.sub(rf"\s*\({code}\)\s*$", "", title).strip()
+
+    stop_labels = [
+        "Code",
+        "Unit Value",
+        "Academic Codes",
+        "Offered by",
+        "ANU College",
+        "Course subject",
+        "Areas of interest",
+        "Work Integrated Learning",
+        "Academic career",
+        "Course convener",
+        "Mode of delivery",
+        "Offered in",
+        "STEM Course",
+        "Tweet",
+        "Share",
+        "Wattle",
+        "Canvas",
+        "SELT",
+        "Overview",
+        "Study",
+        "Fees",
+        "Class",
+        "Introduction",
+        "Learning Outcomes",
+        "Indicative Assessment",
+        "Workload",
+        "Requisite and Incompatibility",
+        "Prescribed Texts",
+        "Preliminary Reading",
+        "Assumed Knowledge",
+    ]
+
+    return {
+        "year": YEAR,
+        "code": code,
+        "title": title,
+        "unit_value": extract_between(page_text, "Unit Value", stop_labels),
+        "offered_by": extract_between(page_text, "Offered by", stop_labels),
+        "college": extract_between(page_text, "ANU College", stop_labels),
+        "course_subject": extract_between(page_text, "Course subject", stop_labels),
+        "areas_of_interest": extract_between(page_text, "Areas of interest", stop_labels),
+        "academic_career": extract_between(page_text, "Academic career", stop_labels),
+        "mode_of_delivery": extract_between(page_text, "Mode of delivery", stop_labels),
+        "offered_in": extract_between(page_text, "Offered in", stop_labels),
+        "url": url,
+    }
+
+
+# ============================================================
+# URL CHECKING
+# ============================================================
+
+def check_course_code(code):
+    """
+    Checks one course code.
+    Returns:
+        ("found", course_dict)
+        ("not_found", code)
+        ("error", code)
+    """
+    url = f"{BASE}/{YEAR}/course/{code}"
+    session = get_session()
+
+    try:
+        response = session.get(url, timeout=REQUEST_TIMEOUT)
+
+        if response.status_code == 404:
+            return "not_found", code
+
+        if response.status_code != 200:
+            return "error", code
+
+        course = parse_course_page(response.text, url, code)
+
+        if course is None:
+            return "not_found", code
+
+        return "found", course
+
+    except requests.exceptions.RequestException:
+        return "error", code
+
+
+# ============================================================
+# SMART CODE GENERATION
+# ============================================================
+
+def generate_course_codes():
+    """
+    Generates likely course codes.
+
+    Instead of checking random strings, this uses the standard 4-letter + 4-digit
+    ANU course-code pattern.
+
+    The ordering is optimised:
+    - COMP1100, COMP1110, COMP1730-style lower-level courses are checked early.
+    - Then 2000/3000/4000/6000/8000-level courses.
+    """
+
+    checked = load_checked_codes()
+
+    codes = []
+
+    # Prioritise common ANU course number bands first.
+    priority_ranges = [
+        range(1000, 1999 + 1),
+        range(2000, 2999 + 1),
+        range(3000, 3999 + 1),
+        range(4000, 4999 + 1),
+        range(6000, 6999 + 1),
+        range(7000, 7999 + 1),
+        range(8000, 8999 + 1),
+        range(9000, 9999 + 1),
+        range(5000, 5999 + 1),
+    ]
+
+    for prefix in SUBJECT_PREFIXES:
+        for number_range in priority_ranges:
+            for number in number_range:
+                code = f"{prefix}{number}"
+
+                if code not in checked:
+                    codes.append(code)
+
+    return codes
+
+
+# ============================================================
+# MAIN SCRAPER
+# ============================================================
+
+def scrape():
+    ensure_csv_exists()
+
+    found_codes = load_existing_found_codes()
+    codes_to_check = generate_course_codes()
+
+    total = len(codes_to_check)
+    found_count = len(found_codes)
+    checked_this_run = 0
+    error_count = 0
+
+    print(f"Output CSV: {OUTPUT_CSV}")
+    print(f"Checkpoint file: {CHECKED_FILE}")
+    print(f"Already found courses in CSV: {found_count}")
+    print(f"Codes left to check: {total}")
+    print(f"Workers: {MAX_WORKERS}")
+    print()
+
+    start_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_code = {
+            executor.submit(check_course_code, code): code
+            for code in codes_to_check
+        }
+
+        for future in as_completed(future_to_code):
+            code = future_to_code[future]
+            checked_this_run += 1
+
+            try:
+                status, result = future.result()
+            except Exception:
+                status, result = "error", code
+
+            if status == "found":
+                course = result
+
+                if course["code"] not in found_codes:
+                    append_course_to_csv(course)
+                    found_codes.add(course["code"])
+                    found_count += 1
+
+                    print(
+                        f"FOUND #{found_count}: "
+                        f"{course['code']} - {course['title']}"
+                    )
+
+            elif status == "error":
+                error_count += 1
+
+            # Save checkpoint after processing.
+            # This means restarts do not redo completed codes.
+            append_checked_code(code)
+
+            if checked_this_run % 250 == 0:
+                elapsed = time.time() - start_time
+                rate = checked_this_run / elapsed if elapsed > 0 else 0
+                remaining = total - checked_this_run
+                eta_minutes = remaining / rate / 60 if rate > 0 else 0
+
+                print(
+                    f"Checked {checked_this_run}/{total} | "
+                    f"Found {found_count} | "
+                    f"Errors {error_count} | "
+                    f"Rate {rate:.1f} codes/sec | "
+                    f"ETA {eta_minutes:.1f} min"
+                )
+
+    print()
+    print("Done.")
+    print(f"Total found courses saved: {found_count}")
+    print(f"CSV saved as: {OUTPUT_CSV}")
+
+
+if __name__ == "__main__":
+    scrape()

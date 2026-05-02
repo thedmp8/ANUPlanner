@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANU Course Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+
+      <section class="finder-panel course-planner" aria-label="Search courses">
+        <header class="finder-header">
+          <div>
+            <p class="eyebrow">Course Finder</p>
+            <h2>Build course/elective preferences</h2>
+          </div>
+          <span class="finder-count" id="course-count">Loading</span>
+        </header>
+
+        <div class="finder-search">
+          <label class="sr-only" for="course-search-input">Search courses</label>
+          <input
+            id="course-search-input"
+            type="search"
+            placeholder="Try COMP, MATH2322, accounting, psychology"
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="finder-results course-results" id="course-results" aria-live="polite"></div>
+
+        <div class="preference-builder" aria-label="Selected course and elective preferences">
+          <div class="preference-header">
+            <strong>Preference order 1-5</strong>
+            <div class="preference-tools">
+              <span id="preference-count">0 / 5 selected</span>
+              <button class="small-button secondary" id="clear-preferences" type="button">Clear</button>
+            </div>
+          </div>
+          <div class="preference-list" id="preference-list"></div>
+        </div>
+      </section>
+
+      <section class="finder-panel exchange-panel" aria-label="Search ANU exchange programs">
+        <header class="finder-header">
+          <div>
+            <p class="eyebrow">Exchange Finder</p>
+            <h2>Search ANU exchange programs</h2>
+          </div>
+          <span class="finder-count" id="program-count">Loading</span>
+        </header>
+
+        <div class="finder-search">
+          <label class="sr-only" for="program-search-input">Search exchange programs</label>
+          <input
+            id="program-search-input"
+            type="search"
+            placeholder="Try Japan, Copenhagen, Bocconi"
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="finder-results exchange-results" id="program-results" aria-live="polite"></div>
+
+        <div class="preference-builder exchange-preference-builder" aria-label="Selected exchange preferences">
+          <div class="preference-header">
+            <strong>Exchange preference order 1-5</strong>
+            <div class="preference-tools">
+              <span id="exchange-preference-count">0 / 5 selected</span>
+              <button class="small-button secondary" id="clear-exchange-preferences" type="button">
+                Clear
+              </button>
+            </div>
+          </div>
+          <div class="preference-list exchange-preference-list" id="exchange-preference-list"></div>
+        </div>
+      </section>
+
+      <section class="chat-panel" aria-label="Exchange Assessment">
+        <header class="chat-header">
+          <div>
+            <p class="eyebrow">Exchange Assessment</p>
+            <h1>ANU Course Planner</h1>
+          </div>
+          <div style="display:flex;gap:0.25rem;margin-right:auto;align-self:flex-start;padding-top:2px">
+            <a href="http://localhost:5115" target="_blank" style="font-size:0.72rem;padding:0.2rem 0.6rem;border-radius:9999px;color:#6B6B6B;background:#F5F3F0;text-decoration:none;white-space:nowrap">ANUPlanner</a>
+            <a href="http://localhost:3001" target="_blank" style="font-size:0.72rem;padding:0.2rem 0.6rem;border-radius:9999px;color:#1A1A1A;background:#B8860B;text-decoration:none;white-space:nowrap;font-weight:600;color:#fff">ANUPlanner-jacky</a>
+          </div>
+          <span class="status-pill" id="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span id="status-text">Ready</span>
+          </span>
+        </header>
+
+        <section class="assessment-controls" aria-label="Generate or ask a follow-up">
+          <label class="sr-only" for="assessment-notes">Notes or follow-up question</label>
+          <textarea
+            id="assessment-notes"
+            rows="2"
+            placeholder="Optional notes, e.g. prefer English-speaking destinations"
+          ></textarea>
+          <div class="assessment-actions">
+            <button type="button" id="generate-assessment-button">Generate assessment</button>
+            <button type="button" id="ask-button" hidden>Ask</button>
+          </div>
+          <p class="assessment-status" id="assessment-status">
+            Add course/elective preferences and exchange preferences, then generate a report.
+          </p>
+        </section>
+
+        <div class="report-chat-area">
+          <section class="assessment-report" id="assessment-report" aria-live="polite"></section>
+          <div class="messages" id="messages" aria-live="polite"></div>
+        </div>
+
+        <!-- Hidden form used by existing chat submit logic -->
+        <form id="chat-form" hidden aria-hidden="true">
+          <textarea id="message-input" name="message" tabindex="-1" aria-hidden="true"></textarea>
+          <button type="submit" id="send-button" tabindex="-1" aria-hidden="true">Send</button>
+        </form>
+      </section>
+
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

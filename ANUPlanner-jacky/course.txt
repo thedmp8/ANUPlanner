@@ -1,0 +1,4569 @@
+CLAS1005
+Ancient Rome: History, Culture, and Society
+Second Semester	Undergraduate	6	In Person
+EXCH5721
+Exchange Program College of Systems and Society (Band 1)
+Undergraduate	6	In Person
+EXCH5722
+Exchange Program College of Systems and Society (Band 2)
+Undergraduate	6	In Person
+COMP4703
+Vulnerability Research and Exploit Mitigation
+First Semester	Undergraduate	6	In Person
+CBEA3070
+ANU College of Business and Economics Internship Program (UG)
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BIOL3188
+ANU SynBio Challenge Team Project
+Second Semester	Undergraduate	6	In Person
+HLTH3001
+Aboriginal and Torres Strait Islander Health
+First Semester	Undergraduate	6	In Person
+HIST2022
+Aboriginal and Torres Strait Islander History
+First Semester	Undergraduate	6	In Person
+BUSN4500
+Accounting Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+INFS2005
+Accounting Information Systems
+First Semester	Undergraduate	6	In Person
+BUSN1002
+Accounting Processes and Systems
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN3001
+Accounting Theory
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ACST4031
+Actuarial Control Cycle 1
+First Semester	Undergraduate	6	In Person
+ACST4032
+Actuarial Control Cycle 2
+Second Semester	Undergraduate	6	In Person
+ACST3032
+Actuarial Data Analysis
+Second Semester	Undergraduate	6	In Person
+ACST4062
+Actuarial Data Analysis
+Second Semester	Undergraduate	6	In Person
+ACST4500
+Actuarial Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STAT3038
+Actuarial Techniques
+Second Semester	Undergraduate	6	In Person
+ENGL2067
+Adaptation: From Text to Screen
+Undergraduate	6	In Person
+LAWS2201
+Administrative Law
+First Semester	Undergraduate	6	In Person
+BUSN3051
+Advanced Accounting Data Analytics
+Second Semester	Undergraduate	6	In Person
+LAWS4262
+Advanced Administrative Law
+Second Semester	Undergraduate	6	In Person
+MATH2322
+Advanced Algebra 1: Groups, Rings and Linear Algebra
+Second Semester	Undergraduate	6	In Person
+MATH3345
+Advanced Algebra 2: Field extensions and Galois Theory
+First Semester	Undergraduate	6	In Person
+COMP4600
+Advanced Algorithms
+First Semester	Undergraduate	6	In Person
+MATH2320
+Advanced Analysis 1: Metric Spaces and Applications
+First Semester	Undergraduate	6	In Person
+MATH3320
+Advanced Analysis 2: Lebesgue Integration and Hilbert Spaces
+First Semester	Undergraduate	6	In Person
+GREK3125
+Advanced Ancient Greek
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARAB3001
+Advanced Arabic 1
+First Semester	Undergraduate	6	Online or In Person
+ARAB3002
+Advanced Arabic 2
+Second Semester	Undergraduate	6	Online or In Person
+ARAB3100
+Advanced Arabic 3
+Undergraduate	6	Online
+ECON4480
+Advanced Behavioral Economics
+Second Semester	Undergraduate	6	In Person
+ECON3180
+Advanced Behavioral Economics
+Undergraduate	6	In Person
+MATH3228
+Advanced Complex Analysis
+Second Semester	Undergraduate	6	In Person
+COMP4820
+Advanced Computing Internship
+First Semester / ​Second Semester	Undergraduate	12	In Person
+FINM4015
+Advanced Corporate Finance
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGL3078
+Advanced Creative Writing: Genre and Literary Value
+Undergraduate	6	In Person
+CRIM4001
+Advanced Criminology Seminar
+First Semester	Undergraduate	6	In Person
+FINM3007
+Advanced Derivatives Pricing and Applications
+Second Semester	Undergraduate	6	In Person
+MATH3342
+Advanced Differential Geometry
+First Semester	Undergraduate	6	In Person
+EMET4314
+Advanced Econometrics I
+First Semester	Undergraduate	6	In Person
+EMET4308
+Advanced Econometrics II
+Undergraduate	6	In Person
+PHYS3102
+Advanced Electromagnetism
+First Semester	Undergraduate	6	In Person
+BIOL3303
+Advanced Field Studies in Functional Ecology
+Undergraduate	6	In Person
+FREN3103
+Advanced French Studies I
+First Semester	Undergraduate	6	In Person
+FREN3104
+Advanced French Studies II
+Second Semester	Undergraduate	6	In Person
+MATH3325
+Advanced Functional Analysis, Spectral Theory, and Applications
+Second Semester	Undergraduate	6	In Person
+PERS3002
+Advanced Functional Persian
+Undergraduate	6	Online
+STAT3065
+Advanced General Insurance
+First Semester	Undergraduate	6	In Person
+GERM3103
+Advanced German Studies I
+First Semester	Undergraduate	6	In Person
+GERM3104
+Advanced German Studies II
+Second Semester	Undergraduate	6	In Person
+CHEM3203
+Advanced Inorganic Chemistry
+First Semester	Undergraduate	6	In Person
+LAWS4264
+Advanced International Law
+Second Semester	Undergraduate	6	In Person
+FINM4106
+Advanced Investments
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ITAL3103
+Advanced Italian Studies I
+Undergraduate	6	In Person
+ITAL3104
+Advanced Italian Studies II
+Second Semester	Undergraduate	6	In Person
+JPNS3005
+Advanced Japanese
+Second Semester	Undergraduate	6	In Person
+KORE3015
+Advanced Korean A: Film and Society
+First Semester	Undergraduate	6	In Person
+KORE3018
+Advanced Korean B: Culture and History
+Second Semester	Undergraduate	6	In Person
+LATN3125
+Advanced Latin
+First Semester / ​Second Semester	Undergraduate	6	In Person
+CHIN3015
+Advanced Literary Chinese
+First Semester / ​Second Semester	Undergraduate	6	Online or In Person
+BUSN3003
+Advanced Management Accounting
+Undergraduate	6	In Person
+MATH3353
+Advanced Mathematical Bioinformatics
+First Semester	Undergraduate	6	In Person
+STAT3056
+Advanced Mathematical Statistics
+Second Semester	Undergraduate	6	In Person
+MATH1116
+Advanced Mathematics and Applications 2
+Second Semester	Undergraduate	6	In Person
+MATH1115
+Advanced Mathematics and Applications 1
+First Semester	Undergraduate	6	In Person
+ARCH3043
+Advanced Methods in Environmental Archaeology
+Spring Session	Undergraduate	6	In Person
+BIOL3203
+Advanced Microscopy in Biosciences
+Winter Session	Undergraduate	6	In Person
+MUSI3330
+Advanced Music Recording and Post-Production Techniques
+First Semester	Undergraduate	6	In Person
+PERS3005
+Advanced Persian A
+Undergraduate	6	Online
+PERS3006
+Advanced Persian B
+Undergraduate	6	Online
+PHIL3074
+Advanced Philosophical Topics
+Second Semester	Undergraduate	6	In Person
+CHEM3204
+Advanced Protein Technologies: Laboratory course
+Winter Session	Undergraduate	6	In Person
+ECON4434
+Advanced Public Economics
+First Semester	Undergraduate	6	In Person
+PHYS3101
+Advanced Quantum Mechanics
+First Semester	Undergraduate	6	In Person
+ENGN4222
+Advanced Reactor Science
+Second Semester	Undergraduate	6	In Person
+LING4106
+Advanced Readings in Linguistics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PSYC3018
+Advanced Research Methods
+First Semester	Undergraduate	6	In Person
+LING3036
+Advanced Sociolinguistics
+Undergraduate	6	In Person
+SPAN3030
+Advanced Spanish topics in Language and Culture
+Second Semester	Undergraduate	6	In Person
+STAT3050
+Advanced Statistical Learning
+Second Semester	Undergraduate	6	In Person
+STAT4050
+Advanced Statistical Learning
+Second Semester	Undergraduate	6	In Person
+PHYS3103
+Advanced Statistical Mechanics
+Second Semester	Undergraduate	6	In Person
+STAT3006
+Advanced Stochastic Processes
+Second Semester	Undergraduate	6	In Person
+SCNC3101
+Advanced Studies Course
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+SCNC2101
+Advanced Studies Course
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+BPHB1114
+Advanced Studies in the Social Sciences and Humanities 1
+Second Semester	Undergraduate	6	In Person
+BPHB2114
+Advanced Studies in the Social Sciences and Humanities 2
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+BPHB3114
+Advanced Studies in the Social Sciences and Humanities 3
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+MATH3354
+Advanced Topics in Algebra
+Second Semester	Undergraduate	6	In Person
+COMP4620
+Advanced Topics in Artificial Intelligence
+Second Semester	Undergraduate	6	In Person
+COMP4045
+Advanced Topics in Computer Systems
+Second Semester	Undergraduate	6	In Person
+COMP4011
+Advanced Topics in Formal Methods and Programming Languages
+Second Semester	Undergraduate	6	In Person
+COMP4020
+Advanced Topics in Human-Centred and Creative Computing
+Second Semester	Undergraduate	6	In Person
+COMP4680
+Advanced Topics in Machine Learning
+First Semester	Undergraduate	6	In Person
+MATH3351
+Advanced Topics in Mathematical Physics
+Second Semester	Undergraduate	6	In Person
+PHIL4011
+Advanced Topics in Philosophy
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PHIL4012
+Advanced Topics in Philosophy 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BIOL3144
+Advanced and Applied Immunology
+Second Semester	Undergraduate	6	In Person
+BIOL3107
+Advances in Medical and Plant Biochemistry
+First Semester	Undergraduate	6	In Person
+BIOL3177
+Advances in Molecular Plant Science
+First Semester	Undergraduate	6	In Person
+ENGN3338
+Aerodynamics
+First Semester	Undergraduate	6	In Person
+ENGN4339
+Aerospace Instrumentation and Avionics
+Second Semester	Undergraduate	6	In Person
+ENGN3339
+Aerospace Structures and Materials
+First Semester	Undergraduate	6	In Person
+ENVS3042
+Agricultural Innovation
+Second Semester	Undergraduate	6	In Person
+ENVS2024
+Agricultural Science
+Winter Session	Undergraduate	6	In Person
+ASIA2747
+Airlines in Asia and the Pacific: Histories, Technologies, Cultures, and Geographies
+Undergraduate	6	In Person
+CRIM2005
+Alcohol, Drugs and Crime: Promoting Health and Preventing Consequences
+Second Semester	Undergraduate	6	In Person
+CLAS2015
+Alexander the Great and the Hellenistic World: An Age of Transformation and Discovery
+Undergraduate	6	In Person
+MATH1003
+Algebra and Calculus Methods
+First Semester	Undergraduate	6	In Person
+MATH4204
+Algebraic Topology Honours
+Second Semester	Undergraduate	6	In Person
+COMP3600
+Algorithms
+Second Semester	Undergraduate	6	In Person
+ENGL3021
+American Literature: Nature, Retreat, Experiment
+Undergraduate	6	In Person
+BUSN4007
+Analysis of Financial Reporting
+First Semester	Undergraduate	6	In Person
+MEDN1101
+Anatomy and Physiology 1
+First Semester	Undergraduate	6	In Person
+MEDN2201
+Anatomy and Physiology 2
+Second Semester	Undergraduate	6	In Person
+CLAS1006
+Ancient Greece: History, Culture and Society
+Undergraduate	6	In Person
+BIAN3125
+Ancient Health and Disease
+Second Semester	Undergraduate	6	In Person
+ARCH2030
+Angkor: Power and Glory. The Rise of States in Southeast Asia
+Undergraduate	6	Online or In Person
+ARCH3108
+Animal and Plant Domestication
+Undergraduate	6	In Person
+BIAN2064
+Anthropology of Environmental Disasters
+First Semester	Undergraduate	6	In Person
+ANTH1003
+Anthropology: Critical Foundations
+Second Semester	Undergraduate	6	In Person
+ENGN4430
+Applied AI for Electronic Systems
+Undergraduate	6	In Person
+ARAB3010
+Applied Arabic
+Spring Session	Undergraduate	12	In Person
+EMSC3033
+Applied Geophysics
+Undergraduate	6	In Person
+EMET4310
+Applied Macro & Financial Econometrics
+Undergraduate	6	In Person
+EMET3008
+Applied Macro and Financial Econometrics
+Second Semester	Undergraduate	6	In Person
+PHYS4301
+Applied Mathematical Methods in Physics
+First Semester	Undergraduate	6	In Person
+MATH2305
+Applied Mathematics I
+First Semester	Undergraduate	6	In Person
+MATH2306
+Applied Mathematics II
+Second Semester	Undergraduate	6	In Person
+EMET3006
+Applied Micro-econometrics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+EMET4301
+Applied Micro-econometrics
+Undergraduate	6	In Person
+PHYS3051
+Applied Optics
+Second Semester	Undergraduate	6	In Person
+ENGN4613
+Applied Optics
+Second Semester	Undergraduate	6	In Person
+STAT4102
+Applied Time Series Analysis
+Second Semester	Undergraduate	6	In Person
+MMIB4001
+Applied Topics in Business Honours Studies
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON4040
+Applied Welfare Economics
+Undergraduate	6	In Person
+BIOL3210
+Appreciating Parasites: From Molecules to Ecosystems
+Spring Session	Undergraduate	6	In Person
+HIST2110
+Approaches to History
+First Semester	Undergraduate	6	In Person
+HIST3110
+Approaches to History
+First Semester	Undergraduate	6	In Person
+ARCH2061
+Archaeological Field Methods
+Second Semester	Undergraduate	6	In Person
+ARCH2055
+Archaeological Field Schools and Fieldwork Practice
+Spring Session	Undergraduate	6	In Person
+ARCH2007
+Archaeological Laboratory Methods
+First Semester	Undergraduate	6	In Person
+ARCH4003
+Archaeology and Biological Anthropology Honours Writing Seminar
+Second Semester	Undergraduate	6	In Person
+ARCH2220
+Archaeology and Cultural Heritage Field Schools
+Summer Session / ​Winter Session	Undergraduate	6	In Person
+ARCH2052
+Archaeology in Film and Fiction
+Undergraduate	6	In Person
+ASIA2203
+Archaeology of China
+Second Semester	Undergraduate	6	In Person
+ARCH3030
+Archaeology of Ritual and Religion
+First Semester	Undergraduate	6	In Person
+ARCH2050
+Archaeology of Southeast Asia
+Second Semester	Undergraduate	6	In Person
+ARCH2005
+Archaeology of the Pacific Islanders
+Undergraduate	6	In Person
+ARTH1006
+Art History and Curatorial Studies 1: Classicism to Modernity
+First Semester	Undergraduate	6	Online or In Person
+ARTH1007
+Art History and Curatorial Studies 2: Vision and Materiality
+Second Semester	Undergraduate	6	In Person
+ARTH2001
+Art History and Curatorial Studies In-Country
+Undergraduate	12	In Person
+ARTH4030
+Art Museum Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	12	In Person
+ARTH3005
+Art and Colour: Pigment and Politics
+Undergraduate	6	In Person
+COMP1720
+Art and Interaction Computing
+Undergraduate	6	In Person
+ARTH2044
+Art and Its Context: Materials, Techniques, Display
+Undergraduate	6	In Person
+ARTH3057
+Art and Politics of Collecting
+Undergraduate	6	In Person
+ARTH2174
+Art and the Body: Gender and Sexuality
+First Semester	Undergraduate	6	In Person
+ARTH2040
+Art and the Environment: Creative Practice and Ecologies
+Second Semester	Undergraduate	6	In Person
+ARTV2066
+Art in Context
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTH2052
+Art of the Multiple
+Undergraduate	6	In Person
+COMP3620
+Artificial Intelligence
+First Semester	Undergraduate	6	In Person
+LAWS4251
+Artificial Intelligence and the Law
+Second Semester	Undergraduate	6	In Person
+ASIA3023
+Asia Pacific Week Internship
+First Semester	Undergraduate	6	In Person
+ASIA1030
+Asia and the Pacific in Motion
+Second Semester	Undergraduate	6	In Person
+ASIA1025
+Asia and the Pacific: Power, diversity and change
+First Semester	Undergraduate	6	In Person
+ASIA3220
+Asia-Pacific In-Country Learning
+Spring Session	Undergraduate	6	In Person
+FINM3045
+Asian Capital Markets
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ASIA2067
+Asian Economies
+Undergraduate	6	In Person
+ARTH2169
+Asian Modernisms: Art, Nation and World, c.1860-1970
+Undergraduate	6	In Person
+ASIA2065
+Asia’s Changing Politics in Comparative Perspective
+Undergraduate	6	In Person
+ASTR4004
+Astronomical Computing
+Second Semester	Undergraduate	6	In Person
+ASTR4005
+Astronomy and Astrophysics IV Honours Research Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ASTR1003
+Astronomy and Space
+Summer Session / ​First Semester / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online
+ASTR3013
+Astrophysical Processes
+First Semester	Undergraduate	6	In Person
+ASTR4021
+Astrophysical Processes II
+Second Semester	Undergraduate	6	In Person
+ASTR1001
+Astrophysics
+Summer Session / ​First Semester / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+ASTR3005
+Astrophysics Research Topic
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN3002
+Auditing
+First Semester	Undergraduate	6	In Person
+STST2003
+Australia and Security in the Pacific Islands
+First Semester	Undergraduate	6	Online or In Person
+PASI2002
+Australia in Oceania in the 19th and 20th Centuries
+Undergraduate	6	Online or In Person
+ENVS1004
+Australia's Environment
+Second Semester	Undergraduate	6	In Person
+ARCH2004
+Australian Archaeology
+First Semester	Undergraduate	6	In Person
+ARTH2098
+Australian First Nations Art and Culture
+Undergraduate	6	In Person
+CBEA2001
+Australian Indigenous Perspectives in Business and Economics
+First Semester	Undergraduate	6	In Person
+INDG3004
+Australian Indigenous Studies Research Project
+Second Semester	Undergraduate	6	In Person
+ANIP3003
+Australian National Internships Program A
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ANIP3005
+Australian National Internships Program B
+First Semester / ​Second Semester	Undergraduate	12	In Person
+ANIP3007
+Australian National Internships Program D
+First Semester / ​Second Semester	Undergraduate	24	In Person
+LAWS4285
+Australian National Security Law
+Undergraduate	6	In Person
+HIST2227
+Australian Political History
+Second Semester	Undergraduate	6	In Person
+POLS2114
+Australian Politics
+First Semester	Undergraduate	6	In Person
+LAWS1205
+Australian Public Law
+First Semester	Undergraduate	6	In Person
+BIOL3213
+Australian Wildlife
+Second Semester	Undergraduate	6	In Person
+CBEA3003
+Australian and First Nations Business Immersion
+Undergraduate	6	In Person
+LING2040
+Austronesian Languages
+Undergraduate	6	In Person
+DESN2004
+Autonomous Agents: Natural and Algorithmic Systems in Art and Design
+Second Semester	Undergraduate	6	In Person
+ECON2013
+Behavioral Economics
+Undergraduate	6	In Person
+BIOL3131
+Behavioural Ecology
+First Semester	Undergraduate	6	In Person
+LAWS4005
+Beyond Chaos
+Undergraduate	6	In Person
+STAT3017
+Big Data Statistics
+Second Semester	Undergraduate	6	In Person
+ENGN4820
+Bio Micro and Nano Electro-Mechanical Systems (BioMEMS and BioNEMS)
+Undergraduate	6	In Person
+BIOL2171
+Biochemistry and Nutrition
+First Semester	Undergraduate	6	In Person
+ENVS3039
+Biodiversity Conservation
+Second Semester	Undergraduate	6	In Person
+ENVS2001
+Biodiversity Science: Wildlife, Vegetation and Landscape Ecology
+Second Semester	Undergraduate	6	In Person
+BIOL3191
+Bioethics and Society
+Undergraduate	6	In Person
+MATH2307
+Bioinformatics and Biological Modelling
+Second Semester	Undergraduate	6	In Person
+BIOL3157
+Bioinformatics and its Applications
+Undergraduate	6	In Person
+PSYC2007
+Biological Basis of Psychology
+Second Semester	Undergraduate	6	In Person
+BIOL3194
+Biological Sciences in the Workplace
+Second Semester	Undergraduate	6	In Person
+BIOL4001
+Biology IV Honours
+First Semester / ​Second Semester	Undergraduate	12	In Person
+BIOL3208
+Biology Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Second Semester	Undergraduate	6	In Person
+BIOL3209
+Biology Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Second Semester	Undergraduate	12	In Person
+MEDN3820
+Biomedical Imaging: Principles, Technologies and Applications in Health Sciences
+Second Semester	Undergraduate	6	In Person
+ENGN3820
+Biomedical Imaging: Principles, Technologies and Applications in Health Sciences
+Undergraduate	6	In Person
+BIOL3142
+Biomedical Parasitology
+First Semester	Undergraduate	6	In Person
+BIOL3106
+Biosecurity
+First Semester	Undergraduate	6	In Person
+POPH4101
+Biostatistics in Population Health
+First Semester	Undergraduate	6	Online or In Person
+HIST2221
+Britain in the Age of Revolutions and Empires 1688-1848
+Undergraduate	6	In Person
+PHIL2012
+Buddhist Philosophy
+Second Semester	Undergraduate	6	In Person
+POLS3009
+Bureaucracy, Politics and Power
+Second Semester	Undergraduate	6	In Person
+ASIA2039
+Burma/Myanmar: a Country in Crisis
+Undergraduate	6	In Person
+BURM1002
+Burmese 1
+First Semester	Undergraduate	6	Online
+BURM1003
+Burmese 2
+Second Semester	Undergraduate	6	Online
+BURM2001
+Burmese 3
+First Semester	Undergraduate	6	Online
+BURM2002
+Burmese 4
+Second Semester	Undergraduate	6	Online
+EMET4312
+Business & Economic Forecasting
+Undergraduate	6	In Person
+MGMT2003
+Business Decision Making
+Second Semester	Undergraduate	6	In Person
+MGMT3016
+Business Ethics
+Undergraduate	6	In Person
+INFS1001
+Business Information Systems
+First Semester	Undergraduate	6	In Person
+INFS4500
+Business Information Systems Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN1001
+Business Reporting and Analysis
+First Semester / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+EMET3007
+Business and Economic Forecasting
+Second Semester	Undergraduate	6	In Person
+MGMT3102
+Business and its Social Stakeholders
+Second Semester	Undergraduate	6	In Person
+BUSI3028
+Business in China
+First Semester	Undergraduate	6	In Person
+CHIN2024
+Cantonese 1
+First Semester	Undergraduate	6	In Person
+CHIN2025
+Cantonese 2
+Second Semester	Undergraduate	6	In Person
+ENGN4300
+Capstone Design Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MGMT2005
+Career Planning and Management
+Undergraduate	6	In Person
+CHEM3206
+Catalysis in Chemistry
+Second Semester	Undergraduate	6	In Person
+BIOL2117
+Cell Biology
+Second Semester	Undergraduate	6	In Person
+BIOL2174
+Cell Physiology in Health and Disease
+Second Semester	Undergraduate	6	In Person
+NEUR3101
+Cellular Neuroscience
+First Semester	Undergraduate	6	In Person
+ARTV1150
+Ceramics 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTV2150
+Ceramics 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+CHEM2211
+Chemical Biology 1
+First Semester	Undergraduate	6	In Person
+CHEM2208
+Chemical Biology 2
+Second Semester	Undergraduate	6	In Person
+CHEM2214
+Chemical Physics
+First Semester	Undergraduate	6	In Person
+CHEM2202
+Chemical Structure and Reactivity 1
+First Semester	Undergraduate	6	In Person
+CHEM2203
+Chemical Structure and Reactivity 2
+Second Semester	Undergraduate	6	In Person
+CHEM1101
+Chemistry 1
+First Semester	Undergraduate	6	In Person
+CHEM1201
+Chemistry 2
+Second Semester	Undergraduate	6	In Person
+CHEM4005
+Chemistry IV Honours (S)
+First Semester / ​Second Semester	Undergraduate	12	In Person
+LING2521
+Child Language Acquisition
+Second Semester	Undergraduate	6	In Person
+ASIA2014
+China: Language, Discourse, and Political Culture
+First Semester	Undergraduate	6	In Person
+INTR2012
+Chinese Foreign and Security Policy
+Undergraduate	6	In Person
+ASIA2044
+Chinese History: The Imperial Period (221 BC - 1800)
+First Semester	Undergraduate	6	In Person
+LAWS4276
+Chinese Law and Society
+Undergraduate	6	In Person
+LING2017
+Chinese Linguistics
+Undergraduate	6	In Person
+ASIA2003
+Chinese Literature
+Undergraduate	6	In Person
+ASIA2054
+Chinese Philosophy: Creation and Development
+Second Semester	Undergraduate	6	In Person
+CHIN3216
+Chinese-English Interpreting
+Undergraduate	6	In Person
+CHIN3041
+Chinese-English Translation
+Second Semester	Undergraduate	6	In Person
+SOCY2035
+Cities and Urban Transformation
+Summer Session	Undergraduate	6	In Person
+POLS4021
+Civilian Protection in Conflict and Post-Conflict Zones
+Undergraduate	6	In Person
+PHYS2201
+Classical Mechanics
+Second Semester	Undergraduate	6	In Person
+CLAS1003
+Classical Mythology
+First Semester	Undergraduate	6	In Person
+SOCY2040
+Classical Social Theory
+Second Semester	Undergraduate	6	In Person
+CLAS4022
+Classics Now!
+First Semester	Undergraduate	12	In Person
+ENVS3013
+Climate Change: Past, Present and Future
+First Semester	Undergraduate	6	In Person
+ENVS3020
+Climate Change: Science, Society, and Policy
+Winter Session	Undergraduate	6	In Person
+PHYS3039
+Climate Dynamics
+First Semester	Undergraduate	6	In Person
+EMSC3039
+Climate Dynamics
+First Semester	Undergraduate	6	In Person
+LAWS4274
+Climate Law
+Undergraduate	6	Online or In Person
+ENVS2004
+Climate and Its Applications
+First Semester	Undergraduate	6	In Person
+PSYC2008
+Cognition
+Second Semester	Undergraduate	6	In Person
+CBEA3001
+College of Business and Economics Special Industry Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4309
+Colonialism and the rule of law
+First Semester	Undergraduate	6	In Person
+LAWS4210
+Commercial Law
+Winter Session	Undergraduate	6	Online or In Person
+LAWS2202
+Commonwealth Constitutional Law
+Second Semester	Undergraduate	6	In Person
+SCOM3012
+Communicating Science Online
+Autumn Session	Undergraduate	6	In Person
+SCOM4014
+Communicating Science with the Public
+First Semester	Undergraduate	6	In Person
+MGMT2100
+Communication for Business
+First Semester / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+LING2034
+Communication in Health Care
+Undergraduate	6	In Person
+LAWS4268
+Community Law Clinic
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN2015
+Company Accounting
+First Semester / ​Second Semester	Undergraduate	6	In Person
+POLS3002
+Comparative European Politics
+First Semester	Undergraduate	6	Online or In Person
+LAWS4601
+Comparative Human Rights
+Undergraduate	6	In Person
+BIOL2115
+Comparative Physiology
+Second Semester	Undergraduate	6	In Person
+POLS4039
+Comparative Political Behavior
+Undergraduate	6	In Person
+POLS4038
+Comparative Political Institutions
+First Semester	Undergraduate	6	In Person
+POLS2010
+Comparative Politics
+Second Semester	Undergraduate	6	In Person
+LAWS4255
+Competition Law
+Second Semester	Undergraduate	6	In Person
+ECON3181
+Competition Policy and Regulation
+Undergraduate	6	In Person
+COMP4712
+Compiler Construction
+First Semester	Undergraduate	6	In Person
+ENVS3040
+Complex Environmental Problems in Action
+Second Semester	Undergraduate	6	In Person
+MUSI1114
+Composing for Film and Video Games
+Second Semester	Undergraduate	6	In Person
+MUSI2229
+Composition: Methods and Craft
+Second Semester	Undergraduate	6	In Person
+MEDN3007
+Computational Biomedicine Project
+Second Semester	Undergraduate	6	In Person
+CHEM3208
+Computational Chemistry
+Second Semester	Undergraduate	6	In Person
+COMP4880
+Computational Methods for Network Science
+Undergraduate	6	In Person
+ECON3127
+Computational Methods in Economics
+Undergraduate	6	In Person
+ECON4414
+Computational Methods in Economics
+Undergraduate	6	In Person
+COMP2300
+Computer Architecture
+First Semester	Undergraduate	6	In Person
+ENGN2219
+Computer Architecture
+First Semester	Undergraduate	6	In Person
+COMP4610
+Computer Graphics
+First Semester	Undergraduate	6	In Person
+ENGN3539
+Computer Networks
+First Semester	Undergraduate	6	In Person
+COMP3310
+Computer Networks
+First Semester	Undergraduate	6	In Person
+COMP4528
+Computer Vision
+First Semester	Undergraduate	6	In Person
+ENGN4528
+Computer Vision
+First Semester	Undergraduate	6	In Person
+COMP3820
+Computing Internship
+Undergraduate	12	In Person
+COMP2550
+Computing R&D Methods
+First Semester	Undergraduate	6	In Person
+COMP4450
+Computing Research Methods
+First Semester	Undergraduate	6	In Person
+COMP4550
+Computing Research Project
+First Semester / ​Second Semester	Undergraduate	12	In Person
+COMP3770
+Computing Research Project (R&D)
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4212
+Conflict of Laws
+First Semester	Undergraduate	6	In Person
+MKTG2031
+Consumer Behaviour
+First Semester	Undergraduate	6	In Person
+LAWS4259
+Consumer Protection and Product Liability Law
+Undergraduate	6	In Person
+ANTH3010
+Contemporary Anthropological Theory: Special Topics
+Second Semester	Undergraduate	6	In Person
+INDG2002
+Contemporary Australian Indigenous Music Studies
+Undergraduate	6	In Person
+DESN1003
+Contemporary Design In Context
+Second Semester	Undergraduate	6	In Person
+LAWS4213
+Contemporary Issues in Constitutional Law
+First Semester	Undergraduate	6	In Person
+MUSI3326
+Contemporary Music Production: Delivering an Independent Project
+Second Semester	Undergraduate	6	In Person
+MUSI3325
+Contemporary Music Production: Planning and Developing an Independent Project
+First Semester	Undergraduate	6	In Person
+SOCY2161
+Contemporary Social Theory
+Undergraduate	6	In Person
+GREK2119
+Continuing Ancient Greek
+Second Semester	Undergraduate	6	In Person
+FREN2101
+Continuing French Studies I
+First Semester	Undergraduate	6	In Person
+FREN2102
+Continuing French Studies II
+Second Semester	Undergraduate	6	In Person
+INDG2004
+Continuing Gamilaraay
+Second Semester	Undergraduate	6	Online or In Person
+GERM2101
+Continuing German Studies I
+First Semester	Undergraduate	6	In Person
+GERM2102
+Continuing German Studies II
+Second Semester	Undergraduate	6	In Person
+ITAL2101
+Continuing Italian Studies I
+First Semester	Undergraduate	6	In Person
+ITAL2102
+Continuing Italian Studies II
+Second Semester	Undergraduate	6	In Person
+LATN2119
+Continuing Latin
+Second Semester	Undergraduate	6	In Person
+SPAN2001
+Continuing Spanish Studies I
+First Semester	Undergraduate	6	In Person
+SPAN2002
+Continuing Spanish Studies II
+Second Semester	Undergraduate	6	In Person
+FINM3003
+Continuous Time Finance
+First Semester	Undergraduate	6	In Person
+LAWS1204
+Contracts
+Second Semester	Undergraduate	6	In Person
+ENGN3223
+Control Systems
+Second Semester	Undergraduate	6	In Person
+CRIM2003
+Controversies in Crime Control
+Undergraduate	6	In Person
+EMSC3019
+Coral Reef Field Studies
+Spring Session	Undergraduate	6	In Person
+FINM2001
+Corporate Finance
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN4045
+Corporate Governance (Honours)
+Second Semester	Undergraduate	6	In Person
+BUSN3017
+Corporate Social Responsibility, Accountability and Reporting
+Second Semester	Undergraduate	6	In Person
+MGMT3015
+Corporate Strategy
+First Semester	Undergraduate	6	In Person
+MGMT2001
+Corporate Sustainability
+First Semester	Undergraduate	6	In Person
+FINM3005
+Corporate Valuation
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS2203
+Corporations Law
+First Semester	Undergraduate	6	In Person
+LAWS4597
+Corporations, Law and Technology
+Second Semester	Undergraduate	6	Online or In Person
+LING3038
+Corpus Linguistics
+First Semester	Undergraduate	6	In Person
+CRIM3002
+Corruption in Sport
+Second Semester	Undergraduate	6	In Person
+CRIM2009
+Corruption in our world
+Undergraduate	6	In Person
+INDG1001
+Country, Kinship and Continuities: An Introduction to Australian Indigenous Studies
+First Semester	Undergraduate	6	In Person
+DESN2003
+Creative Data Visualisation: Representing Data in Visual and Material Form
+Undergraduate	6	In Person
+ENGL4021
+Creative Reading: Topics in Theory, Methodology and Interpretation
+First Semester	Undergraduate	6	Online or In Person
+ARTV3033
+Creative Research Practice: Developing an Independent Work Proposal
+First Semester	Undergraduate	6	In Person
+ARTV3035
+Creative Research Practice: Extending and Consolidating an Independent Project
+Second Semester	Undergraduate	12	In Person
+ARTV3034
+Creative Research Practice: Extending and Consolidating an Independent Work Proposal
+Undergraduate	6	In Person
+ENGL2015
+Creative Writing
+First Semester	Undergraduate	6	In Person
+ENGL2077
+Creative Writing 2: Story to Script to Performance
+Second Semester	Undergraduate	6	In Person
+CRIM3006
+Crime Prevention: Evaluation Theory and Practice
+Second Semester	Undergraduate	6	In Person
+HIST2232
+Crime and Justice: Historical Dilemmas
+Undergraduate	6	In Person
+LAWS1206
+Criminal Law and Procedure
+First Semester	Undergraduate	6	In Person
+CRIM1001
+Criminological Imaginations: Understanding Criminality
+First Semester	Undergraduate	6	In Person
+CRIM1002
+Criminological Perspectives: Understanding Crime
+Second Semester	Undergraduate	6	In Person
+CRIM3003
+Criminology at the Scene 1
+Undergraduate	6	In Person
+LAWS4395
+Critical Approaches to International Law
+Second Semester	Undergraduate	6	Online or In Person
+EMSC1017
+Critical Minerals for The Energy Transition – Technology, Environment, & Geopolitics
+Second Semester	Undergraduate	6	In Person
+MEAS3003
+Critical Perspectives on Arabic Culture
+First Semester	Undergraduate	6	Online or In Person
+LING2021
+Cross Cultural Communication
+First Semester	Undergraduate	6	In Person
+ARTH2176
+Cross Currents in Australian First Nations and Non-Indigenous Art and Culture
+Undergraduate	6	In Person
+BUSI3029
+Cross-Cultural Management
+Second Semester	Undergraduate	6	In Person
+ANTH2129
+Crossing Borders: Migration, Displacement and Im/mobility
+First Semester	Undergraduate	6	In Person
+ANTH2009
+Culture and Development
+First Semester	Undergraduate	6	In Person
+ASIA2088
+Culture and Environment in Indonesia
+Second Semester	Undergraduate	6	In Person
+ANTH1002
+Culture and Human Diversity: Introducing Anthropology
+First Semester	Undergraduate	6	In Person
+ASIA2302
+Culture and Modernity in Asia: Anthropological Perspectives
+Second Semester	Undergraduate	6	In Person
+PSYC2012
+Culture and Psychology
+First Semester	Undergraduate	6	In Person
+ANTH2017
+Culture, Social Justice and Aboriginal Society Today
+First Semester	Undergraduate	6	In Person
+ASIA3031
+Cultures in Korean Society: Filmic Dramatisations of History
+First Semester	Undergraduate	6	In Person
+ENGL4019
+Cultures of Criticism
+Winter Session	Undergraduate	6	In Person
+ANTH2020
+Cultures of Innovation: Anthropology of Science and Technology
+Undergraduate	6	In Person
+ARTH3001
+Curatorial Practice
+First Semester	Undergraduate	6	In Person
+ARTH4025
+Curatorial Project
+First Semester	Undergraduate	12	In Person
+CHEM3207
+Current Topics in Chemical and Synthetic Biology
+Second Semester	Undergraduate	6	In Person
+COMP2700
+Cyber Security Foundations
+First Semester	Undergraduate	6	In Person
+CRIM2010
+Cybercrime: an introduction
+Second Semester	Undergraduate	6	In Person
+BIAN4011
+Data Analysis and Methods in Biological Anthropology
+First Semester	Undergraduate	6	Online or In Person
+COMP4425
+Data Mining
+Undergraduate	6	In Person
+COMP3425
+Data Mining
+First Semester	Undergraduate	6	In Person
+EMSC4123
+Data Science
+Undergraduate	6	In Person
+BIOL3207
+Data Science for Biologists
+First Semester	Undergraduate	6	In Person
+EMSC2010
+Data Science for Earth System Scientists
+First Semester	Undergraduate	6	In Person
+COMP3430
+Data Wrangling
+Second Semester	Undergraduate	6	In Person
+SOCR3001
+Data for Decision Making
+First Semester	Undergraduate	6	In Person
+JPNS3102
+Debating Japan: Contemporary Intellectual Debates
+First Semester	Undergraduate	6	Online or In Person
+INDG4001
+Decolonising Methodologies and other Indigenous Perspectives on Research
+Second Semester	Undergraduate	6	In Person
+COMP3242
+Deep Learning
+First Semester	Undergraduate	6	In Person
+POLS3126
+Democracy and Dictatorship
+Second Semester	Undergraduate	6	In Person
+HIST2240
+Democracy and Dissent: Europe Since 1945
+Undergraduate	6	In Person
+POLS4019
+Democracy and its Discontents
+Second Semester	Undergraduate	6	In Person
+CLAS2014
+Democrats, Tyrants, and Emperors: The Art of Government in the Ancient Mediterranean
+First Semester	Undergraduate	6	In Person
+DEMO3002
+Demographic Research Internship
+First Semester / ​Second Semester	Undergraduate	6	In Person
+DEMO4011
+Demography Honours Seminar in Theory and Methods
+Undergraduate	12	In Person
+FINM2002
+Derivatives
+First Semester / ​Second Semester	Undergraduate	6	In Person
+DESN4012
+Design Research: Communication and Presentation
+Second Semester	Undergraduate	12	In Person
+DESN4011
+Design Research: Theory and Methods
+First Semester	Undergraduate	12	In Person
+DESN3011
+Design Studio: Engagement and Collaboration
+Second Semester	Undergraduate	6	In Person
+DESN3010
+Design Studio: Independent Practice
+First Semester	Undergraduate	6	In Person
+DESN3012
+Design Studio: Professional Practice
+Undergraduate	6	In Person
+DESN2008
+Design Thinking: Human-Centred Design Methodologies
+Second Semester	Undergraduate	6	In Person
+MGMT2009
+Design Thinking: Human-Centred Innovation
+First Semester	Undergraduate	6	In Person
+STAT4029
+Design of Experiments and Surveys
+First Semester	Undergraduate	6	In Person
+STAT3012
+Design of Experiments and Surveys
+First Semester	Undergraduate	6	In Person
+ECON4409
+Development Poverty & Famine
+Second Semester	Undergraduate	6	In Person
+ECON2900
+Development Poverty and Famine
+Second Semester	Undergraduate	6	In Person
+BIOL3109
+Developmental Biology
+First Semester	Undergraduate	6	In Person
+PSYC2002
+Developmental Psychology
+Undergraduate	6	In Person
+PSYC3202
+Developmental Psychology
+First Semester	Undergraduate	6	In Person
+LING2023
+Dictionaries and Dictionary-Making
+Undergraduate	6	In Person
+ASTR4020
+Diffuse Matter and Star Formation
+Undergraduate	6	In Person
+ARTH2181
+Digital Approaches to Art History and Curatorship
+Undergraduate	6	In Person
+ENGN3226
+Digital Communications
+First Semester	Undergraduate	6	In Person
+HUMN4028
+Digital Culture and Society - Critical Theories and Methodologies
+Undergraduate	6	Online or In Person
+DESN2001
+Digital Form and Fabrication
+First Semester	Undergraduate	6	In Person
+MUSI3309
+Digital Music: Platforms, Content and AI
+First Semester	Undergraduate	6	In Person
+ENGN4537
+Digital Signal Processing
+Second Semester	Undergraduate	6	In Person
+ENGN4213
+Digital Systems and Microprocessors
+First Semester	Undergraduate	6	In Person
+MATH1005
+Discrete Mathematical Models
+First Semester	Undergraduate	6	In Person
+CRIM3005
+Diversity and Crime: Equality in the Criminal Justice System
+First Semester	Undergraduate	6	In Person
+BIOL1009
+Diversity of Life
+Undergraduate	6	In Person
+BIOL1030
+Diversity of Life
+Second Semester	Undergraduate	6	In Person
+COMP4650
+Document Analysis
+Second Semester	Undergraduate	6	In Person
+CRIM3010
+Doing Criminology: Advanced Research Methods
+First Semester	Undergraduate	6	In Person
+ARTV2752
+Drawing 2
+Second Semester	Undergraduate	6	In Person
+EMSC3034
+Dynamic Earth: Plates, Plumes and Mantle Convection
+Second Semester	Undergraduate	6	In Person
+BUSI2023
+Dynamics of Asian Business
+Second Semester	Undergraduate	6	In Person
+BUSI2024
+Dynamics of Business in the Middle East
+Undergraduate	6	In Person
+BUSI2034
+Dynamics of European Business
+First Semester	Undergraduate	6	In Person
+MKTG2032
+E-Marketing
+Second Semester	Undergraduate	6	In Person
+EMSC1008
+EARTH: The Chemistry and Physics of our Planet
+Second Semester	Undergraduate	6	In Person
+MUSI1117
+Ears and Dots: Aural and Theory For The Modern World
+First Semester	Undergraduate	6	In Person
+EMSC4005
+Earth and Marine Sciences Honours Thesis
+First Semester / ​Second Semester	Undergraduate	3	In Person
+BIOL2131
+Ecology
+Undergraduate	6	In Person
+EMET2007
+Econometrics I: Econometric Methods
+First Semester	Undergraduate	6	In Person
+EMET4007
+Econometrics I: Econometric Methods
+First Semester	Undergraduate	6	In Person
+EMET3004
+Econometrics II: Econometric Modelling
+Undergraduate	6	In Person
+ANTH2122
+Economic Anthropology: cross-cultural alternatives to capitalism
+Undergraduate	6	In Person
+EMSC3007
+Economic Geology
+Second Semester	Undergraduate	6	In Person
+ECON4500
+Economic Growth
+First Semester	Undergraduate	6	In Person
+ECON3023
+Economic Policy Issues
+Undergraduate	6	In Person
+ECON4403
+Economic Policy Issues
+Undergraduate	6	In Person
+ECON3100
+Economics 3 (H)
+Second Semester	Undergraduate	6	In Person
+ECON4488
+Economics Honours Research Essay
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON1100
+Economics I (H)
+Second Semester	Undergraduate	6	In Person
+ECON2016
+Economics II (H)
+Second Semester	Undergraduate	6	In Person
+ENVS2007
+Economics for the Environment
+First Semester	Undergraduate	6	In Person
+SOCY1004
+Economy and Society
+Second Semester	Undergraduate	6	In Person
+SOCY3050
+Education and Society
+Second Semester	Undergraduate	6	In Person
+MEAS3008
+Egypt: Social and Political Dynamics in a Changing Middle East
+Undergraduate	6	Online or In Person
+POLS3111
+Elections, Political Behaviour and Public Opinion in Australia
+Undergraduate	6	In Person
+PHYS2016
+Electromagnetism
+Second Semester	Undergraduate	6	In Person
+ENGN2218
+Electronic Systems and Design
+First Semester	Undergraduate	6	In Person
+TURK1001
+Elementary Turkish A
+Undergraduate	6	Online or In Person
+TURK1002
+Elementary Turkish B
+Undergraduate	6	Online
+POLS3004
+Emotions in International Politics
+Undergraduate	6	In Person
+HIST2070
+Emperors, Pilgrims and Crusaders: The World of Byzantium
+Second Semester	Undergraduate	6	In Person
+ENGL2068
+Empire: the Black Atlantic and Colonial Romanticism
+Undergraduate	6	In Person
+HIST1214
+Empires in Global History
+First Semester	Undergraduate	6	In Person
+CBEA2000
+Employability Fundamentals for Professional Practice
+Undergraduate	6	Online or In Person
+ENGN3516
+Energy Resources and Renewable Technologies
+Second Semester	Undergraduate	6	In Person
+ASIA3021
+Engaging Asia: Australia and the Asian Century
+Undergraduate	6	In Person
+ENGN1211
+Engineering Design 1: Discovering Engineering
+First Semester	Undergraduate	6	In Person
+ENGN2300
+Engineering Design 2: Systems Approaches for Design
+First Semester	Undergraduate	6	In Person
+ENGN2301
+Engineering Design 3: Systems Approaches for Analysis
+Second Semester	Undergraduate	6	In Person
+ENGN3300
+Engineering Design 4A: Systems Approaches for Management
+First Semester	Undergraduate	6	In Person
+ENGN3301
+Engineering Design 4B: Systems Approaches for Operations
+Second Semester	Undergraduate	6	In Person
+ENGN3200
+Engineering Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+ENGN4549
+Engineering Nuclear Systems
+First Semester	Undergraduate	6	In Person
+ENGN3706
+Engineering Research & Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4706
+Engineering Research and Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN2707
+Engineering Research and Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN3712
+Engineering Research and Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4712
+Engineering Research and Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4718
+Engineering Research and Development Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN2706
+Engineering Research and Development Project (Methods)
+First Semester	Undergraduate	6	In Person
+ENGN3410
+Engineering Sustainable Systems
+Second Semester	Undergraduate	6	In Person
+ENGN2222
+Engineering Thermodynamics
+Second Semester	Undergraduate	6	In Person
+ENGN3013
+Engineering for a Humanitarian Context
+Summer Session / ​Winter Session	Undergraduate	6	In Person
+ENGL3100
+English Capstone: Understanding, Communicating, Creating
+Second Semester	Undergraduate	6	In Person
+INFS3002
+Enterprise Systems in Business
+Second Semester	Undergraduate	6	In Person
+MGMT3027
+Entrepreneurship and Innovation
+Second Semester	Undergraduate	6	In Person
+ARTV2921
+Environment Studio: field based research and studio practice in visual arts
+First Semester / ​Spring Session	Undergraduate	6	In Person
+PASI3013
+Environment and Development in the Pacific
+Second Semester	Undergraduate	6	In Person
+ENVS1001
+Environment and Society: Geography of Sustainability
+First Semester	Undergraduate	6	In Person
+ENVS3902
+Environmental Chemistry and Systems
+Second Semester	Undergraduate	6	In Person
+ENGN3902
+Environmental Chemistry and Systems
+Undergraduate	6	In Person
+ENGN3901
+Environmental Fluid Mechanics
+First Semester	Undergraduate	6	In Person
+ENVS3344
+Environmental Justice Practicum
+Summer Session	Undergraduate	6	In Person
+LAWS4344
+Environmental Justice Practicum
+Summer Session	Undergraduate	6	In Person
+LAWS4215
+Environmental Law
+Second Semester	Undergraduate	6	In Person
+LAWS4281
+Environmental Law Clinic
+First Semester	Undergraduate	6	In Person
+MATH3133
+Environmental Mathematics
+Second Semester	Undergraduate	6	In Person
+ENVS2002
+Environmental Measurement, Modelling and Monitoring
+Undergraduate	6	In Person
+ENVS3028
+Environmental Policy
+First Semester	Undergraduate	6	In Person
+ENVS2018
+Environmental Science Field School
+Winter Session	Undergraduate	6	In Person
+ENGN3903
+Environmental Sensing, Mapping and Modelling
+Second Semester	Undergraduate	6	In Person
+ENVS3903
+Environmental Sensing, Mapping and Modelling
+Second Semester	Undergraduate	6	In Person
+SOCY2022
+Environmental Sociology
+First Semester	Undergraduate	6	In Person
+LAWS2205
+Equity and Trusts
+Second Semester	Undergraduate	6	In Person
+LING4013
+Essentials for Thesis Writing in Linguistics
+First Semester	Undergraduate	12	In Person
+ENVS3015
+Essentials of Environmental Law
+Undergraduate	6	In Person
+ANTH2027
+EthnoLab 1: Anthropological Methods
+Second Semester	Undergraduate	6	In Person
+ANTH3059
+EthnoLab 2: Applied Anthropology
+First Semester	Undergraduate	6	In Person
+MUSI3327
+Ethnomusicology
+First Semester	Undergraduate	6	In Person
+HIST2205
+Europe and the Atlantic World, c.1492—1776.
+Undergraduate	6	In Person
+ARCH2058
+European Prehistory from Cultivation to the Celts
+Undergraduate	6	In Person
+LAWS2207
+Evidence
+Second Semester	Undergraduate	6	In Person
+PSYC4201
+Evidence-Based Assessment and Intervention
+Second Semester	Undergraduate	12	In Person
+BIOL2114
+Evolution
+Second Semester	Undergraduate	6	In Person
+BIAN3124
+Evolution and Human Behaviour
+First Semester	Undergraduate	6	In Person
+PHIL3079
+Evolution and Human Nature
+Second Semester	Undergraduate	6	Online or In Person
+BIOL3206
+Evolution of Biodiversity
+Second Semester	Undergraduate	6	In Person
+SOCY2026
+Excessive Appetites: Sociocultural Perspectives on Addiction and Drug Use
+Undergraduate	6	In Person
+GEND2036
+Excessive Appetites: Sociocultural Perspectives on Addiction and Drug Use
+Undergraduate	6	In Person
+ARTS5920
+Exchange Program for Arts Students
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTS5921
+Exchange Program for Arts Students (Band 1)
+First Semester	Undergraduate	6	In Person
+ARTS5912
+Exchange Program for Arts Students (Band 12)
+First Semester	Undergraduate	6	In Person
+ARTS5924
+Exchange Program for Arts Students (Band 14)
+First Semester	Undergraduate	6	In Person
+ARTS5922
+Exchange Program for Arts Students (Band 2)
+First Semester	Undergraduate	6	In Person
+HLMD5921
+Exchange Program for Health and Medicine Students (Band 1)
+First Semester / ​Second Semester	Undergraduate	6	In Person
+HLMD5920
+Exchange Program for Health and Medicine Students (Band 2)
+First Semester / ​Winter Session / ​Second Semester	Undergraduate	6	In Person
+LAWS5920
+Exchange Program for Law Students
+First Semester / ​Second Semester	Undergraduate	6	In Person
+SCNC5920
+Exchange Program for Science Students (Band 2)
+First Semester / ​Winter Session / ​Second Semester	Undergraduate	6	In Person
+COMP5920
+Exchange Program in Computer Science
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN5920
+Exchange Program in Engineering
+First Semester / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+BIOL2202
+Experimental Design and Analysis in Biology
+Second Semester	Undergraduate	6	In Person
+HIST2231
+Exploration: From Captain Cook to the Astronauts
+Undergraduate	6	In Person
+BUSI3024
+Export Business Planning
+Second Semester	Undergraduate	6	In Person
+MEDN2222
+Exquisite Corpse - Insight into the Human Body
+Winter Session	Undergraduate	6	In Person
+CLAS3003
+Faith and Belief in Ancient Greece and Rome
+Second Semester	Undergraduate	6	In Person
+LAWS4217
+Family Law
+Second Semester	Undergraduate	6	Online or In Person
+ARTH2180
+Fashion Histories
+Second Semester	Undergraduate	6	In Person
+LAWS4275
+Federal Judicial System
+Summer Session	Undergraduate	6	In Person
+ENGL2023
+Feeling Bad in Contemporary Literature
+Second Semester	Undergraduate	6	In Person
+LAWS4218
+Feminist and Critical Legal Theory
+First Semester	Undergraduate	6	In Person
+LING3012
+Field Methods in Linguistics
+Winter Session	Undergraduate	6	In Person
+BIOL2203
+Field Studies in Functional Ecology
+Undergraduate	6	In Person
+SCRN2003
+Film and History: Hollywood and Beyond
+Undergraduate	6	In Person
+HONS4602
+Final Honours Grade
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	0	In Person
+HONS4100
+Final Honours Grade
+First Semester / ​Second Semester	Undergraduate	0	In Person
+HONS4300
+Final Honours Grade
+First Semester / ​Second Semester	Undergraduate	0	In Person
+HONS4601
+Final Honours Grade
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	0	In Person
+FINM4500
+Finance Honours Thesis
+First Semester / ​Second Semester	Undergraduate	24	In Person
+ECON4437
+Financial Economics
+Undergraduate	6	In Person
+ECON3006
+Financial Economics
+Second Semester	Undergraduate	6	In Person
+FINM3006
+Financial Intermediation and Debt Markets
+First Semester	Undergraduate	6	In Person
+LAWS4237
+Financial Markets and Takeovers
+Summer Session	Undergraduate	6	In Person
+STAT2032
+Financial Mathematics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSN3008
+Financial Reporting By Corporations
+Undergraduate	6	In Person
+BUSN2036
+Financial Statement Analysis
+First Semester	Undergraduate	6	In Person
+ENVS3008
+Fire in the Environment
+Undergraduate	6	In Person
+INDG3001
+First Nations Peoples, the State and Public Policy in Australia
+Second Semester	Undergraduate	6	In Person
+INDG3006
+First Peoples and Research Methods: Practice, Collaboration and Ethics
+Undergraduate	6	In Person
+INDG3007
+First Peoples' Social Justice Internship
+Undergraduate	6	In Person
+INDG3003
+First Peoples' economic self-determination and prosperity in the Australian economy
+Second Semester	Undergraduate	6	In Person
+MUSI1115
+Fit to Perform: Technique, Musicianship, and Wellness
+First Semester	Undergraduate	6	In Person
+ENGN4337
+Flight Dynamics
+First Semester	Undergraduate	6	In Person
+ENGN3224
+Fluid Mechanics and Heat Transfer
+First Semester	Undergraduate	6	In Person
+POLS3001
+Foreign Policy Analysis
+First Semester	Undergraduate	6	In Person
+BIAN2128
+Forensic Anthropology and Archaeology
+Undergraduate	6	In Person
+LING3032
+Forensic Linguistics: Forensic Voice and Text Comparison
+Undergraduate	6	In Person
+LING2105
+Forensic Linguistics: Language and the Law
+First Semester	Undergraduate	6	In Person
+ASTR2013
+Foundations of Astrophysics
+Second Semester	Undergraduate	6	In Person
+LAWS1201
+Foundations of Australian Law
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ASIA2366
+Foundations of Chinese Culture
+Second Semester	Undergraduate	6	In Person
+MUSI1111
+Foundations of Composition
+First Semester	Undergraduate	6	In Person
+COMP1600
+Foundations of Computing
+Second Semester	Undergraduate	6	In Person
+ARTV1034
+Foundations of Contemporary Arts Practices
+Second Semester	Undergraduate	6	In Person
+DESN2002
+Foundations of Creative Code
+Undergraduate	6	In Person
+EMET1001
+Foundations of Economic and Financial Models
+First Semester	Undergraduate	6	In Person
+FINM1001
+Foundations of Finance
+First Semester / ​Second Semester	Undergraduate	6	In Person
+FINM3015
+Foundations of Fintech
+Second Semester	Undergraduate	6	In Person
+MATH4343
+Foundations of Mathematics
+First Semester	Undergraduate	6	In Person
+PHYS1001
+Foundations of Physics
+First Semester	Undergraduate	6	In Person
+SOCR1001
+Foundations of Social Research
+Second Semester	Undergraduate	6	In Person
+BIOL1020
+Foundations of life
+First Semester	Undergraduate	6	In Person
+MATH3062
+Fractal Geometry and Chaotic Dynamics
+First Semester	Undergraduate	6	In Person
+FREN3108
+From Colonialism to Cinéma-monde: Films of the French-speaking World
+Second Semester	Undergraduate	6	In Person
+SCOM3007
+From Creativity to Impact: Science Communication Project Design
+Undergraduate	6	In Person
+ARCH2037
+From Empire to Invasions: the Archaeology of Europe from the Romans to the Vikings
+First Semester	Undergraduate	6	Online or In Person
+HIST2196
+From the Romans to the Anglo-Saxons: Early Medieval Europe c. 400-1000 CE
+Undergraduate	6	In Person
+DESN2006
+Front-End Web: Crafting Online Experience
+Second Semester	Undergraduate	6	In Person
+PHIL1004
+Fundamental Ideas in Philosophy: An Introduction
+First Semester	Undergraduate	6	In Person
+BUSN2037
+Fundamentals of Accounting Data Analytics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+EMSC2021
+Fundamentals of Climate Science
+Second Semester	Undergraduate	6	In Person
+ENVS1008
+Fundamentals of Environment and Sustainability
+First Semester	Undergraduate	6	In Person
+POPH4100
+Fundamentals of Epidemiology
+First Semester	Undergraduate	6	Online or In Person
+EMSC2023
+Fundamentals of Geology
+First Semester	Undergraduate	6	In Person
+PHYS3711
+Fundamentals of Noise and Measurement
+First Semester	Undergraduate	6	In Person
+ENGN4204
+Fundamentals of Nuclear Radiation
+First Semester	Undergraduate	6	In Person
+ASIA4001
+Fundamentals of Research Design in Asia-Pacific Culture, History and Languages
+First Semester	Undergraduate	12	In Person
+STST4001
+Fundamentals of Research Design in Security Studies
+First Semester	Undergraduate	12	In Person
+ENVS2015
+GIS and Spatial Analysis
+Second Semester	Undergraduate	6	In Person
+ASTR4006
+Galaxies
+First Semester	Undergraduate	6	In Person
+ASTR3002
+Galaxies and Cosmology
+Second Semester	Undergraduate	6	In Person
+MEAS2006
+Gallipoli: A Transnational History
+Undergraduate	6	In Person
+COMP3540
+Game Development
+Undergraduate	6	In Person
+ECON4453
+Game Theory
+Undergraduate	6	In Person
+ECON3152
+Game Theory
+Undergraduate	6	In Person
+POLS3125
+Game Theory and Social Sciences
+Second Semester	Undergraduate	6	Online or In Person
+MATH2301
+Games, Graphs and Machines
+Second Semester	Undergraduate	6	In Person
+INDG2003
+Gamilaraay - Introduction to an Australian Indigenous Language
+First Semester	Undergraduate	6	Online or In Person
+ASIA2311
+Gender and Cultural Studies in Asia and the Pacific
+First Semester	Undergraduate	6	In Person
+GEND2001
+Gender and Cultural Studies in Asia and the Pacific
+First Semester	Undergraduate	6	In Person
+MEAS2005
+Gender and Culture in the Middle East
+Undergraduate	6	Online or In Person
+GEND3002
+Gender and Sexuality in the Pacific
+Second Semester	Undergraduate	6	In Person
+PASI3002
+Gender and Sexuality in the Pacific
+Second Semester	Undergraduate	6	In Person
+ANTH2025
+Gender in Cross-Cultural Perspective
+Second Semester	Undergraduate	6	In Person
+GEND2035
+Gender in Cross-Cultural Perspective
+Second Semester	Undergraduate	6	In Person
+ASIA2006
+Gender in Korean History
+Undergraduate	6	In Person
+GEND2002
+Gender in Korean History
+Undergraduate	6	In Person
+GEND2023
+Gender, Sex and Sexuality: An Introduction to Feminist Theory
+Undergraduate	6	In Person
+GEND2034
+Gender, Sex and Sexuality: Queer and Trans Theory
+Second Semester	Undergraduate	6	In Person
+BIOL2142
+General Microbiology
+Second Semester	Undergraduate	6	In Person
+PHYS3203
+General Relativity
+Second Semester	Undergraduate	6	In Person
+STAT4030
+Generalised Linear Models
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STAT3015
+Generalised Linear Models
+Second Semester	Undergraduate	6	In Person
+BIOL2161
+Genes: Replication and Expression
+First Semester	Undergraduate	6	In Person
+BIOL2151
+Genetics
+First Semester	Undergraduate	6	In Person
+BIOL3204
+Genetics of Human Disease
+First Semester	Undergraduate	6	In Person
+POLS2100
+Genocide in the Modern World
+Undergraduate	6	In Person
+BIOL3205
+Genomic Medicine
+Second Semester	Undergraduate	6	In Person
+BIOL3161
+Genomics and its Applications
+First Semester	Undergraduate	6	In Person
+EMSC3020
+Geobiology and Evolution of Life on Earth
+First Semester	Undergraduate	6	In Person
+EMSC2024
+Geochemical Cycles
+Second Semester	Undergraduate	6	In Person
+GERM2114
+German Cultural Studies
+First Semester / ​Second Semester	Undergraduate	6	In Person
+GERM3114
+German Cultural Studies Advanced
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTV1350
+Glass 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTV2350
+Glass 2
+Summer Session / ​Second Semester	Undergraduate	6	In Person
+CBEA3066
+Global Business Immersion
+Undergraduate	6	In Person
+POLS2133
+Global Cooperation and Institutions
+Undergraduate	6	Online or In Person
+HIST2211
+Global Environmental History Since 1945
+Undergraduate	6	In Person
+HLMD1002
+Global Experiences in Health and Medicine
+Undergraduate	6	In Person
+SCNC1002
+Global Experiences in Science
+Summer Session	Undergraduate	0	In Person
+BAPA3002
+Global Governance in the Asia-Pacific
+Spring Session	Undergraduate	6	Online or In Person
+INTR3002
+Global Governance in the Asia-Pacific
+First Semester	Undergraduate	6	In Person
+ASIA2097
+Global Learning
+Undergraduate	6	In Person
+FREN3109
+Global Paris: Culture, History and Identity in the French Capital
+Undergraduate	6	In Person
+ASIA5925
+Global Semester
+First Semester / ​Second Semester	Undergraduate	6	In Person
+HUMN2004
+Global Vietnam: Gender, Labour and Migration
+Undergraduate	6	In Person
+DEMO1001
+Global population challenges
+First Semester	Undergraduate	6	Online or In Person
+POLS4032
+Globalisation: the Interaction of Economics and Politics
+Undergraduate	6	In Person
+LING2003
+Grammar of the World's Languages
+Second Semester	Undergraduate	6	In Person
+STAT4026
+Graphical Data Analysis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STAT3011
+Graphical Data Analysis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGL2222
+Great Writers: Special Topics in Gender, Authorship and History
+Second Semester	Undergraduate	6	In Person
+ENGN4547
+Grid Integration of Renewable and Storage Technologies
+First Semester	Undergraduate	6	In Person
+BIOL3108
+Hallmarks of Cancer
+Second Semester	Undergraduate	6	In Person
+CHEM3202
+Hard Matter
+First Semester	Undergraduate	6	In Person
+ECON3004
+Health Economics
+Second Semester	Undergraduate	6	In Person
+CHMD2005
+Health Humanities
+Second Semester	Undergraduate	6	In Person
+LAWS4219
+Health Law, Bioethics and Human Rights
+Second Semester	Undergraduate	6	In Person
+SCOM3033
+Health Promotion Principles and Practice
+Second Semester	Undergraduate	6	In Person
+PSYC3020
+Health Psychology
+Second Semester	Undergraduate	6	In Person
+HLTH2001
+Health Systems and Policy: An Introduction
+First Semester	Undergraduate	6	In Person
+MEDN2001
+Health and Medical Physiology
+First Semester	Undergraduate	6	In Person
+HLTH4001
+Health and Medicine Honours
+First Semester / ​Second Semester	Undergraduate	6	In Person
+HLMD2000
+Health and Medicine Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+HLMD3000
+Health and Medicine Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+HLMD2021
+Health and Medicine Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+HLMD3021
+Health and Medicine Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+HLTH1001
+Health in the 21st Century
+First Semester	Undergraduate	6	In Person
+COMP3320
+High Performance Scientific Computation
+Second Semester	Undergraduate	6	In Person
+HIND1100
+Hindi 1
+First Semester	Undergraduate	6	Online or In Person
+HIND1200
+Hindi 2
+Second Semester	Undergraduate	6	Online or In Person
+HIND2300
+Hindi 3
+First Semester	Undergraduate	6	Online or In Person
+HIND2400
+Hindi 4
+Second Semester	Undergraduate	6	Online or In Person
+HIND3500
+Hindi 5
+First Semester	Undergraduate	6	Online or In Person
+HIND3600
+Hindi 6
+Second Semester	Undergraduate	6	Online or In Person
+ANTH4011
+History of Anthropological Theory Extended
+Autumn Session	Undergraduate	12	In Person
+ARCH3026
+History of Archaeology: Discovering the Past
+Second Semester	Undergraduate	6	In Person
+ASIA2307
+History of Empire in Asia
+Undergraduate	6	In Person
+ASIA2017
+History of International Relations in Northeast Asia
+Undergraduate	6	In Person
+ASIA2037
+History of Modern China
+Second Semester	Undergraduate	6	In Person
+SPAN3603
+History of the Spanish language. A linguistic time travel
+Undergraduate	6	In Person
+ASIA3030
+History of the State System in Southeast Asia
+First Semester	Undergraduate	6	In Person
+STST3003
+Honeypots and Overcoats: Australian Intelligence in the World
+Undergraduate	6	In Person
+PHYS4110
+Honours Research Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENVS4001
+Honours Research Skills
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PHIL4010
+Honours Seminar in Philosophy
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENVS4000
+Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STST1004
+How Nations Fight: From Tsushima to Taiwan
+Second Semester	Undergraduate	6	In Person
+MEDN3186
+Human Anatomy
+Undergraduate	6	In Person
+BIOL1008
+Human Biology
+First Semester	Undergraduate	6	In Person
+ENVS2011
+Human Ecology
+First Semester	Undergraduate	6	In Person
+BIAN3113
+Human Evolution
+First Semester	Undergraduate	6	In Person
+ASIA2301
+Human Migration and Expansion in the Rise of the Asia-Pacific
+First Semester	Undergraduate	6	In Person
+MGMT2030
+Human Resource Management and Strategy
+First Semester	Undergraduate	6	In Person
+POLS3113
+Human Rights
+Winter Session	Undergraduate	6	In Person
+ASIA2081
+Human Rights in Asia
+First Semester	Undergraduate	6	In Person
+BIAN2015
+Human Skeletal Analysis
+First Semester	Undergraduate	6	In Person
+COMP3900
+Human-Computer Interaction
+Second Semester	Undergraduate	6	In Person
+INTR3001
+Humanitarianism: Principles, Politics and Practice
+First Semester	Undergraduate	6	In Person
+BAPA3001
+Humanitarianism: Principles, Politics and Practice
+Autumn Session	Undergraduate	6	Online or In Person
+POLS2119
+Ideas in Politics
+First Semester	Undergraduate	6	In Person
+ENGL2111
+Imaginary Journeys: Writing Travel in Australian Literature and Film
+Undergraduate	6	In Person
+ENGL1200
+Imagined Worlds
+Second Semester	Undergraduate	6	In Person
+LAWS4221
+Income Tax
+Undergraduate	6	Online or In Person
+ENVS3100
+Independent Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+ASIA2270
+India Past and Present: The Impact of Pre-colonial History on India Today
+Undergraduate	6	In Person
+ASIA2116
+India's Culture Wars
+Undergraduate	6	In Person
+LAWS4278
+Indigenous Community Legal Clinic
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENVS2025
+Indigenous Cultural and Natural Resource Management
+First Semester	Undergraduate	6	In Person
+INDG2001
+Indigenous Cultural and Natural Resource Management
+First Semester	Undergraduate	6	In Person
+HIST3142
+Indigenous History, Memory and Politics
+Undergraduate	6	In Person
+LAWS4238
+Indigenous Peoples and Law
+Undergraduate	6	Online or In Person
+COMP3740
+Individual Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4200
+Individual Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4350
+Individual Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ASIA2516
+Indonesia: Politics, Society and Development
+Second Semester	Undergraduate	6	In Person
+ASIA2416
+Indonesia: Politics, Society and Development (L)
+Undergraduate	6	In Person
+INDN1002
+Indonesian 1
+First Semester	Undergraduate	6	In Person
+INDN1003
+Indonesian 2
+Second Semester	Undergraduate	6	In Person
+INDN2002
+Indonesian 3
+First Semester	Undergraduate	6	In Person
+INDN2003
+Indonesian 4
+Second Semester	Undergraduate	6	In Person
+INDN3002
+Indonesian 5
+First Semester	Undergraduate	6	In Person
+INDN3003
+Indonesian 6
+Second Semester	Undergraduate	6	In Person
+ASIA2111
+Indonesian Foreign and Security Policy
+First Semester	Undergraduate	6	In Person
+ASIA2411
+Indonesian Foreign and Security Policy (L)
+First Semester	Undergraduate	6	In Person
+INDN3015
+Indonesian in Contemporary Society
+Second Semester	Undergraduate	6	In Person
+ECON3057
+Industrial Organisation
+First Semester	Undergraduate	6	In Person
+ECON4438
+Industrial Organisation
+Undergraduate	6	In Person
+PSYC3028
+Industrial and Organisational Psychology
+Undergraduate	6	In Person
+BIOL3141
+Infection and Immunity
+First Semester	Undergraduate	6	In Person
+INFS2024
+Information Systems Analysis
+First Semester	Undergraduate	6	In Person
+INFS3059
+Information Systems Capstone Project
+Second Semester	Undergraduate	6	In Person
+INFS3024
+Information Systems Management
+First Semester	Undergraduate	6	In Person
+LAWS4245
+Information Technology Law
+First Semester	Undergraduate	6	In Person
+COMP2610
+Information Theory
+Second Semester	Undergraduate	6	In Person
+ENGN4903
+Infrastructure System Design
+Second Semester	Undergraduate	6	In Person
+ARTH2170
+Innovation and Transformation in Asian Art c. 1965-2015
+Second Semester	Undergraduate	6	In Person
+MKTG3033
+Integrated Marketing Communications
+Second Semester	Undergraduate	6	In Person
+LAWS4222
+Intellectual Property
+Summer Session	Undergraduate	6	In Person
+ENGN4122
+Intelligent Autonomous Systems
+Second Semester	Undergraduate	6	In Person
+GREK2121
+Intermediate Ancient Greek
+First Semester	Undergraduate	6	In Person
+ARAB2011
+Intermediate Arabic 1
+First Semester	Undergraduate	6	Online or In Person
+ARAB2012
+Intermediate Arabic 2
+Second Semester	Undergraduate	6	Online or In Person
+FREN3101
+Intermediate French Studies I
+First Semester	Undergraduate	6	In Person
+FREN3102
+Intermediate French Studies II
+Second Semester	Undergraduate	6	In Person
+GERM3101
+Intermediate German Studies I
+First Semester	Undergraduate	6	In Person
+GERM3102
+Intermediate German Studies II
+Second Semester	Undergraduate	6	In Person
+ITAL3101
+Intermediate Italian Studies I
+First Semester	Undergraduate	6	In Person
+ITAL3102
+Intermediate Italian Studies II
+Second Semester	Undergraduate	6	In Person
+LATN2121
+Intermediate Latin
+First Semester	Undergraduate	6	In Person
+PERS2003
+Intermediate Persian A
+Undergraduate	6	Online or In Person
+PERS2004
+Intermediate Persian B
+Undergraduate	6	Online
+SPAN3001
+Intermediate Spanish Studies I
+First Semester	Undergraduate	6	In Person
+SPAN3012
+Intermediate Spanish Studies II
+Second Semester	Undergraduate	6	In Person
+TURK2001
+Intermediate Turkish A
+Undergraduate	6	Online
+TURK2002
+Intermediate Turkish B
+Undergraduate	6	Online
+LAWS4266
+International Arbitration and Negotiation Moot Competition in Japan
+Undergraduate	6	In Person
+BUSI2025
+International Business
+First Semester / ​Second Semester	Undergraduate	6	In Person
+BUSI4500
+International Business Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4223
+International Dispute Resolution
+Summer Session	Undergraduate	6	In Person
+ECON4415
+International Economics
+Undergraduate	6	In Person
+ECON3103
+International Economics
+Second Semester	Undergraduate	6	In Person
+ENVS3033
+International Environmental Policy
+Summer Session	Undergraduate	6	In Person
+MGMT3025
+International Human Resource Management
+Second Semester	Undergraduate	6	In Person
+LAWS4306
+International Investment Treaty Law and Arbitration
+Undergraduate	6	In Person
+LAWS2250
+International Law
+Second Semester	Undergraduate	6	In Person
+LAWS4302
+International Law Clinic
+First Semester	Undergraduate	6	In Person
+LAWS4225
+International Law of Human Rights
+Second Semester	Undergraduate	6	In Person
+LAWS4364
+International Law of the Environment
+Undergraduate	6	Online or In Person
+LAWS4224
+International Law of the Sea
+Second Semester	Undergraduate	6	Online or In Person
+LAWS4358
+International Law, Science and Technology
+First Semester	Undergraduate	6	In Person
+ECON3021
+International Monetary Economics
+Undergraduate	6	In Person
+POLS2094
+International Political Economy
+First Semester	Undergraduate	6	In Person
+POLS2017
+International Relations Theory
+Second Semester	Undergraduate	6	In Person
+POLS4013
+International Relations Theory
+First Semester	Undergraduate	6	In Person
+INTR2010
+International Relations in the Asia-Pacific
+Undergraduate	6	In Person
+STST3005
+International Security in the 21st Century
+First Semester	Undergraduate	6	In Person
+BUSI3020
+International Strategic Management
+First Semester	Undergraduate	6	In Person
+LAWS1001
+International Student Legal Orientation
+First Semester / ​Second Semester	Undergraduate	0	In Person
+BUSI3030
+International Supply Chain Management
+Undergraduate	6	In Person
+POLS3036
+International Terrorism
+Second Semester	Undergraduate	6	In Person
+LAWS4226
+International Trade Law
+Undergraduate	6	In Person
+POLS4047
+Interpretation, Method, Critique: Interpretivist Methods in the Social Sciences
+First Semester	Undergraduate	6	In Person
+ASIA1035
+Introduction to Asian Politics
+First Semester	Undergraduate	6	In Person
+STAT3016
+Introduction to Bayesian Data Analysis
+Second Semester	Undergraduate	6	In Person
+STAT4116
+Introduction to Bayesian Data Analysis
+Second Semester	Undergraduate	6	In Person
+BUSN1101
+Introduction to Commercial Law
+Second Semester	Undergraduate	6	In Person
+CRIM2014
+Introduction to Crime Science
+Undergraduate	6	In Person
+HUMN2051
+Introduction to Cultural Heritage Management
+First Semester	Undergraduate	6	In Person
+POLS1009
+Introduction to Data and Methods for Political Science and International Relations
+Second Semester	Undergraduate	6	In Person
+ENGN1218
+Introduction to Electronics
+Second Semester	Undergraduate	6	In Person
+ARCH2041
+Introduction to Environmental Archaeology
+Undergraduate	6	In Person
+ENVS1003
+Introduction to Environmental and Social Research
+Second Semester	Undergraduate	6	In Person
+PSYC2011
+Introduction to Forensic and Criminal Psychology
+Second Semester	Undergraduate	6	In Person
+EMSC2022
+Introduction to Global Geophysics
+First Semester	Undergraduate	6	In Person
+HLTH2002
+Introduction to Global Health: Issues, Theories and Practices
+Second Semester	Undergraduate	6	In Person
+HUMN2000
+Introduction to Heritage and Museum Studies
+Undergraduate	6	In Person
+POLS1005
+Introduction to International Relations Foundations and Concepts
+First Semester	Undergraduate	6	In Person
+BAPA1004
+Introduction to International Security Studies
+Autumn Session	Undergraduate	6	In Person
+STST1001
+Introduction to International Security Studies
+First Semester	Undergraduate	6	In Person
+COMP3670
+Introduction to Machine Learning
+Second Semester	Undergraduate	6	In Person
+MKTG2004
+Introduction to Marketing
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH2222
+Introduction to Mathematical Thinking: Problem-Solving and Proofs
+First Semester	Undergraduate	6	In Person
+ENGN1217
+Introduction to Mechanics
+Second Semester	Undergraduate	6	In Person
+MUSI1110
+Introduction to Music Technology
+First Semester / ​Second Semester	Undergraduate	6	In Person
+EMSC4706
+Introduction to Natural Hazards
+First Semester	Undergraduate	6	In Person
+PNPI1001
+Introduction to Philosophy, Neuroscience, and Psychology
+First Semester	Undergraduate	6	In Person
+POLS1002
+Introduction to Politics
+First Semester	Undergraduate	6	In Person
+POPH3000
+Introduction to Population Health
+Second Semester	Undergraduate	6	In Person
+SOCY2043
+Introduction to Qualitative Research Methods
+Second Semester	Undergraduate	6	In Person
+BIOL2001
+Introduction to Quantitative Biology
+First Semester	Undergraduate	6	In Person
+SOCY2038
+Introduction to Quantitative Research Methods
+First Semester	Undergraduate	6	In Person
+STAT2005
+Introduction to Stochastic Processes
+Second Semester	Undergraduate	6	In Person
+MEAS1001
+Introduction to the Modern Middle East
+First Semester	Undergraduate	6	Online or In Person
+GREK1001
+Introductory Ancient Greek
+First Semester	Undergraduate	6	In Person
+ARAB1002
+Introductory Arabic 1
+First Semester	Undergraduate	6	Online or In Person
+ARAB1003
+Introductory Arabic 2
+Second Semester	Undergraduate	6	Online or In Person
+FREN1101
+Introductory French Studies I
+First Semester	Undergraduate	6	In Person
+FREN1102
+Introductory French Studies II
+Second Semester	Undergraduate	6	In Person
+GERM1101
+Introductory German Studies I
+First Semester	Undergraduate	6	In Person
+GERM1102
+Introductory German Studies II
+Second Semester	Undergraduate	6	In Person
+ITAL1101
+Introductory Italian Studies I
+First Semester	Undergraduate	6	In Person
+ITAL1102
+Introductory Italian Studies II
+Second Semester	Undergraduate	6	In Person
+LATN1001
+Introductory Latin
+First Semester	Undergraduate	6	In Person
+STAT2001
+Introductory Mathematical Statistics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STAT2013
+Introductory Mathematical Statistics for Actuarial Studies
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PERS1001
+Introductory Persian A
+First Semester	Undergraduate	6	Online or In Person
+PERS1002
+Introductory Persian B
+Second Semester	Undergraduate	6	Online
+PORT1001
+Introductory Portuguese Studies I
+Undergraduate	6	Online
+PORT1002
+Introductory Portuguese Studies II
+Undergraduate	6	Online
+RUSS1101
+Introductory Russian Studies I
+First Semester	Undergraduate	6	In Person
+RUSS1102
+Introductory Russian Studies II
+Second Semester	Undergraduate	6	In Person
+SPAN1001
+Introductory Spanish Studies I
+First Semester	Undergraduate	6	In Person
+SPAN1002
+Introductory Spanish Studies II
+Second Semester	Undergraduate	6	Online or In Person
+FINM3011
+Investments
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MEAS3004
+Iran in World Politics
+Second Semester	Undergraduate	6	Online or In Person
+MEAS2000
+Iranian History and Culture
+Undergraduate	6	Online
+MEAS4117
+Islam in Central Asia
+Undergraduate	6	In Person
+MEAS1002
+Islam: History and Institutions
+Second Semester	Undergraduate	6	In Person
+MEAS4102
+Islamic Radicalism
+Undergraduate	6	In Person
+ENVS2005
+Island Sustainable Development: Fiji Field School
+Winter Session	Undergraduate	6	In Person
+ARTH2167
+Issues in Contemporary Craft and Design
+First Semester	Undergraduate	6	In Person
+ASIA3027
+Issues in Japanese Policy in their global context
+Undergraduate	6	In Person
+ENGL2022
+Jane Austen History and Fiction
+First Semester	Undergraduate	6	In Person
+GEND2022
+Jane Austen History and Fiction
+First Semester	Undergraduate	6	In Person
+JPNS3013
+Japanese - English Translation
+Undergraduate	6	In Person
+JPNS1012
+Japanese 1: Spoken
+First Semester	Undergraduate	6	In Person
+JPNS1014
+Japanese 1: Written
+First Semester	Undergraduate	6	In Person
+JPNS2003
+Japanese 2: Spoken
+Second Semester	Undergraduate	6	In Person
+JPNS2005
+Japanese 2: Written
+Second Semester	Undergraduate	6	In Person
+JPNS3201
+Japanese 3
+First Semester	Undergraduate	6	In Person
+JPNS3202
+Japanese 4
+Second Semester	Undergraduate	6	In Person
+JPNS3203
+Japanese 5
+First Semester	Undergraduate	6	In Person
+JPNS3204
+Japanese 6
+Second Semester	Undergraduate	6	In Person
+ECON2108
+Japanese Economy and Economic Policy
+First Semester	Undergraduate	6	In Person
+INTR2018
+Japanese Foreign and Security Policy
+Undergraduate	6	In Person
+JPNS2024
+Japanese Grammar and Expressions
+Undergraduate	6	In Person
+LAWS4227
+Japanese Law and Society
+Undergraduate	6	In Person
+LING2028
+Japanese Linguistics
+Second Semester	Undergraduate	6	In Person
+ASIA2031
+Japanese Politics
+First Semester	Undergraduate	6	In Person
+ASIA2058
+Japanese Popular Culture: Manga, Anime, Film & the Visual Arts
+Undergraduate	6	In Person
+LAWS4010
+Jessup Moot
+Summer Session	Undergraduate	6	In Person
+LAWS4351
+Judicial Reasoning
+First Semester	Undergraduate	6	Online or In Person
+HIST4013
+Key Issues in History
+Second Semester	Undergraduate	12	In Person
+KORE1020
+Korean 1
+First Semester	Undergraduate	6	In Person
+KORE1021
+Korean 2
+Second Semester	Undergraduate	6	In Person
+KORE2521
+Korean 3
+First Semester	Undergraduate	6	In Person
+KORE2522
+Korean 4
+Second Semester	Undergraduate	6	In Person
+KORE3012
+Korean 5
+First Semester	Undergraduate	6	In Person
+KORE3013
+Korean 6
+Second Semester	Undergraduate	6	In Person
+ECON4441
+Labour Economics & Industrial Relations
+Undergraduate	6	In Person
+ECON2009
+Labour Economics and Industrial Relations
+First Semester	Undergraduate	6	In Person
+LAWS4228
+Labour Law
+Second Semester	Undergraduate	6	In Person
+ENVS3004
+Land and Catchment Management
+Second Semester	Undergraduate	6	In Person
+LING2005
+Language Across Time
+Undergraduate	6	In Person
+LING1001
+Language Unlocked: An Introduction to Linguistics
+First Semester	Undergraduate	6	In Person
+LING2106
+Language and Social Interaction
+First Semester	Undergraduate	6	In Person
+LING2016
+Language and Society in Indigenous Australia
+First Semester	Undergraduate	6	In Person
+ASIA2001
+Language in Asia and the Pacific
+First Semester	Undergraduate	6	In Person
+ASIA2103
+Language in Asia and the Pacific (L)
+First Semester	Undergraduate	6	In Person
+LING2029
+Language, Assessment and Policy
+Undergraduate	6	In Person
+LING2015
+Language, Culture and Translation
+Undergraduate	6	In Person
+LING2018
+Languages in Contact
+Undergraduate	6	In Person
+LAWS4430
+Law Internship
+Summer Session / ​First Semester / ​Winter Session / ​Second Semester	Undergraduate	6	In Person
+LAWS4230
+Law Internship (Capstone)
+Summer Session / ​First Semester / ​Winter Session / ​Second Semester	Undergraduate	6	In Person
+LAWS4011
+Law Mooting and Advocacy
+Summer Session	Undergraduate	6	In Person
+LAWS4700
+Law Research Capstone Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4231
+Law and Art: Representation and Critique
+Undergraduate	6	In Person
+LAWS4301
+Law and Development Clinic
+Summer Session	Undergraduate	6	Online or In Person
+LAWS4315
+Law and Development in the Contemporary South Pacific
+Winter Session	Undergraduate	6	In Person
+LAWS4328
+Law and Economics
+Undergraduate	6	In Person
+LAWS4279
+Law and Politics of European Integration
+Undergraduate	6	Online or In Person
+LAWS4260
+Law and Psychology
+Undergraduate	6	In Person
+LAWS4321
+Law and Social Movements
+Second Semester	Undergraduate	6	In Person
+LAWS4229
+Law and Society in South East Asia
+Undergraduate	6	In Person
+LAWS4280
+Law and the Humanities
+Second Semester	Undergraduate	6	In Person
+BUSN2101
+Law of Business Entities
+First Semester	Undergraduate	6	In Person
+LAWS4299
+Law's History and Context
+Undergraduate	6	In Person
+LAWS4256
+Law, Gender Identities and Sexualities
+Second Semester	Undergraduate	6	In Person
+LAWS4341
+Law, Markets and Justice
+Undergraduate	6	Online or In Person
+LAWS4350
+Law, Work and Technology
+Undergraduate	6	Online or In Person
+LAWS1202
+Lawyers Justice and Ethics
+Second Semester	Undergraduate	6	In Person
+MGMT3021
+Leadership
+Second Semester	Undergraduate	6	In Person
+ASIA3525
+Learning Language Locally
+Summer Session / ​Winter Session	Undergraduate	0	In Person
+LAWS4307
+Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country
+Undergraduate	6	In Person
+LAWS2248
+Legal Research and Writing
+Second Semester	Undergraduate	6	In Person
+LAWS2249
+Legal Theory
+Second Semester	Undergraduate	6	In Person
+PHIL2289
+Leviathan, Art and Law: Constituting the Body Politic
+Undergraduate	6	In Person
+LAWS4289
+Leviathan, Art, and Law: Constituting the Body Politic
+Undergraduate	6	In Person
+STAT3037
+Life Contingencies
+Second Semester	Undergraduate	6	In Person
+DEMO4092
+Life Course Analytics
+Undergraduate	6	In Person
+PHYS1004
+Life Physics
+Second Semester	Undergraduate	6	In Person
+CLAS3002
+Life, Love, and Loss in Ancient Greece and Rome
+First Semester	Undergraduate	6	In Person
+ASIA2308
+Linguistic Histories in Asia and the Pacific
+First Semester	Undergraduate	6	In Person
+CHIN2019
+Literary Chinese 1
+First Semester	Undergraduate	6	Online or In Person
+CHIN2021
+Literary Chinese 2
+Second Semester	Undergraduate	6	Online or In Person
+ASIA3040
+Literary and Cultural Discourse in Modern Japan
+Undergraduate	6	In Person
+LAWS4286
+Literature, Law and Human Rights
+Undergraduate	6	In Person
+ENGL3037
+Literature, Law and Human Rights
+Undergraduate	6	In Person
+LAWS2244
+Litigation and Dispute Management
+First Semester	Undergraduate	6	In Person
+MUSI2239
+Live Music and Sound: Amplified and Acoustic Practices for Musicians
+Second Semester	Undergraduate	6	In Person
+STST3002
+Living with Giants: Australia's Security in a Contested Asia
+Second Semester	Undergraduate	6	In Person
+BAPA3004
+Living with Giants: Australia's Security in a Contested Asia
+Spring Session	Undergraduate	6	Online or In Person
+COMP2620
+Logic
+First Semester	Undergraduate	6	In Person
+PHIL1005
+Logic and Critical Thinking
+Second Semester	Undergraduate	6	In Person
+ECON4422
+Macroeconomic Theory
+Second Semester	Undergraduate	6	In Person
+ECON1102
+Macroeconomics 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON2102
+Macroeconomics 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON3102
+Macroeconomics 3
+Second Semester	Undergraduate	6	In Person
+EMSC3024
+Magmatism and Metamorphism
+First Semester	Undergraduate	6	In Person
+ASIA2041
+Mainland Southeast Asia: Colonial and Postcolonial Predicaments
+Second Semester	Undergraduate	6	In Person
+ENGL3022
+Make It New: Innovation and Experiment in Modernist Literature, 1910-1940
+Undergraduate	6	In Person
+DESN2010
+Making Creative and Critical Technologies: Physical Computing for Design and Art
+First Semester	Undergraduate	6	In Person
+HIST3007
+Making History
+Second Semester	Undergraduate	6	In Person
+SCOM3032
+Making Modern Science
+Undergraduate	6	In Person
+BUSN2011
+Management Accounting
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MGMT4500
+Management Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MGMT4006
+Management Research Methods
+First Semester	Undergraduate	6	In Person
+MGMT1003
+Management, People and Organisations
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON2014
+Managerial Economics
+First Semester	Undergraduate	6	In Person
+ENVS3041
+Managing Forested Landscapes
+First Semester	Undergraduate	6	In Person
+MGMT2035
+Managing Organisational Change
+Undergraduate	6	In Person
+COMP4130
+Managing Software Quality and Process
+First Semester	Undergraduate	6	In Person
+ENGN4212
+Manufacturing Technologies
+Undergraduate	6	In Person
+ASIA2018
+Maps and Mapping in Asia and the Pacific
+Undergraduate	6	In Person
+EMSC3023
+Marine Biogeochemistry
+First Semester	Undergraduate	6	In Person
+MKTG4500
+Marketing Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MKTG3001
+Marketing Research
+Second Semester	Undergraduate	6	In Person
+MATH1113
+Mathematical Foundations for Actuarial Studies
+Second Semester	Undergraduate	6	In Person
+MATH1013
+Mathematics and Applications 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH1014
+Mathematics and Applications 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH3512
+Matrix Computations
+Undergraduate	6	In Person
+POLS2137
+Meaning in Politics: Interpretation, Method and Critique
+First Semester	Undergraduate	6	In Person
+ENGN2217
+Mechanical Systems and Design
+First Semester	Undergraduate	6	In Person
+ARAB3011
+Media Arabic 1
+Undergraduate	6	Online or In Person
+ARAB3008
+Media Arabic 2
+Undergraduate	6	Online or In Person
+LAWS4202
+Media Law
+Second Semester	Undergraduate	6	Online or In Person
+DESN2015
+Mediating Spaces Through Object Design
+First Semester	Undergraduate	6	In Person
+LAWS4343
+Mediation Skills Practicum
+Undergraduate	6	In Person
+MEDN4001
+Medical Research Honours
+First Semester / ​Second Semester	Undergraduate	12	In Person
+BIOL3190
+Medical Science in the Workplace
+Second Semester	Undergraduate	6	In Person
+ANTH2026
+Medicine, Healing and the Body
+Undergraduate	6	In Person
+EMSC3032
+Melting Polar Ice Sheets, Sea Level Variations and Climate Change
+First Semester	Undergraduate	6	In Person
+ECON4411
+Microeconomic Theory
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON1101
+Microeconomics 1
+First Semester / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+ECON2101
+Microeconomics 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON3101
+Microeconomics 3
+First Semester	Undergraduate	6	In Person
+MEAS2008
+Middle East and Central Asia Study Tour
+Undergraduate	6	In Person
+DEMO2003
+Migration in the Modern World
+First Semester	Undergraduate	6	In Person
+MEAS3009
+Modern Arabian Peninsula: Politics, Security and Society
+First Semester	Undergraduate	6	Online or In Person
+CHIN1012
+Modern Chinese 1: Spoken
+First Semester	Undergraduate	6	In Person
+CHIN1013
+Modern Chinese 1: Written
+First Semester	Undergraduate	6	In Person
+CHIN2022
+Modern Chinese 2: Spoken
+Second Semester	Undergraduate	6	In Person
+CHIN2023
+Modern Chinese 2: Written
+Second Semester	Undergraduate	6	In Person
+CHIN3017
+Modern Chinese 3
+First Semester	Undergraduate	6	In Person
+CHIN3018
+Modern Chinese 4
+Second Semester	Undergraduate	6	In Person
+CHIN3022
+Modern Chinese 5
+First Semester	Undergraduate	6	In Person
+CHIN3023
+Modern Chinese 6
+Second Semester	Undergraduate	6	In Person
+CHIN3024
+Modern Chinese 7
+First Semester	Undergraduate	6	In Person
+CHIN3025
+Modern Chinese 8
+Second Semester	Undergraduate	6	In Person
+MEAS3005
+Modern Iraq: State, Politics and Society
+Second Semester	Undergraduate	6	Online or In Person
+ASIA3084
+Modern Mongolia - On Campus Experience
+Winter Session	Undergraduate	6	In Person
+PHIL2074
+Modern Theories of Knowledge
+First Semester	Undergraduate	6	In Person
+MEAS2003
+Modern Turkey: History, Society and Culture
+First Semester	Undergraduate	6	In Person
+BIOL2162
+Molecular Gene Technology
+Second Semester	Undergraduate	6	In Person
+CHEM3123
+Molecular Materials
+Second Semester	Undergraduate	6	In Person
+ECON2026
+Money and Banking
+Undergraduate	6	In Person
+MNGL1002
+Mongolian 1
+First Semester	Undergraduate	6	Online
+MNGL1003
+Mongolian 2
+Second Semester	Undergraduate	6	Online
+MNGL2002
+Mongolian 3
+First Semester	Undergraduate	6	Online
+MNGL2003
+Mongolian 4
+Second Semester	Undergraduate	6	Online
+ARTV1651
+Moving Image 1
+First Semester	Undergraduate	6	In Person
+ARTV2651
+Moving Image 2
+Undergraduate	6	In Person
+MUSI1101
+Music Performance 1
+First Semester	Undergraduate	6	In Person
+MUSI1102
+Music Performance 2
+Second Semester	Undergraduate	6	In Person
+MUSI2201
+Music Performance 3
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI2202
+Music Performance 4
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI3301
+Music Performance 5
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI3302
+Music Performance 6
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI3328
+Music Practice as Research
+Second Semester	Undergraduate	6	In Person
+MUSI3332
+Music Practice: Delivering an Independent Project in a Live Music Environment
+Second Semester	Undergraduate	6	In Person
+MUSI3331
+Music Practice: Planning and Developing a Live Project
+First Semester	Undergraduate	6	In Person
+MUSI2209
+Music Recording and Production Techniques
+Second Semester	Undergraduate	6	In Person
+MUSI4401
+Music Research Methods
+First Semester	Undergraduate	12	In Person
+MUSI4402
+Music Research Theories
+First Semester	Undergraduate	12	In Person
+MUSI2236
+Music and Globalisation
+Undergraduate	6	In Person
+MUSI3317
+Music and Politics
+First Semester	Undergraduate	6	In Person
+MUSI2237
+Music and Wellbeing
+Second Semester	Undergraduate	6	In Person
+MUSI2240
+Music as Collaboration
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI2234
+Music, History, and Culture
+First Semester	Undergraduate	6	In Person
+MUSI2227
+Music, Sound and the Moving Image
+First Semester	Undergraduate	6	In Person
+SPAN2102
+Más que palabras: A Journey around the Hispanic World
+Second Semester	Undergraduate	6	In Person
+CHEM3013
+NMR spectroscopy and mass spectrometry of small and large molecules
+Undergraduate	6	In Person
+ENGN4810
+Nanotechnology and Applications
+Undergraduate	6	In Person
+ASIA2093
+Natural Resource Conflicts in Asia and the Pacific
+Second Semester	Undergraduate	6	In Person
+HIST2226
+Nazi Germany
+Undergraduate	6	In Person
+MGMT2004
+Negotiation
+Undergraduate	6	In Person
+COMP3704
+Network Security
+Second Semester	Undergraduate	6	In Person
+PSYC3016
+Neuropsychology and Cognitive Neuroscience
+First Semester	Undergraduate	6	In Person
+MEAS2001
+New States of Eurasia: Emerging Issues in Politics and Security
+First Semester	Undergraduate	6	In-Person and Online
+PHIL2087
+Nietzsche
+Undergraduate	6	In Person
+PHYS4303
+Nonlinear Dynamics in Physics
+First Semester	Undergraduate	6	In Person
+PHIL2129
+Normative Ethical Theory
+Undergraduate	6	In Person
+POLS3035
+Norms and International Law in World Politics
+First Semester	Undergraduate	6	In Person
+ASIA2096
+North Korea: History, Culture, Politics
+Winter Session	Undergraduate	6	In Person
+ENGN4205
+Nuclear Fuel Cycle
+Second Semester	Undergraduate	6	In Person
+PHYS3106
+Nuclear Technologies and Applications
+Second Semester	Undergraduate	6	In Person
+PHYS2101
+Nuclear and Radiation Physics
+First Semester	Undergraduate	6	In Person
+MATH3301
+Number Theory and Cryptography
+Second Semester	Undergraduate	6	In Person
+MATH3514
+Numerical Optimisation
+Second Semester	Undergraduate	6	In Person
+BIAN2119
+Nutrition, Disease and the Environment
+Undergraduate	6	In Person
+ARTV1020
+Observational Drawing of the Human Figure
+First Semester	Undergraduate	6	In Person
+ASTR4011
+Observational Techniques
+First Semester	Undergraduate	6	In Person
+INDG3008
+On-Country immersive learning experience
+Spring Session	Undergraduate	6	In Person
+SOCR4006
+Online Research Methods
+Second Semester	Undergraduate	6	Online or In Person
+SOCY3169
+Online Research Methods
+Second Semester	Undergraduate	6	Online or In Person
+COMP3300
+Operating Systems Implementation
+Second Semester	Undergraduate	6	In Person
+PHYS3057
+Optical Physics
+First Semester	Undergraduate	6	In Person
+COMP4691
+Optimisation
+Second Semester	Undergraduate	6	In Person
+ENGN4628
+Optimisation and Control with Uncertainty and Constraints
+Second Semester	Undergraduate	6	In Person
+ECON2125
+Optimisation for Economics and Financial Economics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+SCNC2201
+Optimism and Agency in Times of Change
+Second Semester	Undergraduate	6	In Person
+CRIM2007
+Order in the Courts: An Introduction to the Australian Judicial System
+Undergraduate	6	In Person
+MGMT2007
+Organisational Behaviour
+Second Semester	Undergraduate	6	In Person
+ECON4492
+Organisational Economics
+First Semester	Undergraduate	6	In Person
+CRIM2002
+Organised Crime: Understanding the Underworld
+Undergraduate	6	In Person
+PPEI4000
+PPE Honours Research Methods
+First Semester	Undergraduate	6	In Person
+PPEI1001
+PPE Integration 1
+Second Semester	Undergraduate	6	In Person
+PPEI2001
+PPE Integration 2
+Second Semester	Undergraduate	6	In Person
+ECON3056
+PPE Integration 3: Classic Literature in Politics, Philosophy and Economics
+Undergraduate	6	In Person
+PPEI3001
+PPE Integration 3: Classic Literature in Politics, Philosophy and Economics
+Second Semester	Undergraduate	6	In Person
+BAPA1003
+Pacific Encounters: An introduction to Pacific Studies
+Autumn Session	Undergraduate	6	In Person
+PASI1011
+Pacific Encounters: An introduction to Pacific Studies
+First Semester	Undergraduate	6	In Person
+PASI3005
+Pacific Islands Field School
+Undergraduate	6	In Person
+POLS2055
+Pacific Politics
+Undergraduate	6	In Person
+PASI2001
+Pacific Studies in a Globalising World
+First Semester	Undergraduate	6	In Person
+PASI1012
+Pacific Worlds: critical inquiry in Oceania
+Second Semester	Undergraduate	6	In Person
+ARTV1550
+Painting 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTV2550
+Painting 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENVS3029
+Palaeo-Environmental Reconstruction
+Autumn Session	Undergraduate	6	In Person
+EMSC3027
+Palaeoclimatology and Climate Change
+Undergraduate	6	Online or In Person
+LING3031
+Papuan Languages
+Autumn Session	Undergraduate	6	In Person
+COMP4300
+Parallel Systems
+Undergraduate	6	In Person
+ENVS3007
+Participatory Resource Management: Working with Communities and Stakeholders
+Spring Session	Undergraduate	6	In Person
+MEDN2002
+Pathogenesis of Human Disease
+Second Semester	Undergraduate	6	In Person
+INTR1022
+Peacebuilding and Conflict Resolution
+Second Semester	Undergraduate	6	In Person
+PSYC3026
+Personality Psychology
+Second Semester	Undergraduate	6	In Person
+INTR3003
+Perspectives on Peace and Conflict
+Second Semester	Undergraduate	6	In Person
+DEMO3010
+Perspectives on Sex, Gender and Population
+Second Semester	Undergraduate	6	Online or In Person
+PHIL2122
+Philosophy and Public Policy
+Second Semester	Undergraduate	6	In Person
+PHIL2061
+Philosophy of Mind
+Second Semester	Undergraduate	6	In Person
+PHIL2128
+Philosophy of Physics
+Undergraduate	6	In Person
+PHIL2057
+Philosophy of Science
+First Semester	Undergraduate	6	Online or In Person
+PHIL3076
+Philosophy of the Life Sciences
+Undergraduate	6	In Person
+PHIL2290
+Philosophy, AI and Society
+Undergraduate	6	In Person
+ARTH2050
+Photography and Art
+Undergraduate	6	In Person
+ARTV1650
+Photomedia 1
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTV2650
+Photomedia 2
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGN4524
+Photovoltaic Technologies
+First Semester	Undergraduate	6	In Person
+PHYS1201
+Physics 2
+Second Semester	Undergraduate	6	In Person
+PHYS3104
+Physics Advanced Laboratory
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PHYS1101
+Physics I
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PHYS2205
+Physics for Future Leaders
+Second Semester	Undergraduate	6	In Person
+PHYS3105
+Physics of Matter
+First Semester	Undergraduate	6	In Person
+PHYS3070
+Physics of the Earth
+Undergraduate	6	In Person
+EMSC4008
+Physics of the Earth Honours Reseach Project
+First Semester / ​Second Semester	Undergraduate	3	In Person
+SCRN2107
+Picturing Latin America and Spain
+Undergraduate	6	In Person
+SPAN2107
+Picturing Latin America and Spain
+Undergraduate	6	In Person
+MUSI1116
+Pitch, Play, Perform: Introduction to Vocal and Instrumental Skills
+Second Semester	Undergraduate	6	In Person
+EMSC3022
+Planetary Science
+Second Semester	Undergraduate	6	In Person
+ARTV1751
+Planographic Print 1
+Second Semester	Undergraduate	6	In Person
+ARTV2751
+Planographic Print 2
+First Semester	Undergraduate	6	In Person
+BIOL3125
+Plants and Global Climate Change
+Second Semester	Undergraduate	6	In Person
+BIOL3002
+Plants: Genes and the Environment
+Undergraduate	6	In Person
+ENGL2230
+Poetry and Activism
+Undergraduate	6	In Person
+CRIM2013
+Policing
+First Semester	Undergraduate	6	In Person
+POLS2102
+Political Belief and Deceit
+Undergraduate	6	In Person
+BAPA3003
+Politics and Development in the Contemporary Pacific
+Autumn Session	Undergraduate	6	In Person
+PASI3001
+Politics and Development in the Contemporary Pacific
+First Semester	Undergraduate	6	In Person
+ASIA2049
+Politics and Society in Contemporary Korea
+Second Semester	Undergraduate	6	Online or In Person
+POLS3070
+Politics in Central Asia
+Second Semester	Undergraduate	6	In Person
+POLS3095
+Politics in Latin America
+Second Semester	Undergraduate	6	In Person
+POLS2069
+Politics in Russia
+First Semester	Undergraduate	6	Online or In Person
+POLS2031
+Politics in the Middle East
+Second Semester	Undergraduate	6	Online or In Person
+ENVS3003
+Pollution in Practice
+Winter Session	Undergraduate	6	In Person
+ASIA2074
+Popular Culture in East Asia
+First Semester	Undergraduate	6	In Person
+DEMO2002
+Population Analysis
+First Semester	Undergraduate	6	Online or In Person
+POPH4005
+Population Health Honours project
+First Semester / ​Second Semester	Undergraduate	6	Online or In Person
+DEMO3001
+Population Policy Case Studies
+Undergraduate	6	In Person
+SOCY3167
+Populism: Gender, Race, Class and Backlash
+Undergraduate	6	In Person
+FINM3008
+Portfolio Construction
+First Semester / ​Second Semester	Undergraduate	6	In Person
+GEND3001
+Posthuman Bodies
+Undergraduate	6	In Person
+SOCY3010
+Posthuman Bodies
+Undergraduate	6	In Person
+ENGN4625
+Power Systems and Power Electronics
+Second Semester	Undergraduate	6	In Person
+POLS3136
+Power and influence in world politics
+Spring Session	Undergraduate	6	In Person
+ENGN3100
+Practical Experience
+Summer Session / ​First Semester / ​Winter Session / ​Second Semester	Undergraduate	0	In Person
+DESN1005
+Precise Drawing and Model Making
+Undergraduate	6	In Person
+ARTV1750
+Press-based Print 1
+First Semester	Undergraduate	6	In Person
+ARTV2750
+Press-based Print 2
+Second Semester	Undergraduate	6	In Person
+POLS3043
+Pressure Groups and Political Lobbying
+Undergraduate	6	In Person
+BIAN3127
+Primate Behaviour and Conservation
+Second Semester	Undergraduate	6	Online or In Person
+ENGN3350
+Principles of Information Engineering
+Undergraduate	6	In Person
+COMP3610
+Principles of Programming Languages
+Undergraduate	6	In Person
+BUSN3014
+Principles of Tax Law
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4304
+Prison Legal Clinic
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH3029
+Probability Theory with Applications
+First Semester	Undergraduate	6	In Person
+ARCH3006
+Professional Archaeology
+Summer Session	Undergraduate	6	In Person
+CRIM3001
+Professional Perspectives on Crime and Prevention
+Second Semester	Undergraduate	6	In Person
+ARTV2028
+Professional Practice Internship
+First Semester / ​Second Semester	Undergraduate	6	In Person
+HLTH3002
+Professional Practice in Health Science
+Second Semester	Undergraduate	6	In Person
+ARTV2027
+Professional Practice: Economies and Ecologies in the Australian Cultural Sector
+Second Semester	Undergraduate	6	In Person
+MUSI3329
+Professional and Community Music Leadership
+Undergraduate	6	In Person
+COMP1100
+Programming as Problem Solving
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP1130
+Programming as Problem Solving (Advanced)
+First Semester	Undergraduate	6	In Person
+COMP1730
+Programming for Scientists
+Second Semester	Undergraduate	6	In Person
+HUMN4005
+Project Development and Critical Theory in Digital Humanities
+Undergraduate	6	Online or In Person
+LAWS2204
+Property
+First Semester	Undergraduate	6	In Person
+LAWS4359
+Property in a Settler State
+Undergraduate	6	In Person
+ENGN4338
+Propulsion Systems
+Second Semester	Undergraduate	6	In Person
+PSYC1003
+Psychology 1: Understanding Mind, Brain and Behaviour
+First Semester	Undergraduate	6	In Person
+PSYC1004
+Psychology 2: Understanding People in Context
+Second Semester	Undergraduate	6	In Person
+PSYC4011
+Psychology Honours
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PSYC4200
+Psychology Honours Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+PSYC3030
+Psychology Undergraduate Research Experience
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+PSYC3025
+Psychopathology Across the Lifespan
+First Semester	Undergraduate	6	In Person
+POLS2130
+Public Choice and Politics
+First Semester	Undergraduate	6	In Person
+POLS2002
+Public Policy: Theory and Practice
+First Semester	Undergraduate	6	In Person
+ECON2131
+Public Sector Economics
+First Semester	Undergraduate	6	In Person
+SCOM2015
+Public Speaking About Science
+Second Semester	Undergraduate	6	In Person
+CRIM2008
+Punishment and Society: An Introduction to Penology
+First Semester	Undergraduate	6	In Person
+POLS2045
+Qualitative Methods in Political Science and International Relations Research
+Second Semester	Undergraduate	6	In Person
+SOCY4020
+Qualitative Research Analysis
+Second Semester	Undergraduate	6	In Person
+MGMT4018
+Qualitative Research Methods
+Undergraduate	6	In Person
+LING4103
+Qualitative Research Methods in Language Studies
+First Semester	Undergraduate	6	In Person
+POLS4044
+Qualitative Research in Politics
+Second Semester	Undergraduate	6	In Person
+SOCR4008
+Qualitative Social Research
+First Semester	Undergraduate	6	In Person
+BIOL3130
+Quantitative Ecology
+Second Semester	Undergraduate	6	In Person
+POLS2044
+Quantitative Methods in Political Science and International Relations
+Second Semester	Undergraduate	6	In Person
+PSYC2009
+Quantitative Methods in Psychology
+First Semester	Undergraduate	6	In Person
+SOCY3005
+Quantitative Projects for Inclusion and Diversity
+Undergraduate	6	In Person
+STAT1008
+Quantitative Research Methods
+First Semester / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+LING4100
+Quantitative Research Methods in Linguistics
+Second Semester	Undergraduate	6	In Person
+MGMT4019
+Quantitative Research Methods in Management
+Undergraduate	6	In Person
+PHYS3201
+Quantum Field Theory
+Second Semester	Undergraduate	6	In Person
+PHYS2013
+Quantum Mechanics
+First Semester	Undergraduate	6	In Person
+PHYS4304
+Quantum Scattering
+Undergraduate	6	In Person
+ENGL2027
+Queens, Tyrants, Traitors: Power Play on the Early Modern Stage
+Undergraduate	6	In Person
+PHIL2125
+Rationality and Social Cooperation
+Undergraduate	6	In Person
+CHST3211
+Reading China: Past and Present
+First Semester	Undergraduate	6	In Person
+CHST3212
+Reading Chinese Literature: Theory and Criticism
+Second Semester	Undergraduate	6	In Person
+GEND1002
+Reading Popular Culture: An Introduction to Cultural Studies
+Second Semester	Undergraduate	6	In Person
+ASIA3012
+Readings in Asian Societies and Histories
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+PASI3012
+Readings in Indigenous Studies
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGL2087
+Reality Effects: Truth, Representation and Narrative Form
+Undergraduate	6	In Person
+ASIA3029
+Reconciliation and the Memory of Conflict in Asia
+First Semester	Undergraduate	6	In Person
+BIOL3178
+Recovering Threatened Species and Ecosystems
+Undergraduate	6	In Person
+LAWS4271
+Refugee Law
+Winter Session	Undergraduate	6	In Person
+STAT2008
+Regression Modelling
+First Semester / ​Second Semester	Undergraduate	6	In Person
+STAT2014
+Regression Modelling for Actuarial Studies
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP2400
+Relational Databases
+First Semester / ​Second Semester	Undergraduate	6	In Person
+GEND3057
+Relationships, Marriage and Family
+Undergraduate	6	In Person
+SOCY3057
+Relationships, Marriage and Family
+Undergraduate	6	In Person
+CLAS3100
+Remembering and Forgetting in Imperial Greece and Rome
+Undergraduate	6	In Person
+EMSC3025
+Remote Sensing of Water Resources
+Second Semester	Undergraduate	6	In Person
+BIAN3014
+Research Design and Analysis in Biological Anthropology
+Second Semester	Undergraduate	6	In Person
+POPH4315
+Research Design and Methods
+First Semester	Undergraduate	6	Online or In Person
+PHIL4009
+Research Design in Philosophy
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARTH4027
+Research Focus
+First Semester / ​Second Semester	Undergraduate	12	In Person
+SOCY3001
+Research Internship
+Second Semester	Undergraduate	6	In Person
+PSYC4203
+Research Methods and Statistics in Psychology
+First Semester	Undergraduate	6	In Person
+EMSC4017
+Research Methods for Earth Sciences
+First Semester / ​Second Semester	Undergraduate	6	In Person
+SCOM4019
+Research Methods for Science Communication
+First Semester	Undergraduate	6	Online or In Person
+ASIA4044
+Research Methods in Chinese Studies
+Second Semester	Undergraduate	6	In Person
+HLTH1002
+Research Methods in the Health Sciences
+Second Semester	Undergraduate	6	In Person
+ARTV4022
+Research Principles and Methods 1
+First Semester	Undergraduate	12	Online or In Person
+ARTV4023
+Research Principles and Methods 2
+Second Semester	Undergraduate	12	Online or In Person
+ASIA3039
+Research Project in Asian and Pacific Studies
+First Semester	Undergraduate	6	In Person
+CHEM3060
+Research Project in Chemistry
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+PNPI3001
+Research Project in Philosophy, Neuroscience, and Psychology
+Undergraduate	6	In Person
+PHYS3042
+Research Topics Physics
+Summer Session / ​First Semester / ​Second Semester	Undergraduate	6	In Person
+ASIA3108
+Research Topics in Asian and Pacific Languages (L)
+First Semester / ​Second Semester	Undergraduate	6	In Person
+JPNS3023
+Research Topics in Japanese: History & Society
+Second Semester	Undergraduate	6	In Person
+POLS4011
+Research Training: Scope and Methods
+First Semester	Undergraduate	6	In Person
+INDG1002
+Resilience, Responsibility, and Resurgence: First Peoples' Experiences and Ways of Being
+Second Semester	Undergraduate	6	In Person
+ECON3128
+Resource and Environmental Economics
+Undergraduate	6	In Person
+LAWS4254
+Restitution
+Undergraduate	6	In Person
+ASIA3033
+Rethinking Northeast Asia: Region, Culture and Society
+Second Semester	Undergraduate	6	In Person
+STAT3057
+Risk Modelling 1
+First Semester	Undergraduate	6	In Person
+STAT3058
+Risk Modelling 2
+Second Semester	Undergraduate	6	In Person
+ENGN4627
+Robotics
+First Semester	Undergraduate	6	In Person
+LANG3007
+Romance Linguistics
+First Semester	Undergraduate	6	Online or In Person
+CLAS3001
+Rome: The Eternal City from Antiquity to the Early Middle Ages
+Undergraduate	6	In Person
+ASIA3011
+Samurai Society and Social Control in Japan
+Second Semester	Undergraduate	6	In Person
+SKRT1002
+Sanskrit 1
+First Semester	Undergraduate	6	Online
+SKRT1003
+Sanskrit 2
+Second Semester	Undergraduate	6	Online
+SKRT2103
+Sanskrit 3
+First Semester	Undergraduate	6	Online
+SKRT2104
+Sanskrit 4
+Second Semester	Undergraduate	6	Online
+SKRT3004
+Sanskrit 5
+First Semester	Undergraduate	6	Online
+SKRT3005
+Sanskrit 6
+Second Semester	Undergraduate	6	Online
+SCOM1001
+Science Communication 1: Introduction to Science Communication
+First Semester	Undergraduate	6	In Person
+SCOM1002
+Science Communication 2: Evidence and Social Change
+Second Semester	Undergraduate	6	In Person
+SCOM3004
+Science Communication Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+SCOM3003
+Science Communication Research Project
+First Semester / ​Second Semester	Undergraduate	6	Online or In Person
+SCOM3501
+Science Communication Strategy and Leadership
+Undergraduate	6	In Person
+SCOM3029
+Science Communication and Planetary Crises
+Second Semester	Undergraduate	6	In Person
+SCNC4000
+Science Honours
+First Semester / ​Second Semester	Undergraduate	6	In Person
+SCNC3000
+Science Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+SCNC2000
+Science Internship
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+SCOM3027
+Science Politics
+Second Semester	Undergraduate	6	In Person
+SCNC2021
+Science Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+SCNC3021
+Science Research Project
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+SCOM2003
+Science in Film and Fiction
+Summer Session	Undergraduate	6	In Person
+SCOM3088
+Science in Government
+Winter Session	Undergraduate	6	In Person
+PHIL2126
+Science in Society: Ethics, Public Policy and Scientific Practice
+Undergraduate	6	In Person
+SCOM2006
+Science, Humour and Popular Culture
+Winter Session	Undergraduate	6	Online
+SCOM2016
+Science, Journalism and Society
+Winter Session	Undergraduate	6	In Person
+SCOM2031
+Science, Risk, and Misinformation
+First Semester	Undergraduate	6	In Person
+MATH3511
+Scientific Computing
+First Semester	Undergraduate	6	In Person
+ARCH3042
+Scientific Dating in Archaeology and Palaeoenvironmental Studies
+Second Semester	Undergraduate	6	In Person
+MATH3501
+Scientific and Industrial Modelling
+Second Semester	Undergraduate	6	In Person
+SCRN2005
+Screen Cultures
+Second Semester	Undergraduate	6	In Person
+SCRN3003
+Screen Studies Capstone Project
+Second Semester	Undergraduate	6	In Person
+ARTV1850
+Sculpture and Spatial Practice 1
+First Semester	Undergraduate	6	In Person
+ARTV2850
+Sculpture and Spatial Practice 2
+Second Semester	Undergraduate	6	In Person
+LING3101
+Second Language Acquisition
+First Semester	Undergraduate	6	In Person
+ENGL1100
+Secrets and Lies: Literature and the Self
+First Semester	Undergraduate	6	In Person
+STST2001
+Security Concepts in the Asia-Pacific
+First Semester	Undergraduate	6	In Person
+LAWS4257
+Selected Topics in Australian-United States Comparative Law (ANU)
+Undergraduate	6	Online or In Person
+FREN3110
+Selected Topics in French Studies
+Undergraduate	6	In Person
+SOCY1002
+Self and Society
+First Semester	Undergraduate	6	In Person
+LING3035
+Semantic Typology
+Second Semester	Undergraduate	6	In Person
+LING2008
+Semantics
+Second Semester	Undergraduate	6	In Person
+BUSN4111
+Seminal Research in Accounting
+Second Semester	Undergraduate	6	In Person
+HIST4011
+Seminar in Advanced Historiography
+First Semester	Undergraduate	12	In Person
+BUSN4013
+Seminar in Research Method in Commerce
+First Semester / ​Second Semester	Undergraduate	6	In Person
+LAWS4314
+Sentencing
+Second Semester	Undergraduate	6	In Person
+MKTG2023
+Services Marketing
+Second Semester	Undergraduate	6	In Person
+GEND1001
+Sex, Gender and Identity: An Introduction to Gender Studies
+First Semester	Undergraduate	6	In Person
+POLS3029
+Sharing Power: Federalism in Comparative Perspective
+First Semester	Undergraduate	6	In Person
+ENGN3415
+Signal and Information Processing
+Undergraduate	6	In Person
+ENGN2228
+Signals and Systems
+Second Semester	Undergraduate	6	In Person
+ARTH4026
+Sir William Dobell Research Seminar
+Second Semester	Undergraduate	12	In Person
+AATD2001
+SoCIETIE Initiative
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+AATD1001
+SoCIETIE Initiative
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+AATD3001
+SoCIETIE Initiative
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+ENVS3045
+Social Applications of GIS
+Winter Session	Undergraduate	6	In Person
+MGMT2008
+Social Enterprises and Social Business
+Second Semester	Undergraduate	6	In Person
+SOCY2030
+Social Inequalities and Development
+Second Semester	Undergraduate	6	In Person
+DEMO2004
+Social Inequalities in Health
+Second Semester	Undergraduate	6	In Person
+SOCY2101
+Social Policy: Principles and Practice
+First Semester	Undergraduate	6	In Person
+ASIA2099
+Social Power in China: Family to Family-State
+Undergraduate	6	In Person
+PSYC2001
+Social Psychology
+Second Semester	Undergraduate	6	In Person
+SOCY2166
+Social Science of the Internet
+First Semester	Undergraduate	6	In Person
+ENVS2013
+Society and Environmental Change
+Second Semester	Undergraduate	6	In Person
+SOCY4010
+Sociology Honours Methods Seminar
+First Semester	Undergraduate	12	In Person
+SOCY4009
+Sociology Honours Theory Seminar
+First Semester	Undergraduate	12	In Person
+CHEM2213
+Soft Matter
+Second Semester	Undergraduate	6	In Person
+COMP2100
+Software Construction
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP2120
+Software Engineering
+Second Semester	Undergraduate	6	In Person
+COMP3500
+Software Engineering Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP4500
+Software Engineering Team Project
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP3703
+Software Security
+Undergraduate	6	In Person
+PHYS3032
+Solid State Physics
+Second Semester	Undergraduate	6	In Person
+MUSI2230
+Songwriting: Concepts and Craft
+First Semester	Undergraduate	6	In Person
+COMP4350
+Sound and Music Computing
+Undergraduate	6	In Person
+LING2010
+Sounds of the World's Languages: Phonetics and Phonology
+Second Semester	Undergraduate	6	In Person
+ASIA2060
+Southeast Asian Security
+Undergraduate	6	Online or In Person
+SPAN3100
+Spanish World Literature: Reading Latin America and Spain
+Undergraduate	6	In Person
+ENVS3016
+Special Topic
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+EMSC3050
+Special Topics
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+BUSN3060
+Special Topics In Commerce
+Undergraduate	6	In Person
+ARAB3006
+Special Topics in Arabic
+Undergraduate	6	Online or In Person
+ASIA2112
+Special Topics in Asian and Pacific Studies
+Second Semester	Undergraduate	6	In Person
+BIOL3023
+Special Topics in Biology
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	In Person
+POLS4041
+Special Topics in Comparative Politics
+Undergraduate	6	In Person
+COMP2710
+Special Topics in Computer Science
+First Semester	Undergraduate	6	In Person
+CRIM2011
+Special Topics in Criminology
+Undergraduate	6	In Person
+ECON3020
+Special Topics in Economics: Computing and Data Skills
+Undergraduate	6	In Person
+ENGN4521
+Special Topics in Engineering 2
+Undergraduate	6	In Person
+ENGN4520
+Special Topics in Engineering I
+Undergraduate	6	In Person
+FINM4600
+Special Topics in Finance
+Undergraduate	6	In Person
+GERM3051
+Special Topics in German Literature and Culture
+Undergraduate	6	In Person
+HLMD2022
+Special Topics in Health and Medicine
+Undergraduate	6	In Person
+HLMD1022
+Special Topics in Health and Medicine
+Undergraduate	6	In Person
+HLMD3022
+Special Topics in Health and Medicine
+Undergraduate	6	In Person
+INDG3005
+Special Topics in Indigenous Studies
+Second Semester	Undergraduate	6	In Person
+LAWS4148
+Special Topics in Law
+Second Semester	Undergraduate	6	Online or In Person
+LING3025
+Special Topics in Linguistics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH3349
+Special Topics in Mathematics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH4349
+Special Topics in Mathematics
+First Semester / ​Second Semester	Undergraduate	6	In Person
+DEMO4091
+Special Topics in Population Change
+Undergraduate	6	In Person
+PSYC3023
+Special Topics in Psychology
+Second Semester	Undergraduate	6	In Person
+SCNC2022
+Special Topics in Science
+Undergraduate	6	In Person
+SCNC3022
+Special Topics in Science
+Undergraduate	6	In Person
+SCNC1022
+Special Topics in Science
+Undergraduate	6	In Person
+SCOM3005
+Special Topics in Science Communication
+Summer Session / ​First Semester / ​Autumn Session / ​Winter Session / ​Second Semester / ​Spring Session	Undergraduate	6	Online or In Person
+DESN2007
+Speculative and Critical Design
+First Semester	Undergraduate	6	In Person
+ASTR3007
+Stars
+First Semester	Undergraduate	6	In Person
+ASTR4022
+Stars II and Exoplanets
+Undergraduate	6	In Person
+POLS4043
+State Formation and Contested Political Orders
+Second Semester	Undergraduate	6	In Person
+STAT3013
+Statistical Inference
+First Semester	Undergraduate	6	In Person
+STAT4027
+Statistical Inference
+First Semester	Undergraduate	6	In Person
+STAT3040
+Statistical Learning
+First Semester	Undergraduate	6	In Person
+STAT4040
+Statistical Learning
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP4670
+Statistical Machine Learning
+First Semester	Undergraduate	6	In Person
+STAT1003
+Statistical Techniques
+First Semester	Undergraduate	6	In Person
+STAT4500
+Statistics Honours Thesis
+First Semester / ​Second Semester	Undergraduate	24	In Person
+SOCR4001
+Statistics for Social Scientists
+First Semester	Undergraduate	6	In Person
+MATH3015
+Stochastic Analysis with Financial Applications
+Second Semester	Undergraduate	6	In Person
+STAT3004
+Stochastic Processes
+First Semester	Undergraduate	6	In Person
+STAT4018
+Stochastic Processes
+First Semester	Undergraduate	6	In Person
+ENGL2085
+Strange Home: Rethinking Australian Literature
+First Semester	Undergraduate	6	In Person
+MKTG3023
+Strategic Marketing
+First Semester	Undergraduate	6	In Person
+ECON2141
+Strategic Thinking: An introduction to Game Theory
+Second Semester	Undergraduate	6	In Person
+CHEM2210
+Structure Elucidation in Chemistry
+Summer Session / ​First Semester	Undergraduate	6	In Person
+EMSC3002
+Structure and Tectonic Evolution of the Australian Plate
+Second Semester	Undergraduate	6	In Person
+LING2020
+Structure of English
+First Semester	Undergraduate	6	In Person
+COMP1110
+Structured Programming
+First Semester / ​Second Semester	Undergraduate	6	In Person
+COMP1140
+Structured Programming (Advanced)
+Second Semester	Undergraduate	6	In Person
+FINM3009
+Student Managed Fund
+First Semester / ​Second Semester	Undergraduate	6	In Person
+FINM3010
+Student Managed Fund Extension
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI2238
+Studio Performance: Sound, Communication, and Collaboration
+Undergraduate	6	In Person
+PASI2030
+Study Tour: Regional Policymaking for Pacific Development
+Undergraduate	6	In Person
+STST2020
+Study tour: Southeast Asia's Security Choices
+Undergraduate	6	In Person
+LAWS4236
+Succession
+Undergraduate	6	Online or In Person
+BIAN3129
+Supervised Research in Biological Anthropology
+First Semester / ​Second Semester	Undergraduate	6	In Person
+SOCY2157
+Surveillance and Society
+Undergraduate	6	In Person
+SOCR4002
+Survey Data Analysis
+Second Semester	Undergraduate	6	In Person
+STAT3032
+Survival Models
+First Semester	Undergraduate	6	In Person
+STAT4072
+Survival Models
+First Semester	Undergraduate	6	In Person
+ENVS2023
+Sustainable Agricultural Systems
+First Semester	Undergraduate	6	In Person
+MKTG2002
+Sustainable Marketing
+First Semester	Undergraduate	6	In Person
+ENVS2012
+Sustainable Urban Systems
+Undergraduate	6	In Person
+PHIL2150
+Symbolic Logic
+Undergraduate	6	In Person
+CHEM3201
+Synthetic Aspects of Medicinal Chemistry
+First Semester	Undergraduate	6	In Person
+MEAS3007
+Syria in the Levant: State, Society, and the Current Turmoil
+Undergraduate	6	In Person
+ENGN3331
+System Dynamics
+First Semester	Undergraduate	6	In Person
+NEUR3112
+Systems Neuroscience
+Second Semester	Undergraduate	6	In Person
+COMP2310
+Systems, Networks, and Concurrency
+Second Semester	Undergraduate	6	In Person
+ASIA2072
+Taiwan: History and Culture
+Second Semester	Undergraduate	6	In Person
+CHIN2013
+Taiwanese (Southern Min)
+Spring Session	Undergraduate	6	In Person
+ASIA2222
+Taiwanese Society and Politics
+Summer Session	Undergraduate	6	In Person
+CRIM2015
+Targeted Violence: Criminological Approaches to Understanding and Prevention
+Undergraduate	6	In Person
+JPNS3012
+Teaching Japanese
+First Semester	Undergraduate	6	In Person
+LING2013
+Teaching Languages
+Undergraduate	6	In Person
+MGMT3002
+Techniques for Business Project Management
+Second Semester	Undergraduate	6	In Person
+ASIA3032
+Technology and Society in Asia
+First Semester	Undergraduate	6	In Person
+ENGL2116
+Televisual: Investigating Narrative Television
+Undergraduate	6	In Person
+HIST1209
+Terror to Terrorism: A History
+Second Semester	Undergraduate	6	In Person
+POLS4027
+Terrorism and Counter Terrorism
+Undergraduate	6	In Person
+TETM1002
+Tetum 1
+First Semester	Undergraduate	6	Online
+TETM1003
+Tetum 2
+Second Semester	Undergraduate	6	Online
+TETM2004
+Tetum 3
+First Semester	Undergraduate	6	Online
+TETM2005
+Tetum 4
+Second Semester	Undergraduate	6	Online
+ARTV1950
+Textiles 1
+First Semester	Undergraduate	6	In Person
+ARTV2950
+Textiles 2
+Second Semester	Undergraduate	6	In Person
+ENGL2020
+Texts in Performance
+Undergraduate	6	In Person
+THAI1002
+Thai 1
+First Semester	Undergraduate	6	Online
+THAI1003
+Thai 2
+Second Semester	Undergraduate	6	Online
+THAI2002
+Thai 3
+First Semester	Undergraduate	6	Online or In Person
+THAI2003
+Thai 4
+Second Semester	Undergraduate	6	Online or In Person
+THAI3002
+Thai 5
+First Semester	Undergraduate	6	Online or In Person
+THAI3008
+Thai 6
+Second Semester	Undergraduate	6	Online or In Person
+ASIA2130
+The Archaeology of Rock Art in Asia, the Pacific and Australia
+Summer Session	Undergraduate	6	In Person
+ECHI1006
+The Australian Economy: Past and Present
+First Semester	Undergraduate	6	In Person
+EMSC1006
+The Blue Planet: An Introduction to Earth System Science
+First Semester	Undergraduate	6	In Person
+HIST2141
+The Cold War: 1945-1989
+Undergraduate	6	In Person
+ASIA3034
+The Contemporary Chinese World: From Mao to Now
+Second Semester	Undergraduate	6	In Person
+ECON4491
+The Economy, Politics and the State
+Undergraduate	6	In Person
+ENGN4902
+The Environmental Impacts of Engineered Systems
+First Semester	Undergraduate	6	In Person
+DESN2012
+The Ethics of Making: Design for Reparative Practices
+Undergraduate	6	In Person
+ENGL3005
+The Evolution of Comedy: Early Modern to Eighteenth Century
+First Semester	Undergraduate	6	In Person
+HIST2214
+The Great War. The Conflict that Changed the World.
+Undergraduate	6	In Person
+HIST2206
+The Great War’s Battlefields: A Study Tour of Gallipoli, the Western Front and Paris
+Undergraduate	12	In Person
+MEAS4113
+The Gulf Strategic Environment
+Undergraduate	6	In Person
+BIAN1001
+The Human Voyage: Introduction to Biological Anthropology
+Second Semester	Undergraduate	6	In Person
+ASIA3088
+The Korean War
+Undergraduate	6	In Person
+LAWS4312
+The Law of Money
+Winter Session	Undergraduate	6	In Person
+ENGL2040
+The Making of Literature: Topics in Literary Production and Reception
+First Semester	Undergraduate	6	In Person
+ASIA2009
+The Making of Modern Japan: From Samurai to Economic Superpower and Beyond
+First Semester	Undergraduate	6	In Person
+ASIA2040
+The Making of Modern Korea
+Undergraduate	6	In Person
+ASIA2271
+The Making of South Asia
+First Semester	Undergraduate	6	In Person
+ENGL3008
+The Meaning of Monsters: Frankenstein and Literary Theory
+Undergraduate	6	In Person
+PHIL3077
+The Metaphysics of David Lewis
+Undergraduate	6	In Person
+ASIA2016
+The Mongol Empire in World History
+Undergraduate	6	In Person
+CLAS2013
+The Muse and the Machine: The Arts, Technology and Society in Graeco-Roman Antiquity
+Undergraduate	6	In Person
+ASIA1999
+The Origins of Political Order in Asia
+Second Semester	Undergraduate	6	In Person
+BAPA1001
+The Origins of Political Order in Asia
+Spring Session	Undergraduate	6	In Person
+DESN1004
+The Past as Prototype: History, Ethics and Concepts for Design in the Twenty-First Century
+First Semester	Undergraduate	6	In Person
+PHIL3078
+The Philosophy of Emotions
+Undergraduate	6	In Person
+PHIL3075
+The Philosophy of Gender: Knowledge, Power, Bodies
+Undergraduate	6	In Person
+PHIL2127
+The Philosophy of Time
+Undergraduate	6	In Person
+ASIA2275
+The Pleasures and Powers of Stories in South and Southeast Asia
+Undergraduate	6	In Person
+MEAS2105
+The Political Economy of the Middle East
+First Semester	Undergraduate	6	Online or In Person
+ASIA2026
+The Politics of China
+Second Semester	Undergraduate	6	In Person
+POLS3032
+The Politics of Empire
+Undergraduate	6	In Person
+POLS3134
+The Politics of Gender, Race and Indentity
+First Semester	Undergraduate	6	In Person
+INTR2024
+The Politics of Nuclear Weapons
+Undergraduate	6	In Person
+ARTV2909
+The Public Project: Engaging with Institutions and Communities
+Summer Session	Undergraduate	6	In Person
+LAWS4339
+The Rule of Law and Constitutionalism in Greater China
+Undergraduate	6	Online or In Person
+SOCY2170
+The Social Life of Algorithms
+Second Semester	Undergraduate	6	In Person
+LING1002
+The Social Life of Language
+Second Semester	Undergraduate	6	In Person
+PSYC3002
+The Social Psychology of Group Processes and Social Change
+First Semester	Undergraduate	6	In Person
+FREN3515
+The Sounds of French: Phonetics and Pronunciation
+Undergraduate	6	In Person
+HIST2242
+The Soviet Union: From the Russian Revolution to the Collapse of Communism
+First Semester	Undergraduate	6	In Person
+PSYC1005
+The Wellbeing Formula: The Science and Practice of Making a Good Life
+Second Semester	Undergraduate	6	In Person
+ARTH3007
+Theories of Art History and Curatorial Studies
+Second Semester	Undergraduate	6	In Person
+PHIL2020
+Theories of Social Justice
+Undergraduate	6	In Person
+BIAN4010
+Theory Seminar in Biological Anthropology and Archaeology
+First Semester	Undergraduate	12	In Person
+PSYC4202
+Theory and Practice in Psychology
+First Semester	Undergraduate	6	In Person
+COMP3630
+Theory of Computation
+First Semester	Undergraduate	6	In Person
+MATH4202
+Theory of Partial Differential Equations Honours
+Second Semester	Undergraduate	6	In Person
+PHYS2020
+Thermal and Statistical Physics
+First Semester	Undergraduate	6	In Person
+THES4102
+Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+THES4105
+Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+THES4501
+Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+THES4502
+Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+THES4103
+Thesis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ENGL4020
+Thesis Writing Workshop
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MATH4005
+Thesis and Presentations in Mathematics
+Summer Session / ​First Semester / ​Winter Session / ​Second Semester	Undergraduate	6	In Person
+SCOM4005
+Thesis and Seminar in Science Communication
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ARCH3023
+Thinking Through the Past: Archaeological Theory from 1950
+Undergraduate	6	In Person
+TIBN1002
+Tibetan 1
+First Semester	Undergraduate	6	Online
+TIBN1003
+Tibetan 2
+Second Semester	Undergraduate	6	Online
+TIBN2004
+Tibetan 3
+First Semester	Undergraduate	6	Online
+TIBN2005
+Tibetan 4
+Second Semester	Undergraduate	6	Online
+TOKP1002
+Tok Pisin 1
+First Semester	Undergraduate	6	Online
+TOKP1003
+Tok Pisin 2
+Second Semester	Undergraduate	6	Online
+TOKP2001
+Tok Pisin 3
+First Semester	Undergraduate	6	Online
+TOKP2002
+Tok Pisin 4
+Second Semester	Undergraduate	6	Online
+PHIL3073
+Topics in Advanced Ethics, Social and Political Philosophy
+First Semester	Undergraduate	6	In Person
+LING3126
+Topics in Advanced Syntax and Morphology
+Undergraduate	6	In Person
+PHIL2014
+Topics in Analytic Philosophy
+Second Semester	Undergraduate	6	In Person
+CLAS4008
+Topics in Classics
+Second Semester	Undergraduate	12	In Person
+MATH4201
+Topics in Computational Maths Honours
+First Semester	Undergraduate	6	In Person
+COMP3710
+Topics in Computer Science
+Undergraduate	6	In Person
+HIST3012
+Topics in History
+First Semester / ​Second Semester	Undergraduate	6	In Person
+ECON4493
+Topics in Macroeconomics
+First Semester	Undergraduate	6	In Person
+ECON4421
+Topics in Microeconomic Theory
+Second Semester	Undergraduate	6	In Person
+MUSI2231
+Topics in Music Analysis
+First Semester / ​Second Semester	Undergraduate	6	In Person
+MUSI2232
+Topics in Music Technology
+First Semester	Undergraduate	6	In Person
+PNPI2001
+Topics in Philosophy, Neuroscience, and Psychology
+Second Semester	Undergraduate	6	In Person
+PHIL2082
+Topics in the Philosophy of Biology
+First Semester	Undergraduate	6	In Person
+LAWS4233
+Tort Liability and Public Authorities
+Undergraduate	6	Online or In Person
+LAWS1203
+Torts
+First Semester	Undergraduate	6	In Person
+FINM4017
+Trading and Markets
+Undergraduate	6	In Person
+ANTH2005
+Traditional Australian Indigenous Cultures, Societies and Environment
+Second Semester	Undergraduate	6	In Person
+SOCY3124
+Transforming Society
+Second Semester	Undergraduate	6	In Person
+LANG4100
+Transnational Cultural Studies
+Undergraduate	12	In Person
+SCRN3001
+Transnational Screens: Crossing Borders and Identities
+Undergraduate	6	In Person
+ASIA3272
+Truth and Falsity in Indian History and Politics
+First Semester	Undergraduate	6	In Person
+MEAS2004
+Turkish Politics and Foreign Policy
+Second Semester	Undergraduate	6	In Person
+HIST2252
+Twentieth Century America: Building a Global Hegemon
+Second Semester	Undergraduate	6	In Person
+DESN2009
+Typography in Context
+Second Semester	Undergraduate	6	In Person
+POLS3127
+U.S. Politics
+Undergraduate	6	In Person
+ARCH1001
+Uncovering the Past: A Survey of Global Archaeology and Methods
+Second Semester	Undergraduate	6	In Person
+LAWS4300
+Undergraduate Law Dissertation
+First Semester / ​Second Semester	Undergraduate	12	In Person
+SOCY3007
+Understanding Neoliberalism
+First Semester	Undergraduate	6	Online or In Person
+BAPA1002
+Understanding Peace and Conflict
+Spring Session	Undergraduate	6	In Person
+INTR1021
+Understanding Peace and Conflict
+First Semester	Undergraduate	6	In Person
+DEMO2001
+Understanding Population Change
+Second Semester	Undergraduate	6	In Person
+ANTH3018
+Unfreedoms: Anthropological Explorations of Oppression, Tyranny and Domination
+First Semester	Undergraduate	6	In Person
+LAWS4001
+Unravelling Complexity
+First Semester / ​Second Semester	Undergraduate	6	In Person
+INDG2009
+Unsettling: Critical Indigenous Studies in Australia
+Autumn Session	Undergraduate	6	In Person
+ENGL3036
+Victorian Literature
+Second Semester	Undergraduate	6	In Person
+ENVS2017
+Vietnam Field School
+Spring Session	Undergraduate	6	In Person
+VIET1002
+Vietnamese 1
+First Semester	Undergraduate	6	Online
+VIET1003
+Vietnamese 2
+Second Semester	Undergraduate	6	Online
+VIET2002
+Vietnamese 3
+First Semester	Undergraduate	6	Online
+VIET2003
+Vietnamese 4
+Second Semester	Undergraduate	6	Online
+VIET3002
+Vietnamese 5
+First Semester	Undergraduate	6	Online
+VIET3003
+Vietnamese 6
+Second Semester	Undergraduate	6	Online
+ANTH2130
+Violence and Terror
+First Semester	Undergraduate	6	In Person
+DESN1002
+Visual Communication: Design and Production
+First Semester	Undergraduate	6	In Person
+PSYC3015
+Visual and Cognitive Neuroscience
+Second Semester	Undergraduate	6	In Person
+FREN3107
+Voyages littéraires: Literature in French
+First Semester	Undergraduate	6	In Person
+POLS2132
+War and International Relations
+Second Semester	Undergraduate	6	In Person
+PASI2007
+War in the Islands: The Second World War in the Pacific
+First Semester	Undergraduate	6	In Person
+ENVS3005
+Water Management
+First Semester	Undergraduate	6	In Person
+ENVS2020
+Water Science
+Summer Session	Undergraduate	6	In Person
+ENGN4901
+Water Systems Engineering
+First Semester	Undergraduate	6	In Person
+MEAS4002
+Ways of Reading the Middle East, Central Asia and their Diasporas: the Big Issues
+Undergraduate	6	In Person
+COMP1710
+Web Development and Design
+Undergraduate	6	In Person
+ASIA2304
+What is Literature? Asian Perspectives
+Undergraduate	6	In Person
+STST2005
+Why Nations Fight: The Causes of International Conflict
+Second Semester	Undergraduate	6	In Person
+HLTH3004
+Wicked Problems in Health Science
+Second Semester	Undergraduate	6	In Person
+ENGN4548
+Wind Energy
+Second Semester	Undergraduate	6	In Person
+ENGN4536
+Wireless Communications
+Second Semester	Undergraduate	6	In Person
+ECHI3009
+World Economy Since 1800
+Second Semester	Undergraduate	6	In Person
+HIST2136
+World at War, 1939-1945
+First Semester	Undergraduate	6	In Person
+ENGL2789
+Writing Climate: Form and Crisis
+Second Semester	Undergraduate	6	In Person
+GEND3016
+Writing Lives: Autobiography in Fiction and Memoir
+Undergraduate	6	In Person
+ENGL2451
+Writing and Technology: Theories, Texts and Debates
+Undergraduate	6	In Person
+ASIA3551
+Year in Asia
+First Semester / ​Second Semester	Undergraduate	24	In Person
+CRIM2006
+Young People and Crime: Developmental Criminology and its Discontents
+Second Semester	Undergraduate	6	In Person
+GEND2037
+Young People, Sex and Consent
+First Semester	Undergraduate	6	In Person
+LAWS4267
+Youth Law Clinic
+First Semester / ​Second Semester	Undergraduate	6	In Person

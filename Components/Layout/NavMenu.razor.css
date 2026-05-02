@@ -24,6 +24,33 @@
     font-size: 1.1rem;
 }
 
+.app-switcher {
+    display: flex;
+    gap: 0.25rem;
+    margin-left: auto;
+}
+
+.app-switch-btn {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    color: rgba(255, 255, 255, 0.65);
+    background: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.app-switch-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.app-switch-active {
+    background: rgba(255, 255, 255, 0.28);
+    color: white;
+    font-weight: 600;
+}
+
 .bi {
     display: inline-block;
     position: relative;
